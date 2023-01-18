@@ -1,0 +1,105 @@
+.login_page{
+    width: 100vw;
+    height: 130vh;
+    background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);;
+    margin: auto;
+    padding: 100px;
+}
+.login_form{
+    width: 340px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    border: 1px solid gray;
+    
+}
+.img_div img{
+    border-radius: 10px 10px 0px 0px;
+}
+.form_div{
+    padding: 10px 40px;
+    text-align: left;
+ 
+
+}
+.form_div>div{
+    margin: auto;
+    margin-top: 30px;
+
+}
+#form_bottom_div{
+    margin-top: 100px;
+}
+.form_bottom_text {
+    font-size: 10px;
+    text-align: center;
+
+}
+.custom-field {
+    position: relative;
+    font-size: 15px;
+    border-top: 4px solid transparent;
+    margin-bottom: 5px;
+    display: inline-block;
+    --field-padding: 5px;
+  }
+  
+  .custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: var(--field-padding);
+    border-radius: 3px;
+    width: 190px;
+    outline: none;
+    font-size: 12px;
+  }
+  
+  .custom-field .placeholder {
+    position: absolute;
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    top: 12px;
+    line-height: 100%;
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: 
+      top 0.3s ease,
+      color 0.3s ease,
+      font-size 0.3s ease;
+  }
+  
+  .custom-field input.dirty + .placeholder,
+  .custom-field input:focus + .placeholder,
+  .custom-field input:not(:placeholder-shown) + .placeholder {
+    top: -10px;
+    font-size: 10px;
+    color: #F43397;
+  }
+  
+ 
+  
+  
+.custom-field.two input {
+    border-radius: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background:
+      linear-gradient(90deg, #F43397, #F43397) center bottom/0 0.15em no-repeat,
+      linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
+      linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+    transition: background-size 0.3s ease;
+  }
+  
+  .custom-field.two input.dirty,
+  .custom-field.two input:not(:placeholder-shown),
+  .custom-field.two input:focus {
+    background-size: 100% 0.15em, 100% 0.1em, 100%;
+  }

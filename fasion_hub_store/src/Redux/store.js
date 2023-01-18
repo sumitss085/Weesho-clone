@@ -1,9 +1,9 @@
 
 
-import {  legacy_createStore } from "redux";
-// import thunk from "redux-thunk";
-// import {combineReducers} from "redux"
+// import {  legacy_createStore } from "redux";
+// // import thunk from "redux-thunk";
+// // import {combineReducers} from "redux"
 
-// const rootReducer =combineReducers({})
+// // const rootReducer =combineReducers({})
 
-export const store =legacy_createStore()
+// export const store =legacy_createStore()
