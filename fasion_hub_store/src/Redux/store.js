@@ -1,9 +1,11 @@
 
 
-// import {  legacy_createStore } from "redux";
-// // import thunk from "redux-thunk";
-// // import {combineReducers} from "redux"
+import {  applyMiddleware, legacy_createStore } from "redux";
+import thunk from "redux-thunk";
+import {combineReducers} from "redux"
 
-// // const rootReducer =combineReducers({})
+import { AuthReducer } from "./AuthReducer/AuthReducer";
 
-// export const store =legacy_createStore()
+const rootReducer =combineReducers({AuthReducer})
+
+export const store =legacy_createStore(rootReducer,applyMiddleware (thunk))
