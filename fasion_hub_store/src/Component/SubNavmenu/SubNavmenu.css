@@ -1,0 +1,18 @@
+.subNavMenuitem{
+   font-size: 12px;
+    width: 10%;
+    
+    color:rgb(55, 46, 46);
+
+}
+.subNavMenuitem:hover{
+   color: black;
+ 
+ }
+.subNavMenuHeading{
+    
+    color:#F43397 ;
+    font-size: 13px;
+    text-align: left;
+    
+}
