@@ -1,13 +1,18 @@
 
 import './App.css';
+import EmptyCart from './Component/EmptyCart/EmptyCart';
 import Navbar from './Component/Navbar/Navbar';
-import Login from './Pages/Login/Login';
+import AllRoutes from './Component/Routes/AllRoutes';
+
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-     {/* <Login/> */}
+     {/* <Navbar/>
+
+     <AllRoutes/> */}
+     <EmptyCart/>
+     
     </div>
   );
 }
