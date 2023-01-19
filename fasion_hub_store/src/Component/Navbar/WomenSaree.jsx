@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux"
 import {SimpleGrid,Box, Heading, Skeleton, Stack} from "@chakra-ui/react"
 import { Link } from "react-router-dom";
 import WomenSareeCart from "./WomenSareeCart";
-import { getProductData } from "../../Redux/Products/action";
+import { getProductData } from "../../Redux/WomensProducts/saree.action";
 
 
 export function WomenSaree() {
