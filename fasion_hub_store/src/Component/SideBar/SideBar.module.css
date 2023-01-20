@@ -1,0 +1,195 @@
+.SideBar_Sort_first_div{
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    border: 1px solid rgb(226, 225, 225);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    /* border: 10px solid black; */
+}
+
+.sort_by_h1_tag{
+    /* border: 1px solid black; */
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18.5px;
+    line-height: 20px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+}
+
+.AccordionPanel_section_main_div:hover{
+    /* border: 1px solid black; */
+    background-color:rgb(248, 248, 248)
+}
+
+.AccordionPanel_section_main_div{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: left;
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5px;
+    line-height: 20px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Filters_main_div{
+    border: 1px solid rgb(226, 225, 225);
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 16px;
+    height: auto;
+    /* border: 10px solid black; */
+}
+
+.Filters_main_Div_inside_heading_tag{
+    border-bottom: 1.9px solid rgb(223, 223, 223);
+    width: 90%;
+    text-align: left;
+    margin: auto;
+}
+
+.Filters_main_Div_inside_heading_tag>h1{
+    /* border: 1px solid black; */
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: "Mier demi";
+    margin: 0px;
+    margin-bottom: 7px;
+    padding: 15px 0px 0px 0px;
+    text-align: left;
+}
+
+.Filters_main_Div_inside_heading_tag>p{
+    text-align: left;
+    /* border: 1px solid black; */
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    font-family: "Mier demi";
+    margin: 0px 0px 16px;
+    padding: 0px;
+}
+
+
+.Filter_main_div_inside_category{
+    /* border: 2px solid red; */
+    /* padding: 10px; */
+    width: 90%;
+    margin: auto;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+.Filter_main_div_inside_category_heading{
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 580;
+    font-size: 19.5px;
+    /* border: 1px solid black; */
+    margin-left: -20px;
+    padding: 1px;
+    line-height: 24px;
+    font-family: "Mier demi";
+    text-align: left;
+}
+
+.Filter_main_div_inside_category_Jewelry_filter{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Filter_main_div_inside_category_Jewelry_filter:hover{
+    background-color:rgb(248, 248, 248)
+}
+
+.Filter_main_div_inside_category_Jewelry_filter>h1{
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.5px;
+    line-height: 20px;
+    font-family: "Mier book";
+    text-align: initial;
+}
+
+
+.Filter_main_div_inside_category{
+    border-bottom: 1.9px solid rgb(223, 223, 223);
+    width: 90%;
+    text-align: left;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Filter_main_div_inside_category:last-child{
+    border-bottom: none;
+}
+
+.Gender_women_filter_button{
+    border: 1px solid rgb(196, 195, 195);
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 9px;
+    border-radius:10px;
+    font-family: "Mier book";
+    text-align: initial;
+    
+}
+
+.Color_filter_button{
+    /* border: 1px solid black; */
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Color_filter_button>div{
+    border: 1px solid rgb(196, 195, 195);
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 9px;
+    border-radius:10px;
+    font-family: "Mier book";
+    text-align: initial;
+    
+}
+
+.Color_filter_button:last-child>div:last-child{
+    border: 1px solid black;
+    border: none;
+    color: rgb(244, 51, 151);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.5px;
+    line-height: 20px;
+    font-family: "Mier demi";
+}
