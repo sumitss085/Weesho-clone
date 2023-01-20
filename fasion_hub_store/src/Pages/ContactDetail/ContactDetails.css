@@ -1,0 +1,144 @@
+
+/* .contactmaindiv{
+  background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);
+} */
+.contactForm_Box{
+ 
+  z-index: 0.1px;
+  width: 553px;
+  height: 700px;
+  padding: 20px;
+;
+  margin: auto;
+}
+.headingbox{
+  width: 100%;
+
+  text-align: left;
+  color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+   padding: 10px;
+}
+.contactHeading{
+ 
+  width: 60%;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.detail{
+  color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    margin: 0px 0px 0px 8px;
+    padding: 0px;
+}
+.address{
+  padding-top: 30px;
+}
+.formBox{
+  width: 100%;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  padding: 30px 0;
+}
+.city{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding: 0 25px;
+}
+.phone-field{
+  width: 90%;
+  position: relative;
+  font-size: 18px;
+  border-top: 4px solid transparent;
+  margin-bottom: 5px;
+  display: inline-block;
+  --field-padding: 5px;
+}
+
+.phone-field input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  
+  border-radius: 3px;
+  width: 100%;
+  outline: none;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.phone-field .placeholder {
+  position: absolute;
+  left: var(--field-padding);
+  /* width: calc(100% - (var(--field-padding) * 2)); */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 31px;
+  line-height: 100%;
+  transform: translateY(-50%);
+  color: rgb(118, 116, 116);
+  transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+    font-size 0.3s ease;
+}
+
+.phone-field input.dirty + .placeholder,
+.phone-field input:focus + .placeholder,
+.phone-field input:not(:placeholder-shown) + .placeholder {
+  top: 10px;
+  left: 5px;
+  font-size: 15px;
+  color: #F43397;
+}
+
+.phone-field.pho input {
+  border-radius: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background:
+    linear-gradient(90deg, #F43397, #F43397) center bottom/0 0.15em no-repeat,
+    linear-gradient(90deg, #ccc, #ccc) left bottom/100% 0.15em no-repeat,
+    linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.phone-field.pho input.dirty,
+.phone-field.pho input:not(:placeholder-shown),
+.phone-field.pho input:focus {
+  background-size: 100% 0.15em, 100% 0.1em, 100%;
+}
+
+.submitbtn{
+  cursor: pointer;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.0015em;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background: rgb(244, 51, 151);
+    border: none;
+    padding: 12px;
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}

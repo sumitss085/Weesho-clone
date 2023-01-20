@@ -1,0 +1,289 @@
+.cartlist_div{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    
+}
+.cartlist_Left_div{
+  width: 40%;
+  
+  
+}
+.CartHeading{
+  width:25%;
+  padding: 15px;
+ 
+  display:flex;
+  justify-content: space-around;
+  
+}
+.cart{
+  font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    margin: 0px;
+    padding: 0px 12px 0px 0px;
+}
+.cart_qty{
+  color: rgb(153, 153, 153);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  margin: 0px;
+  padding: 0px 0px 0px 12px;
+  border-left: 2px solid  rgb(153, 153, 153);
+}
+
+.cartlist_Right_div{
+  width: 23%;
+  
+  
+}
+            
+.Price_Details_Heading_div{
+  width: 95%;
+  margin: auto;
+  padding: 15px;
+
+}
+.Price_Details_Heading{
+  color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    text-align: left;
+    
+}
+.ProductPrice,.Totaldiscount,.total{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+font-size: 16px;
+font-weight: 400px;
+font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+}
+.Totaldiscount>:nth-child(1) p{
+  color: #038D63;
+  border-bottom: 2px dotted #038D63;
+}
+.Totaldiscount>:nth-child(2) p{
+  color: #038D63;
+ 
+}
+.discountBox{
+  width: 95%;
+  padding: 15px 45px;
+  margin: auto;
+  color: #038D63;
+  background: #D3F4EA;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text{
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  font-family: -apple-system, "Helvetica Neue";
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(51, 51, 51);
+  font-style: normal  ;
+  font-weight: 600;
+}
+.continuebtn{
+  width: 95%;
+  padding: 12px;
+  background-color: #F43397;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+}
+.cartimgbox{
+  width: 95%;
+  margin: auto;
+  margin-top: 15px;
+  
+}
+.cartimgbox>img{
+  width: 100%;
+}
+
+
+
+@media (max-width: 1147px){
+  .discountBox{
+    
+    font-size: 12px;
+    padding: 10px 10px;
+    
+  }
+  .text{
+    font-size: 8px;
+    line-height: 16px;
+    
+   
+    padding: 8px 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+  }
+  .continuebtn{
+    padding: 5px;
+    font-size: 16px;
+    
+  }
+  .Price_Details_Heading{
+      font-size: 16px;
+      line-height: 24px; 
+  }
+}
+
+
+@media (max-width: 947px){
+  .cartlist_Left_div{
+    width: 50%;
+  }
+  .cartlist_Right_div{
+    width: 30%;
+  }
+  .CartHeading{
+    width:50%;
+    padding: 10px;
+  }
+  .discountBox{
+    width: 95%;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  .text{
+    font-size: 11px;
+    line-height: 12px;
+    padding: 8px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+  .continuebtn{
+    padding: 10px;
+    font-size: 17px;
+    
+  }
+  .Price_Details_Heading{
+    font-size: 14px;
+    line-height: 24px; 
+}
+    
+}
+
+@media (max-width: 690px){
+  .cartlist_Left_div{
+    width: 50%;
+  }
+  .cartlist_Right_div{
+    width: 30%;
+  }
+  .CartHeading{
+    width:50%;
+    padding: 10px;
+  }
+  .cart{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .cart_qty{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .ProductPrice,.Totaldiscount,.total{
+    padding: 7px;
+    font-size: 12px;
+    font-weight: 600;
+ 
+    }
+    .discountBox{
+      width: 95%;
+      padding: 8px 15px;
+      font-size: 10px;
+    }
+    .text{
+      font-size: 7px;
+      line-height: 12px;
+      padding: 8px 4px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      font-weight: 400;
+    }
+   
+    .continuebtn{
+      padding: 5px;
+      font-size: 17px;
+      
+    }
+    .Price_Details_Heading{
+      font-size: 13px;
+      line-height: 24px; 
+  }
+}
+
+@media (max-width: 500px) {
+   
+  .cartlist_div{
+    width: 100%;
+    display: block;
+    justify-content: center;
+      
+   }
+
+   .cartlist_Left_div{
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid red;
+    
+  }
+  .cartlist_Right_div{
+    width: 100%;
+    border: 1px solid red;
+    padding: 0 20px;
+    
+  }
+
+  .CartHeading{
+    width:45%;
+    padding: 10px;
+  }
+  .cart{
+     font-weight: 600;
+      font-size: 16px;
+  }
+  .cart_qty{
+    
+    font-weight: 600;
+    font-size: 16px;
+    
+  }
+  .text{
+    font-size: 12px;
+    font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  }
+
+  .Price_Details_Heading{
+    font-size: 13px;
+    line-height: 24px; 
+}
+
+  
+   
+}

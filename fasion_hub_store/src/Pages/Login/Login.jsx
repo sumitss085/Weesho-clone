@@ -20,18 +20,18 @@ const Login = () => {
                
                 <div>
                     <InputGroup size="sm">
-                        <InputLeftAddon children='IN +91' fontSize="12px" bg="none" borderBottom="1px solid #aaa" />
+                        <InputLeftAddon children='IN +91' fontSize="15px" bg="none" borderBottom="1px solid #aaa" h='40px'/>
                        
                         <label class="custom-field two">
-                           <input type="tel" placeholder="&nbsp;"/>
-                             <span class="placeholder">Phone number</span>
+                           <input type="number" placeholder="&nbsp;" required/>
+                             <span className="placeholder">Phone number</span>
                         </label>
                     </InputGroup>
                </div>
 
                <div>
             
-               <Button colorScheme='pink'color="white" w="255px">Button</Button>
+               <button  className='continueButton'>Continue</button>
                </div>
 
                <div id='form_bottom_div'>

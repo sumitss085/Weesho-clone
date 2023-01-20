@@ -17,7 +17,7 @@
 .subnavHeading{
    padding: 13px;
   
-   font-size: 13px;
+   font-size: 17px;
   }
 .subnavHeading:hover{
   color: #F43397;
@@ -26,9 +26,19 @@
 .downloadApp {
   width: 150px;
 }
+.cart_profile{
+ 
+  padding: 3px;
+  font-size: 17px;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .Downloadapp_box{
+  font-size: 17px;
   border-right: 2px solid #DFDFDF;
-  width: 138px;
+  width: 158px;
   height: 35px;
   padding-right: 5px;
   display: flex;
