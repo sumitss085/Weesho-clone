@@ -7,6 +7,7 @@ import { Progress, Stack } from '@chakra-ui/react'
 import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
+
 const SingleProductPage = () => {
 
   const  {  id } = useParams();
