@@ -17,8 +17,8 @@ const SubNavmenu = ({item,ind}) => {
         <Box key={ind}>
           <Text color="#F43397" className='subNavMenuHeading'>{el}</Text>
            {
-            object[el].map((li)=>(
-              <MenuItem  className='subNavMenuitem'>{li}</MenuItem>
+            object[el].map((list)=>(
+              <MenuItem  className='subNavMenuitem'>{list}</MenuItem>
             ))
           
            }
