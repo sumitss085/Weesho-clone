@@ -1,12 +1,12 @@
 .login_page{
-    width: 100vw;
+    width: 100%;
     height: 130vh;
     background: linear-gradient(rgb(253, 233, 242) 0%, rgb(253, 240, 232) 100%, rgb(253, 240, 232) 100%);;
     margin: auto;
     padding: 100px;
 }
 .login_form{
-    width: 340px;
+    width: 32%;
     background-color: white;
     margin: auto;
     border-radius: 10px;
@@ -14,29 +14,34 @@
     border: 1px solid gray;
     
 }
+.img_div{
+  width: 100%;
+  
+}
 .img_div img{
     border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    
 }
-.form_div{
-    padding: 10px 40px;
-    text-align: left;
- 
 
-}
+
 .form_div>div{
-    margin: auto;
-    margin-top: 30px;
+  
+  width: 70%;
+  margin: auto;
+  
+  margin-top: 30px;
 
 }
 #form_bottom_div{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .form_bottom_text {
     font-size: 10px;
     text-align: center;
 
 }
-.custom-field {
+.custom-field{
     position: relative;
     font-size: 15px;
     border-top: 4px solid transparent;
@@ -46,27 +51,30 @@
   }
   
   .custom-field input {
-    border: none;
+    
+    border-bottom: 1px solid gray;
     -webkit-appearance: none;
     -ms-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background: #f2f2f2;
+    background: none;
     padding: var(--field-padding);
     border-radius: 3px;
-    width: 190px;
+    width: 220px;
+    height: 36px;
     outline: none;
-    font-size: 12px;
+    font-size: 15px;
   }
   
   .custom-field .placeholder {
     position: absolute;
-    left: var(--field-padding);
+    left: -40px;
     width: calc(100% - (var(--field-padding) * 2));
     overflow: hidden;
+    font-size: 18px;
     white-space: nowrap;
     text-overflow: ellipsis;
-    top: 12px;
+    top: 20px;
     line-height: 100%;
     transform: translateY(-50%);
     color: #aaa;
@@ -78,16 +86,17 @@
   
   .custom-field input.dirty + .placeholder,
   .custom-field input:focus + .placeholder,
-  .custom-field input:not(:placeholder-shown) + .placeholder {
+  .custom-field input:not(:placeholder-shown) + .place {
     top: -10px;
-    font-size: 10px;
+    left: -60px;
+    font-size: 12px;
     color: #F43397;
   }
   
  
   
   
-.custom-field.two input {
+.custom-field .two input {
     border-radius: 0;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -102,4 +111,19 @@
   .custom-field.two input:not(:placeholder-shown),
   .custom-field.two input:focus {
     background-size: 100% 0.15em, 100% 0.1em, 100%;
+  }
+
+  .continueButton{
+    cursor: pointer;
+    line-height: 20px;
+    letter-spacing: 0.0015em;
+    border: none;
+    color: white;
+    width: 300px;
+    padding: 12px;
+    margin-top:16px;
+    text-align: center;
+    background: rgb(244, 51, 151);
+    border-radius: 5px;
+    font-size: 15px;
   }

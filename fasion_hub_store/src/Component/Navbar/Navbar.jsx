@@ -12,9 +12,9 @@ import {
   PopoverTrigger,
   PopoverContent,
   useColorModeValue,
-  useBreakpointValue,
+
   useDisclosure,
-  Image,
+  
   Input,
   InputLeftElement,
   InputGroup,
@@ -99,10 +99,10 @@ export default function Navbar() {
                     <Menu >
                              <ImMobile color='black'/>
                         <MenuButton as={Text}  >
-                            <Text fontSize="14px" color="#333333">Download App</Text>
+                            <Text fontSize="17px" color="#333333">Download App</Text>
                         </MenuButton >
                         <MenuList >
-                          <MenuItem><p>Dwonload From</p></MenuItem>
+                          <MenuItem><p>Download From</p></MenuItem>
                           <MenuItem><img className="downloadApp" src="https://images.meesho.com/images/pow/playstore-icon-big.webp" alt="google play logo" /></MenuItem>
                           <MenuItem><img className="downloadApp" src="https://images.meesho.com/images/pow/appstore-icon-big.webp" alt="app store logo" /></MenuItem>
                         </MenuList>
@@ -111,16 +111,16 @@ export default function Navbar() {
                     
                   </Box>
                   <Box className='Downloadapp_box'>
-                    <Text fontSize="14px" color="#333333">Become a Supplier</Text>
+                    <Text  color="#333333">Become a Supplier</Text>
                     </Box>
                   
                     
             
                        <Menu >
                             <MenuButton as={Box}  >
-                            <Box  p="3px" textAlign="center">
+                            <Box   className='cart_profile'>
                             <FaUserAlt className='usericon'/>
-                            <Text fontSize={14} color="#333333">Profile</Text>
+                            <Text pl={3}>Profile</Text>
                             </Box>
                         </MenuButton >
                         <MenuList >
@@ -153,13 +153,14 @@ export default function Navbar() {
                         </MenuList>
                     </Menu>
                   
-                 
-                  <Box  p="3px">
+                 <Link to="/Cart">
+                  <Box  className='cart_profile' >
                   <BsCart3/>
-                  <Text fontSize={14} color="#333333">Cart</Text>
+                  <Text  >Cart</Text>
                   
                   </Box>
               
+                 </Link>
             
               </Stack>
         </Flex>

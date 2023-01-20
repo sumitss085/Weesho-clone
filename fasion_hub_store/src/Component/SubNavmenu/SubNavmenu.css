@@ -1,6 +1,7 @@
 .subNavMenuitem{
-   font-size: 12px;
-    width: 10%;
+   font-size: 15px;
+   
+    width: 100%;
     
     color:rgb(55, 46, 46);
 
@@ -12,7 +13,7 @@
 .subNavMenuHeading{
     
     color:#F43397 ;
-    font-size: 13px;
+    font-size: 15px;
     text-align: left;
     
 }
