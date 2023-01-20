@@ -1,15 +1,17 @@
-import "./App.css";
-import EmptyCart from "./Component/EmptyCart/EmptyCart";
-import Navbar from "./Component/Navbar/Navbar";
-import AllRoutes from "./Component/Routes/AllRoutes";
-import Login from "./Pages/Login/Login";
+
+
+import './App.css';
+
+import Navbar from './Component/Navbar/Navbar';
+import AllRoutes from './Component/Routes/AllRoutes';
 
 function App() {
   return (
     <div className="App">
-        <Navbar />
-        <AllRoutes />
-     </div>
+      <Navbar/>
+     <AllRoutes/>
+    </div>
+
   );
 }
 
