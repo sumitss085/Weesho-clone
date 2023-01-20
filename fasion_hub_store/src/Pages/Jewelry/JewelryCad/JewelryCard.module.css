@@ -1,0 +1,119 @@
+.Product_Card_Main_Div {
+    border: 1px solid rgb(226, 225, 225);
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Product_Card_Main_Div_Img_div>img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 250px;
+}
+
+.Product_Card_Main_Div_Title_tag {
+    /* border: 1px solid black; */
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+    margin-top: 7px;
+    text-align: left;
+}
+
+.Product_Card_Main_Div_Price_and_MiniTitle {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 3px;
+}
+
+.Product_Card_Main_Div_Price_and_MiniTitle>h1 {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Mier bold";
+    margin: 0px;
+    padding: 0px;
+}
+
+.Product_Card_Main_Div_Price_and_MiniTitle>p {
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 530;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Mier demi";
+    margin: 0px;
+    padding: 0px;
+}
+
+.Product_Card_Main_Div_Delivery_type_div>p {
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    padding: 5px;
+    width: 43%;
+    color: rgb(109, 108, 108);
+    font-style: normal;
+    line-height: 16px;
+}
+
+.Product_Card_Main_Div_Rating_and_review_div {
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+.Product_Card_Main_Div_Rating_and_review_div>h1 {
+    /* border: 1px solid black; */
+    display: inline-flex;
+    gap: 7px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background: rgb(35, 88, 0);
+    fill: rgb(85, 133, 248);
+    color: white;
+    /* box-shadow: rgb(231 238 255) 0px 0px 0px 1px inset; */
+
+}
+
+.Product_Card_Main_Div_Rating_and_review_div>h1>span {
+    /* border: 2px solid red; */
+    margin-top: -5.5px;
+}
+
+.Product_Card_Main_Div_Rating_and_review_div>p{
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: "Mier demi";
+    margin: 0px;
+    padding: 0px;
+}
+
+.Product_Card_Main_Div_Rating_and_review_div>img{
+    /* border: 1px solid black; */
+    width: 35%;
+    padding: 0px;
+    height: 90px;
+}

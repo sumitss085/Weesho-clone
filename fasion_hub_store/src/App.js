@@ -6,6 +6,7 @@ import { WomenSaree } from './Component/Navbar/WomenSaree';
 import { AllRoutes } from './Routes/AllRoutes';
 
 import Login from './Pages/Login/Login';
+import JewelrySets from './Pages/Jewelry/JeweleyList/JewelrySets';
 
 
 function App() {
