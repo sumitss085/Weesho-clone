@@ -1,11 +1,15 @@
+import "./App.css";
+import EmptyCart from "./Component/EmptyCart/EmptyCart";
+import Navbar from "./Component/Navbar/Navbar";
+import AllRoutes from "./Component/Routes/AllRoutes";
+import Login from "./Pages/Login/Login";
 
-import './App.css';
-import { Home } from './Component/Home/Home';
 function App() {
   return (
     <div className="App">
-     <Home/>
-    </div>
+        <Navbar />
+        <AllRoutes />
+     </div>
   );
 }
 
