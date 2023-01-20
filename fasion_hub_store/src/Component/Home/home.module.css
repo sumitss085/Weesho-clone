@@ -7,6 +7,14 @@
         margin: auto;
         margin-top: 20px;
         padding: 1rem;
+        display: grid;
+        margin: 5px 3.8vw;
+        grid-template-columns: 1fr 1fr;
+        gap: 5vw;
+        background-color: #f9f9f9;
+        @media (max-width: 1100px) {
+          grid-template-columns: 1fr;
+        }
     } 
     .title {
         font-size: 38px;
@@ -17,6 +25,13 @@
         font-weight: bold;
         padding:2rem;
         text-align:left;
+        font-size: 35px;
+        line-height: 145%;
+        letter-spacing: 2px;
+        @media (max-width: 600px) {
+          letter-spacing: 1px;
+          font-size: 23px;
+        }
     }
     .title1 {
         color: rgb(102, 102, 102);
@@ -32,6 +47,13 @@
         padding: 1rem;
         margin-top: -15px;
         border-radius:5px;
+        font-size: 35px;
+        line-height: 145%;
+        letter-spacing: 2px;
+        @media (max-width: 600px) {
+          letter-spacing: 1px;
+          font-size: 23px;
+        }
     }
     .button {
         width: 50%;
@@ -64,11 +86,15 @@
         width:49%;
         text-align: center;
         padding-left: 100px;
+        padding: 50px;
+        @media (max-width: 600px) {
+          padding: 50px 20px;
+        }
     }
     .container1 {
         width:49%;
         height: 100%;
-        background-image: url(https://images.meesho.com/images/marketing/1631722939962.jpg);
+        background-image: url(https://images.meesho.com/images/marketing/1631722939962.webp);
         background-size: cover;
     }
     .line {
@@ -420,7 +446,7 @@
         height: 50px;
         padding: 1rem;
         display: flex;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .line .hr {
         width: 25%;
@@ -434,7 +460,7 @@
         font-weight: bold;
     }
     .banner1 {
-        width: 100%;
+        width: 80%;
         height: 500px;
         background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
         background-size: cover;
@@ -452,7 +478,7 @@
         cursor: pointer;
     }
     .banner2 {
-        width: 100%;
+        width: 80%;
         height: 500px;
         background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
         background-size: cover;
@@ -520,9 +546,9 @@
         margin-left: 15px;
     }
     .banner3 {
-        width: 100%;
+        width: 80%;
         height: 500px;
-        background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+        background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop.webp);
         background-size: cover;
         margin: auto;
         margin-top:50px;
@@ -567,7 +593,7 @@
         margin-left: 40%;
     }
     .banner4 {
-        width: 100%;
+        width: 80%;
         height: 350px;
         background-image: url(https://miro.medium.com/max/1400/1*fx7ElXTQ-QZh79fs-rVX2Q.png);
         background-size: cover;
@@ -1192,7 +1218,7 @@
     .banner3 {
         width: 100%;
         height: 500px;
-        background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+        background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop.webp);
         background-size: cover;
         margin: auto;
         margin-top:50px;
@@ -1340,5 +1366,49 @@
         align-items: center;
         
     }
+    .section {
+        border: 1px solid #cac9c9;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 7px;
+      }
+      .section h4 {
+        font-size: 22px;
+      }
+    
+      .section hr {
+        border: none;
+        border-top: 1px solid #cac9c9;
+        margin: 15px 0;
+      }
+     .section  h6 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .section h6 + p {
+        margin: 12px 0;
+        font-size: 13.5px;
+        line-height: 140%;
+        color: #6a6a6a;
+  
+       
+      }
+     .section h6 + p  span {
+        color: #f43397;
+        text-transform: capitalize;
+        font-weight: bold;
+      }
+     .section  h4 {
+        color: #f43397;
+        margin-bottom: 18px;
+      }
+      .section  #pink-para p {
+        
+          color: #f43397;
+          font-weight: 500;
+          letter-spacing: 1.4px;
+    
+      }
+      
 }
 
