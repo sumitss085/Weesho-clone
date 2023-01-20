@@ -1,6 +1,6 @@
 {
   
-    "sarees": [
+    "Allsarees": [
       {
         "id": 1,
         "category": "Sarees",
@@ -558,7 +558,7 @@
       }
     ],
 
-    "Jewellery": [
+    "JewellerySet": [
       {
         "id": 25,
         "category": "Jewellery",
@@ -1494,7 +1494,7 @@
       }
     ],
 
-    "Mens Top Were": [
+    "AllTopWear": [
       {
         "id": 73,
         "category": "Mens Top Were",
@@ -1957,7 +1957,7 @@
       }
     ],
 
-    "Bags and Footwear": [
+    "AllMenBags": [
       {
         "id": 96,
         "category": "Bags and Footwear",
@@ -2197,7 +2197,7 @@
       }
     ],
 
-    "Home and Kitchen": [
+    "AllHomeDecor": [
       {
         "id": 109,
         "category": "Home and Kitchen",
