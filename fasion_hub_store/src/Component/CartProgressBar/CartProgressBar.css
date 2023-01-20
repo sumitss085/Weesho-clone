@@ -54,11 +54,11 @@
   }
   ol.progress-meter li.done {
     color: black;
-    border-bottom-color: pink;
+    border-bottom-color: rgb(244, 51, 151);;
   }
   ol.progress-meter li.done:before {
     color: white;
-    background-color: pink;
+    background-color: rgb(244, 51, 151);
   }
   ol.progress-meter li.todo {
     color: silver;

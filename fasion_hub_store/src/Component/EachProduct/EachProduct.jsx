@@ -8,7 +8,7 @@ const EachProduct = () => {
     <>
     <div className='cart_box'>
         
-          <div className='img_div'>
+          <div className='Productimg_div'>
             <img src="https://images.meesho.com/images/products/59898352/ivkbk_512.jpg" alt="pic" />
           </div>
 

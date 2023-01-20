@@ -8,6 +8,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',-apple-system, "Helvetica Neue", sans-serif, "Mier Book",
+ 
     monospace;
 }
