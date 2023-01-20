@@ -2,7 +2,7 @@
     .banner {
         display: flex;
         background-color: #F9F9F9;
-        width: 80%;
+        width: 70%;
         height:340px;
         margin: auto;
         margin-top: 20px;
@@ -91,7 +91,7 @@
         font-weight: bold;
     }
     .banner1 {
-        width: 80%;
+        width: 70%;
         height: 500px;
         background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
         background-size: cover;
@@ -111,7 +111,7 @@
         cursor: pointer;
     }
     .banner2 {
-        width: 80%;
+        width: 70%;
         height: 500px;
         background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
         background-size: cover;
