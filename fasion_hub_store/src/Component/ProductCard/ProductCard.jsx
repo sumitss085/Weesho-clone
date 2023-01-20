@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const WomenSareeCart = ({ data }) => {
+const ProductCard = ({ data }) => {
   return (
     <div className="main-box">
       {/* product description on products page- */}
@@ -26,4 +26,4 @@ const WomenSareeCart = ({ data }) => {
   );
 };
 
-export default WomenSareeCart;
+export default ProductCard;
