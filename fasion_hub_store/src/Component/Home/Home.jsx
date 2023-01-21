@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
     Accordion,
     AccordionItem,
@@ -10,6 +11,7 @@ import {
 import styles from "./home.module.css";
 import Footer from "../Footer/Footer"
 import { Main } from './Styled-Home';
+import Footer1 from '../Footer/Footer1';
 export const Home = () => {
     return (
         <div>
@@ -92,8 +94,9 @@ export const Home = () => {
             </div>
             <div className={styles.banner4}>
             </div>
+            <Footer1/>
             <div className={styles.foot}>
-                <div className={styles.banner5}>
+                {/* <div className={styles.banner5}>
                     <div className={styles.banner5tbox}>
                         <h1 className={styles.banner5h1}>Shop Non-Stop on Meesho</h1>
                         <p style={{ textAlign: 'left', marginTop: 10 }}>Trusted by more than 1 Crore Indians<br />
@@ -142,13 +145,8 @@ export const Home = () => {
                             06-105-B, 06-102, (138 Wu)<br />Vaishnavi Signature, No. 78/9,<br />Outer Ring Road, Bellandur,<br />Varthur Hobli, Bengaluru-560103,<br />Karnataka, India<br />
                             E-mail address:<br />query@meesho.com<br />
                             © 2015-2022 Meesho.com</h6>
-
                     </div>
-
-                </div>
-
-
-
+                </div> */}
                 <Accordion allowToggle>
                     <AccordionItem>
                         <h2>
@@ -160,43 +158,11 @@ export const Home = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel pb={4}>
-                            <Footer/>
-                            <h1 style={{fontWeight:"bold" , textAlign:"left" }} >Meesho: Affordable Online Shopping at Your Fingertips</h1>
-                            <p>There are many benefits of shopping online. You can take your time and look
-                                 at different options to find exactly what you want. It's easy to compare prices 
-                                 online and find exactly what you are looking for. And now with Meesho, you can shop
-                                  for anything you want at the lowest prices in the market.  Even if you want to shop 
-                                  for cool gifts for your friends and family, there are many options that you can 
-                                  find on the Internet. </p>
-                                  <br />
-                                  <h1  style={{fontWeight:"bold" , textAlign:"left" }} >A Huge Selection of Products Across All Categories</h1>
-                            <p>We have a vast inventory of products ranging from apparel to cosmetics to home utility and kitchen products and more. With over 50 lakh products and 650+ product categories, Meesho is sure to have everything you need. In our latest collections, you will find all the popular items at an affordable price, so you can be confident you're getting the best deal. Whether you're in the market for new clothes, accessories, or just some daily-use items for home, Meesho has what you need. </p>
-                                  <br />
-                                  <h1  style={{fontWeight:"bold" , textAlign:"left" }}  >Women’s Ethnic Wear Collection</h1>
-                            <p>When it comes to women's ethnic wear, we have everything you need to find the perfect outfit for any occasion. Whether you're looking for traditional sarees and blouses, or something more modern like suits or casual Kurtis, we have it all. And with our stunning collection of accessories, footwear, and jewellery sets, it's easy to put together a complete look that will turn heads at your next wedding or festive celebration. So come and shop with us today! </p>
-                                 <br />
-                                  <h1  style={{fontWeight:"bold" , textAlign:"left" }}  >Western Wear for Women</h1>
-                            <p>Meesho is the best place to find fashionable and affordable western wear for women. With a constantly updating inventory of casual, formal, and partywear dresses, jeans, tops, T-shirts, skirts, and more, Meesho has all the latest trending outfits you're looking for--plus funky jewelry and accessories. You'll never have to worry about overspending or not being able to find something you love! </p>
-                                 <br />
-                                  <h1  style={{fontWeight:"bold" , textAlign:"left" }} >Accessories, Jewellery, and Footwear</h1>
-                            <p>You may have your favorite outfit picked out but accessories can really add a sense of style and individuality that make you stand out! With so many types of accessories available, it can be difficult to find the perfect piece for yourself. Fortunately, Meesho has a wide variety of jewellery sets, handbags, belts, heels, casual footwear, watches, etc. With so many options, you'll be sure to find the perfect accessories for any outfit!</p>
-                                 <br />
-                                  <h1  style={{fontWeight:"bold" , textAlign:"left" }} >Men's Ethnic Wear</h1>
-                            <p>
-Do you need a new Sherwani? Are you heading to a wedding and want to look your best? If you answered yes, look no further than our latest men’s ethnic wear collection! Whether you want a Kurta set, Pajamas, Sherwani set, or any other Indian attire, we have an array of budget-friendly styles that are sure to fit your needs. </p>
-                                 <br />
-                                  <h1  style={{fontWeight:"bold" , textAlign:"left" }} >Men’s Western Wear</h1>
-                            <p>Through our large selection of menswear products we offer, you’re sure to find something you love. We have a vast collection of t-shirts, jeans, polos, coats, and shirts. We have sizes in stock that fit any man’s body type, and the best news of all is that they’re all affordable. We make it easy to find exactly what you’re looking for, too. Our search tool lets you filter our selection down by size, color, material, and more.  </p>
-                         
+                            <Footer/>                           
                         </AccordionPanel>
                     </AccordionItem>
                 </Accordion>
-
-
-
             </div>
-
         </div>
-
     )
 }
