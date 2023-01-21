@@ -24,6 +24,10 @@ import {
   MenuItem,
   HStack,
   Divider,
+  PopoverBody,
+  PopoverHeader,
+  PopoverCloseButton,
+  PopoverArrow,
 } from '@chakra-ui/react';
 import {
   HamburgerIcon,
@@ -54,7 +58,7 @@ export default function Navbar() {
         <Flex
           minH={'60px'}
           py={{ base: 2 }}
-          px={{ base: 10 }}
+          px={{ base: 20 }}
           borderBottom={1}
           
           align={'center'}
@@ -115,43 +119,37 @@ export default function Navbar() {
                     </Box>
                   
                     
-            
-                       <Menu >
-                            <MenuButton as={Box}  >
-                            <Box   className='cart_profile'>
+                    <Popover arrowSize={10} autoFocus={false}>
+                        
+                        <PopoverTrigger>
+                        <Box   className='cart_profile'>
                             <FaUserAlt className='usericon'/>
                             <Text pl={3}>Profile</Text>
-                            </Box>
-                        </MenuButton >
-                        <MenuList >
-                          <MenuItem isFocusable={true}>
-                              <Box>
-                                <Text>Hello User</Text>
+                           </Box>
+                        </PopoverTrigger>
+                       
+                        <PopoverContent>
+                          <PopoverArrow />
+                          <PopoverCloseButton />
+                              <PopoverHeader  textAlign={"left"}>
+                                <Text fontSize="20px">Hello User</Text>
                                 <Text fontSize="12px">To access your Weesho account</Text>
-                              </Box>
-                              
-                          </MenuItem> 
-                          <MenuItem>
-                               <Box>
+                               </PopoverHeader>
+                          <PopoverBody>
+                              <Box  >
                                 <Link to="/login">
                                 <Button w="200px" bg="#FF19B3" >Sign Up</Button>
                                 </Link>
-                                
-                               
-                              </Box>
-                          </MenuItem>
-                          <MenuItem>
-                          <Divider colorScheme="blackAlpha" size="15px"/>
-                          </MenuItem>
-                          <MenuItem>
-                               <Box>
-                               
-                                <HStack p="2px"> <BsFillBagCheckFill/><Text>My Order</Text></HStack>
-                              </Box>
-                          </MenuItem>
-
-                        </MenuList>
-                    </Menu>
+                            </Box>
+                          </PopoverBody>
+                          <PopoverBody m="auto">
+                             <Box >
+                               <HStack  fontSize="15px"> <BsFillBagCheckFill fontSize="18px"/><Text fontSize="18px">My Order</Text></HStack>
+                             </Box>
+                          </PopoverBody>
+                        </PopoverContent>
+                    </Popover>
+                      
                   
                  <Link to="/Cart">
                   <Box  className='cart_profile' >
