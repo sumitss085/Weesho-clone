@@ -54,7 +54,7 @@ export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box >
+    <Box border="1px solid red" width>
         <Flex
           minH={'60px'}
           py={{ base: 2 }}
@@ -77,7 +77,7 @@ export default function Navbar() {
                 />
               </Flex>
               <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}  >
-                <img src="../../Resouces/weesho.jpeg" alt="pic_logo" />
+                <img src="" alt="" />
                 
                 
 
