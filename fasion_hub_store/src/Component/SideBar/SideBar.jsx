@@ -22,14 +22,14 @@ const SideBar = () => {
 
   useEffect(()=>{
 
-    const params={
-      order
-    };
+    // const params={
+    //   order
+    // };
 
-    order && (params.order= order);
-    setSearchParams(params);
+    // order && (params.order= order);
+    // setSearchParams(params);
 
-  },[order]);
+  },[]);
 
 
   return (

@@ -76,9 +76,9 @@
     align-items: center;
 }
 
-/* .Product_Card_Main_Div_Rating_and_review_div>h1 {
-    /* border: 1px solid black; */
-    /* display: inline-flex;
+.Product_Card_Main_Div_Rating_and_review_div>h1 {
+     border: 1px solid black; 
+     display: inline-flex;
     gap: 7px;
     -webkit-box-pack: center;
     justify-content: center;
@@ -90,11 +90,11 @@
     font-weight: 600;
     background: rgb(35, 88, 0);
     fill: rgb(85, 133, 248);
-    color: white; */
-    /* box-shadow: rgb(231 238 255) 0px 0px 0px 1px inset; */
+    color: white; 
+    box-shadow: rgb(231 238 255) 0px 0px 0px 1px inset;
 
  
-
+}
 
 .Product_Card_Main_Div_Rating_and_review_div>h1>span {
     /* border: 2px solid red; */
