@@ -1,5 +1,5 @@
 .main_container {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     width: 80%;
     height: auto;
     margin: auto;
@@ -37,7 +37,7 @@
 
 
 .secoundContainer_PriceMain_div {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     gap: 10px;
@@ -362,12 +362,12 @@
 
 
 .main_container>div {
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
     width: 100%;
 }
 
 .Product_details_img_section_main_div {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 500px;
     display: flex;
     gap: 30px;
@@ -378,7 +378,7 @@
 ;
 
 .Product_details_img_section_main_div>div {
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     height: 200px;
     width: 100%;
 }
