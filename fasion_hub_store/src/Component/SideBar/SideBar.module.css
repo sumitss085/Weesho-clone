@@ -1,4 +1,9 @@
-.SideBar_Sort_first_div{
+.sidebar_main_div {
+    border: 0px solid white;
+    /* border: 5px solid black; */
+}
+
+.SideBar_Sort_first_div {
     list-style-type: none;
     margin: 0px;
     overflow: hidden;
@@ -9,7 +14,7 @@
     /* border: 10px solid black; */
 }
 
-.sort_by_h1_tag{
+.sort_by_h1_tag {
     /* border: 1px solid black; */
     color: rgb(153, 153, 153);
     font-style: normal;
@@ -21,12 +26,12 @@
     padding: 0px;
 }
 
-.AccordionPanel_section_main_div:hover{
+.AccordionPanel_section_main_div:hover {
     /* border: 1px solid black; */
-    background-color:rgb(248, 248, 248)
+    background-color: rgb(248, 248, 248)
 }
 
-.AccordionPanel_section_main_div{
+.AccordionPanel_section_main_div {
     /* border: 1px solid black; */
     display: flex;
     gap: 10px;
@@ -43,7 +48,7 @@
 }
 
 
-.Filters_main_div{
+.Filters_main_div {
     border: 1px solid rgb(226, 225, 225);
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
@@ -52,14 +57,14 @@
     /* border: 10px solid black; */
 }
 
-.Filters_main_Div_inside_heading_tag{
+.Filters_main_Div_inside_heading_tag {
     border-bottom: 1.9px solid rgb(223, 223, 223);
     width: 90%;
     text-align: left;
     margin: auto;
 }
 
-.Filters_main_Div_inside_heading_tag>h1{
+.Filters_main_Div_inside_heading_tag>h1 {
     /* border: 1px solid black; */
     color: rgb(51, 51, 51);
     font-style: normal;
@@ -73,7 +78,7 @@
     text-align: left;
 }
 
-.Filters_main_Div_inside_heading_tag>p{
+.Filters_main_Div_inside_heading_tag>p {
     text-align: left;
     /* border: 1px solid black; */
     color: rgb(153, 153, 153);
@@ -87,7 +92,7 @@
 }
 
 
-.Filter_main_div_inside_category{
+.Filter_main_div_inside_category {
     /* border: 2px solid red; */
     /* padding: 10px; */
     width: 90%;
@@ -97,7 +102,7 @@
 }
 
 
-.Filter_main_div_inside_category_heading{
+.Filter_main_div_inside_category_heading {
     color: rgb(51, 51, 51);
     font-style: normal;
     font-weight: 580;
@@ -110,18 +115,18 @@
     text-align: left;
 }
 
-.Filter_main_div_inside_category_Jewelry_filter{
+.Filter_main_div_inside_category_Jewelry_filter {
     /* border: 1px solid black; */
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.Filter_main_div_inside_category_Jewelry_filter:hover{
-    background-color:rgb(248, 248, 248)
+.Filter_main_div_inside_category_Jewelry_filter:hover {
+    background-color: rgb(248, 248, 248)
 }
 
-.Filter_main_div_inside_category_Jewelry_filter>h1{
+.Filter_main_div_inside_category_Jewelry_filter>h1 {
     color: rgb(102, 102, 102);
     font-style: normal;
     font-weight: 400;
@@ -132,7 +137,7 @@
 }
 
 
-.Filter_main_div_inside_category{
+.Filter_main_div_inside_category {
     border-bottom: 1.9px solid rgb(223, 223, 223);
     width: 90%;
     text-align: left;
@@ -141,11 +146,11 @@
     margin-bottom: 5px;
 }
 
-.Filter_main_div_inside_category:last-child{
+.Filter_main_div_inside_category:last-child {
     border-bottom: none;
 }
 
-.Gender_women_filter_button{
+.Gender_women_filter_button {
     border: 1px solid rgb(196, 195, 195);
     color: rgb(102, 102, 102);
     font-style: normal;
@@ -153,23 +158,23 @@
     font-size: 18px;
     line-height: 20px;
     padding: 9px;
-    border-radius:10px;
+    border-radius: 10px;
     font-family: "Mier book";
     text-align: initial;
-    
+
 }
 
-.Color_filter_button{
+.Color_filter_button {
     /* border: 1px solid black; */
     display: grid;
     text-align: center;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.Color_filter_button>div{
+.Color_filter_button>div {
     border: 1px solid rgb(196, 195, 195);
     color: rgb(102, 102, 102);
     font-style: normal;
@@ -177,13 +182,13 @@
     font-size: 18px;
     line-height: 20px;
     padding: 9px;
-    border-radius:10px;
+    border-radius: 10px;
     font-family: "Mier book";
     text-align: initial;
-    
+
 }
 
-.Color_filter_button:last-child>div:last-child{
+.Color_filter_button:last-child>div:last-child {
     border: 1px solid black;
     border: none;
     color: rgb(244, 51, 151);
@@ -192,4 +197,755 @@
     font-size: 17.5px;
     line-height: 20px;
     font-family: "Mier demi";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 320px --- 488px */
+
+@media all and (min-width: 320px) and (max-width: 488px) {
+    .sidebar_main_div {
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 5px;
+    }
+
+    .sidebar_main_div>div:first-child {
+        /* border: 5px solid black; */
+        height: auto;
+        width: 100%;
+    }
+
+    .sidebar_main_div>div:last-child {
+        /* border: 5px solid black; */
+        height: auto;
+        display: none;
+    }
+
+
+    .SideBar_Sort_first_div {
+        list-style-type: none;
+        margin: 0px;
+        overflow: hidden;
+        border: 1px solid rgb(226, 225, 225);
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 10px;
+        /* border: 1px solid black; */
+        /* display: flex; */
+    }
+
+    .sort_by_h1_tag {
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 520;
+        font-size: 21px;
+        line-height: 23px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .AccordionPanel_section_main_div:hover {
+        /* border: 1px solid black; */
+        background-color: rgb(248, 248, 248)
+    }
+
+    .AccordionPanel_section_main_div {
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        text-align: left;
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .Filters_main_div {
+        border: 1px solid rgb(226, 225, 225);
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-top: 16px;
+        height: auto;
+
+        /* border: 10px solid black; */
+    }
+
+    .Filters_main_Div_inside_heading_tag {
+        border-bottom: 1.9px solid rgb(223, 223, 223);
+        width: 90%;
+        text-align: left;
+        margin: auto;
+    }
+
+    .Filters_main_Div_inside_heading_tag>h1 {
+        /* border: 1px solid black; */
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 20px;
+        font-family: "Mier demi";
+        margin: 0px;
+        margin-bottom: 7px;
+        padding: 15px 0px 0px 0px;
+        text-align: left;
+    }
+
+    .Filters_main_Div_inside_heading_tag>p {
+        text-align: left;
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 16px;
+        font-family: "Mier demi";
+        margin: 0px 0px 16px;
+        padding: 0px;
+    }
+
+
+    .Filter_main_div_inside_category {
+        /* border: 2px solid red; */
+        /* padding: 10px; */
+        width: 90%;
+        margin: auto;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+
+    .Filter_main_div_inside_category_heading {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 580;
+        font-size: 19.5px;
+        /* border: 1px solid black; */
+        margin-left: -20px;
+        padding: 1px;
+        line-height: 24px;
+        font-family: "Mier demi";
+        text-align: left;
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter {
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter:hover {
+        background-color: rgb(248, 248, 248)
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter>h1 {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier book";
+        text-align: initial;
+    }
+
+
+    .Filter_main_div_inside_category {
+        border-bottom: 1.9px solid rgb(223, 223, 223);
+        width: 90%;
+        text-align: left;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .Filter_main_div_inside_category:last-child {
+        border-bottom: none;
+    }
+
+    .Gender_women_filter_button {
+        border: 1px solid rgb(196, 195, 195);
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 9px;
+        border-radius: 10px;
+        font-family: "Mier book";
+        text-align: initial;
+
+    }
+
+    .Color_filter_button {
+        /* border: 1px solid black; */
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Color_filter_button>div {
+        border: 1px solid rgb(196, 195, 195);
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 9px;
+        border-radius: 10px;
+        font-family: "Mier book";
+        text-align: initial;
+
+    }
+
+    .Color_filter_button:last-child>div:last-child {
+        border: 1px solid black;
+        border: none;
+        color: rgb(244, 51, 151);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier demi";
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  489px --- 768px*/
+@media all and (min-width: 489px) and (max-width: 768px) {
+
+    .SideBar_Sort_first_div {
+        list-style-type: none;
+        margin: 0px;
+        overflow: hidden;
+        border: 1px solid rgb(226, 225, 225);
+        border-radius: 4px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        /* border: 10px solid black; */
+    }
+
+    .sort_by_h1_tag {
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18.5px;
+        line-height: 20px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .AccordionPanel_section_main_div:hover {
+        /* border: 1px solid black; */
+        background-color: rgb(248, 248, 248)
+    }
+
+    .AccordionPanel_section_main_div {
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        text-align: left;
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .Filters_main_div {
+        border: 1px solid rgb(226, 225, 225);
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-top: 16px;
+        height: auto;
+
+        /* border: 10px solid black; */
+    }
+
+    .Filters_main_Div_inside_heading_tag {
+        border-bottom: 1.9px solid rgb(223, 223, 223);
+        width: 90%;
+        text-align: left;
+        margin: auto;
+    }
+
+    .Filters_main_Div_inside_heading_tag>h1 {
+        /* border: 1px solid black; */
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 20px;
+        font-family: "Mier demi";
+        margin: 0px;
+        margin-bottom: 7px;
+        padding: 15px 0px 0px 0px;
+        text-align: left;
+    }
+
+    .Filters_main_Div_inside_heading_tag>p {
+        text-align: left;
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 16px;
+        font-family: "Mier demi";
+        margin: 0px 0px 16px;
+        padding: 0px;
+    }
+
+
+    .Filter_main_div_inside_category {
+        /* border: 2px solid red; */
+        /* padding: 10px; */
+        width: 90%;
+        margin: auto;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+
+    .Filter_main_div_inside_category_heading {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 580;
+        font-size: 19.5px;
+        /* border: 1px solid black; */
+        margin-left: -20px;
+        padding: 1px;
+        line-height: 24px;
+        font-family: "Mier demi";
+        text-align: left;
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter {
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter:hover {
+        background-color: rgb(248, 248, 248)
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter>h1 {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier book";
+        text-align: initial;
+    }
+
+
+    .Filter_main_div_inside_category {
+        border-bottom: 1.9px solid rgb(223, 223, 223);
+        width: 90%;
+        text-align: left;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .Filter_main_div_inside_category:last-child {
+        border-bottom: none;
+    }
+
+    .Gender_women_filter_button {
+        border: 1px solid rgb(196, 195, 195);
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 9px;
+        border-radius: 10px;
+        font-family: "Mier book";
+        text-align: initial;
+
+    }
+
+    .Color_filter_button {
+        /* border: 1px solid black; */
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Color_filter_button>div {
+        border: 1px solid rgb(196, 195, 195);
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 9px;
+        border-radius: 10px;
+        font-family: "Mier book";
+        text-align: initial;
+
+    }
+
+    .Color_filter_button:last-child>div:last-child {
+        border: 1px solid black;
+        border: none;
+        color: rgb(244, 51, 151);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier demi";
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 768px --- 1024px  */
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .sidebar_main_div {
+        /* border: 0px solid white; */
+        /* border: 5px solid black; */
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+  
+
+    .SideBar_Sort_first_div {
+        list-style-type: none;
+        margin: 0px;
+        overflow: hidden;
+        border: 1px solid rgb(226, 225, 225);
+        border-radius: 4px;
+        cursor: pointer;
+        width: 30%;
+        /* border: 10px solid black; */
+    }
+
+    .sort_by_h1_tag {
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18.5px;
+        line-height: 20px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .AccordionPanel_section_main_div:hover {
+        /* border: 1px solid black; */
+        background-color: rgb(248, 248, 248)
+    }
+
+    .AccordionPanel_section_main_div {
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        text-align: left;
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .Filters_main_div {
+        /* border: 1px solid rgb(226, 225, 225); */
+        /* background-color: rgb(255, 255, 255); */
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -2px;
+        height: 40px;
+        gap: 10px;
+        /* border: 5px solid black; */
+    }
+
+    .Filters_main_Div_inside_heading_tag {
+        /* border-bottom: 1.9px solid rgb(223, 223, 223); */
+        width: 90%;
+        text-align: left;
+        margin: auto;
+        border: 2px solid black;
+        display: none;
+    }
+
+    .Filters_main_Div_inside_heading_tag>h1 {
+        /* border: 1px solid black; */
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 20px;
+        font-family: "Mier demi";
+        margin: 0px;
+        margin-bottom: 7px;
+        padding: 15px 0px 0px 0px;
+        text-align: left;
+    }
+
+    .Filters_main_Div_inside_heading_tag>p {
+        text-align: left;
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 16px;
+        font-family: "Mier demi";
+        margin: 0px 0px 16px;
+        padding: 0px;
+    }
+
+
+    .Filter_main_div_inside_category {
+        /* border: 2px solid red; */
+        /* padding: 10px; */
+        width: 100%;
+        margin: auto;
+        /* margin-top: 8px; */
+        cursor: pointer;
+    }
+
+    .Filter_main_div_inside_category:nth-child(4){
+        border: 5px solid black;
+        display: none;
+    }
+
+    
+    .Filter_main_div_inside_category:nth-child(8){
+        border: 5px solid black;
+        display: none;
+    }
+
+    
+    .Filter_main_div_inside_category:nth-child(6){
+        border: 5px solid black;
+        display: none;
+    }
+
+    
+   
+    .Filter_main_div_inside_category:nth-child(5){
+        border: 5px solid black;
+        display: none;
+    } .Filter_main_div_inside_category:nth-child(9){
+        border: 5px solid black;
+        display: none;
+    } .Filter_main_div_inside_category:nth-child(10){
+        border: 5px solid black;
+        display: none;
+    } .Filter_main_div_inside_category:nth-child(12){
+        border: 5px solid black;
+        display: none;
+    } .Filter_main_div_inside_category:nth-child(11){
+        border: 5px solid black;
+        display: none;
+    }
+
+
+    .Filter_main_div_inside_category_heading {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        /* border: 1px solid black; */
+        padding: 1px;
+        line-height: 10px;
+        font-family: "Mier demi";
+        text-align: left;
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter {
+        /* border: 1px solid black; */
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter:hover {
+        background-color: rgb(248, 248, 248)
+    }
+
+    .Filter_main_div_inside_category_Jewelry_filter>h1 {
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier book";
+        text-align: initial;
+        /* border: 1px solid black; */
+    }
+
+
+    .Filter_main_div_inside_category {
+        /* border-bottom: 1.9px solid rgb(223, 223, 223); */
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        /* margin-top: 5px; */
+        /* margin-bottom: 5px; */
+        /* border: 2px solid black; */
+    }
+
+    .Filter_main_div_inside_category:last-child {
+        border-bottom: 1px solid rgb(196, 195, 195);
+    }
+
+    .Gender_women_filter_button {
+        border: 1px solid rgb(196, 195, 195);
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        padding: 7px;
+        border-radius: 10px;
+        font-family: "Mier book";
+        text-align: initial;
+        /* border: 2px solid black; */
+    }
+
+    .Color_filter_button {
+        /* border: 1px solid black; */
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Color_filter_button>div {
+        border: 1px solid rgb(196, 195, 195);
+        color: rgb(102, 102, 102);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 9px;
+        border-radius: 10px;
+        font-family: "Mier book";
+        text-align: initial;
+
+    }
+
+    .Color_filter_button:last-child>div:last-child {
+        border: 1px solid black;
+        border: none;
+        color: rgb(244, 51, 151);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17.5px;
+        line-height: 20px;
+        font-family: "Mier demi";
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

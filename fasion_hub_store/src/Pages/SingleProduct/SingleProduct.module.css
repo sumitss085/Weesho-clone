@@ -3,401 +3,76 @@
     width: 80%;
     height: auto;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 10px;
     display: flex;
     gap: 15px;
     justify-content: space-evenly;
 }
 
-
-
-.secoundContainer_firstDiv {
-    width:100%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    margin-bottom: 16px;
-    padding: 20px 16px;
-    border: 1px solid rgb(240, 240, 240);
-
-}
-
-
-.secoundContainer_title {
-    color: rgb(153, 153, 153);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 24px;
-    font-family: "Mier demi";
-    margin: 0px;
-    padding: 0px;
-    text-align: left;
-}
-
-
-.secoundContainer_PriceMain_div {
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.secoundContainer_PriceTag {
-    color: rgb(51, 51, 51);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    font-family: "Mier bold";
-    margin: 0px;
-    padding: 0px;
-}
-
-
-.secoundContainer_Rating_and_views_section {
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 12px;
-}
-
-.secoundContainer_Rating_and_views_section_h2_tag {
-    display: inline-flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    border-radius: 14px;
-    padding: 7px 12px;
-    background: rgb(35, 187, 117);
-    fill: rgb(255, 255, 255);
-    color: whitesmoke;
-    gap: 5px;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.secoundContainer_Rating_and_views_section_P_tag {
-    /* border: 1px solid black; */
-    color: rgb(153, 153, 153);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    font-family: "Mier book";
-    margin: 0px;
-    padding: 0px;
-}
-
-
-.secoundContainer_Rating_and_views_section_Free_delivery {
-    /* border: 1px solid black; */
-    width: 20%;
-    background-color: rgb(238, 237, 237);
-    font-style: normal;
-    color: rgb(134, 132, 132);
-    border-radius: 8px;
-    padding: 5px;
-    margin-bottom: 10px;
-}
-
-.secoundContainer_Secound_Div {
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    margin-bottom: 16px;
-    padding: 20px 16px;
-    border: 1px solid rgb(240, 240, 240);
-}
-
-.secoundContainer_Secound_h1_tag {
-    color: rgb(51, 51, 51);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 28px;
-    font-family: "Mier bold";
-    margin: 0px;
-    padding: 0px;
-    text-align: left;
-    margin-bottom: 10px;
-}
-
-
-
-.secoundContainer_Third_Div {
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    margin-bottom: 16px;
-    padding: 20px 16px;
-    border: 1px solid rgb(240, 240, 240);
-
-}
-
-
-
-.secoundContainer_Product_details_third_div_section {
-    /* border: 1px solid black; */
-    color: rgb(102, 102, 102);
-    text-align: left;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    font-family: "Mier book";
-    margin: 0px;
-    padding: 0px;
-    padding-top: 2px;
-}
-
-
-.secoundContainer_Four_Div {
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    margin-bottom: 16px;
-    padding: 20px 16px;
-    border: 1px solid rgb(240, 240, 240);
-}
-
-.secoundContainer_Four_Div_h1_tag {
-    color: rgb(51, 51, 51);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 28px;
-    font-family: "Mier bold";
-    text-align: left;
-    margin: 0px 0px 10px;
-    padding: 0px;
+.main_container>div:first-child {
     /* border: 2px solid black; */
-}
-
-.secoundContainer_Four_Rating {
-    color: rgb(3, 141, 99);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    text-align: left;
-    line-height: 52px;
-    font-family: "Mier bold";
-    margin: 0px;
-    padding: 0px 5px 0px 0px;
-}
-
-.secoundContainer_Four_Review {
-    /* border: 1px solid black; */
-    text-align: left;
-    color: rgb(153, 153, 153);
-    font-style: normal;
-    font-weight: 550;
-    font-size: 16px;
-    line-height: 25px;
-    font-family: "Mier demi";
-    margin: 0px;
-    padding: 0px;
-}
-
-.RatingAnd_Progress_section {
-    display: flex;
-    gap: 2px;
-    align-items: center;
-}
-
-.RatingAnd_Progress_section>div:nth-child(1) {
-    /* border: 2px solid black; */
-    margin-bottom: 20px;
-    width: 20%;
-}
-
-
-.RatingAnd_Progress_section>div:nth-child(2) {
-    /* border: 2px solid black; */
-    margin-bottom: 20px;
-    width: 80%;
-}
-
-.ImageTwo_section {
-    /* border: 1px solid black; */
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.ImageTwo_section>div {
-    padding: 10px;
-    border: 2px solid rgb(240, 240, 240);
-    height: auto;
-    width: 20%;
-}
-
-
-.ImageTwo_section>div>img{
-    height: 100px;
     width: 100%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.secoundContainer_Third_Div_h1_tag {
-    color: rgb(51, 51, 51);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 23px;
-    line-height: 28px;
-    text-align: left;
-    font-family: "Mier bold";
-    margin: 0px;
-    padding: 0px;
-
-}
-
-;
-
-
-.secoundContainer_Secound_Button_div {
+.main_container>div:last-child {
     /* border: 2px solid black; */
-    width: 23%;
+    width: 100%;
 }
-
-;
-
-
-
-.secoundContainer_Rating_and_views_section_h2_tag>span {
-    /* border: 1px solid black; */
-    margin-top: -5px;
-}
-
-;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .main_container>div {
     /* border: 1px solid teal; */
     width: 100%;
 }
 
+
 .Product_details_img_section_main_div {
+    width: 100%;
     /* border: 2px solid red; */
     height: 500px;
     display: flex;
-    gap: 30px;
+    gap: 20px;
 
 
 }
-
-;
 
 .Product_details_img_section_main_div>div {
     /* border: 5px solid blue; */
-    height: 200px;
+    height: auto;
     width: 100%;
 }
+
+.Product_details_img_section_main_div>div:nth-child(1) {
+    /* border: 2px solid black; */
+    width: 16%;
+    height: 110px;
+}
+
+.Product_details_img_section_main_div>div:nth-child(2) {
+    /* border: 2px solid black; */
+    width: 80%;
+    height: auto;
+}
+
 
 
 .product_details_img_1 {
     width: 100%;
-    height: 80px;
+    height: auto;
     border: 1px solid rgb(240, 240, 240);
     padding: 5px;
     border-radius: 10px;
+    /* border: 1px solid black; */
 }
 
 .product_details_img_2 {
-    width: 100%;
+    width: 90%;
     height: 470px;
     border: 1px solid rgb(240, 240, 240);
     padding: 0px 20px 0px 20px;
     border-radius: 10px;
+    /* border: 1px solid red; */
 }
 
 .buttonSection {
@@ -426,4 +101,1509 @@
 
 }
 
-;
+
+
+.ImageTwo_section {
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ImageTwo_section>div {
+    padding: 10px;
+    border: 2px solid rgb(240, 240, 240);
+    height: auto;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+
+
+.ImageTwo_section>div>img {
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.secoundContainer_firstDiv {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 20px 16px;
+    border: 1px solid rgb(240, 240, 240);
+    /* border: 2px solid black; */
+}
+
+
+.secoundContainer_title {
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    font-family: "Mier demi";
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    /* border: 2px solid black; */
+
+}
+
+
+.secoundContainer_PriceMain_div {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.secoundContainer_PriceTag {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Mier bold";
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+
+
+.secoundContainer_Rating_and_views_section {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.secoundContainer_Rating_and_views_section_h2_tag {
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 14px;
+    padding: 7px 12px;
+    background: rgb(35, 187, 117);
+    fill: rgb(255, 255, 255);
+    color: whitesmoke;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    /* border: 2px solid black; */
+
+}
+
+
+.secoundContainer_Rating_and_views_section_h2_tag>span {
+    /* border: 1px solid black; */
+    margin-top: -4px;
+}
+
+.secoundContainer_Rating_and_views_section_P_tag {
+    /* border: 1px solid black; */
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.secoundContainer_Rating_and_views_section_Free_delivery {
+    /* border: 1px solid black; */
+    width: 30%;
+    background-color: rgb(238, 237, 237);
+    font-style: normal;
+    color: rgb(134, 132, 132);
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.secoundContainer_Secound_Div {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 20px 16px;
+    border: 1px solid rgb(240, 240, 240);
+    /* border: 1px solid black; */
+}
+
+.secoundContainer_Secound_h1_tag {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    font-family: "Mier bold";
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+}
+
+
+.secoundContainer_Secound_Button_div {
+    /* border: 2px solid teal; */
+    width: 20%;
+
+}
+
+
+
+.secoundContainer_Third_Div {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 20px 16px;
+    border: 1px solid rgb(240, 240, 240);
+    /* border: 2px solid black; */
+}
+
+.secoundContainer_Third_Div_h1_tag {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: left;
+    font-family: "Mier bold";
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+
+
+
+.secoundContainer_Product_details_third_div_section {
+    /* border: 1px solid black; */
+    color: rgb(102, 102, 102);
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: "Mier book";
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2px;
+}
+
+.secoundContainer_Product_details_third_div_section:last-child {
+    /* border: 1px solid black; */
+    width: 30%;
+}
+
+
+
+
+.secoundContainer_Four_Div {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 20px 16px;
+    border: 1px solid rgb(240, 240, 240);
+    /* border: 2px solid black; */
+
+}
+
+.secoundContainer_Four_Div_h1_tag {
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
+    font-family: "Mier bold";
+    text-align: left;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    /* border: 2px solid black; */
+}
+
+.secoundContainer_Four_Rating {
+    color: rgb(3, 141, 99);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    line-height: 52px;
+    font-family: "Mier bold";
+    margin: 0px;
+    padding: 0px 5px 0px 0px;
+    /* border: 2px solid black; */
+}
+
+.secoundContainer_Four_Review {
+    /* border: 1px solid black; */
+    text-align: left;
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Mier demi";
+    margin: 0px;
+    padding: 0px;
+}
+
+.RatingAnd_Progress_section {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.RatingAnd_Progress_section>div:nth-child(1) {
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+    width: 25%;
+}
+
+
+.RatingAnd_Progress_section>div:nth-child(2) {
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media all and (min-width: 450px) and (max-width: 950px) */
+
+
+/* @media all and (min-width: 100px) and (max-width: 449px) { */
+
+
+/* 280px ----360px */
+
+
+@media all and (min-width: 320px) and (max-width: 488px) {
+    .main_container {
+        /* border: 5px solid black; */
+        width: 100%;
+        height: auto;
+        margin: auto;
+        /* margin-top: 10px; */
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-evenly;
+    }
+
+    .main_container>div:first-child {
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+
+
+    .main_container>div:last-child {
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+
+    .main_container>div {
+        /* border: 1px solid teal; */
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .Product_details_img_section_main_div {
+        width: 100%;
+        /* border: 2px solid red; */
+        height: auto;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 15px;
+
+
+    }
+
+    .Product_details_img_section_main_div>div {
+        /* border: 5px solid blue; */
+        height: auto;
+        width: 100%;
+    }
+
+    .Product_details_img_section_main_div>div:nth-child(1) {
+        /* border: 2px solid black; */
+        width: 16%;
+        height: 110px;
+        display: none;
+    }
+
+    .Product_details_img_section_main_div>div:nth-child(2) {
+        /* border: 2px solid black; */
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+
+
+    .product_details_img_1 {
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(240, 240, 240);
+        padding: 5px;
+        border-radius: 10px;
+        /* border: 1px solid black; */
+    }
+
+    .product_details_img_2 {
+        width: 90%;
+        margin: auto;
+        height: 350px;
+        border: 1px solid rgb(240, 240, 240);
+        padding: 0px 20px 0px 20px;
+        border-radius: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .buttonSection {
+        /* border: 1px solid black; */
+        width: 100%;
+        margin: auto;
+        /* margin-left: 80px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .buttonSection>button {
+        /* border: 1px solid red; */
+        padding: 21px;
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 18px;
+        line-height: 20px;
+        border-radius: 4px;
+
+
+    }
+
+    .ImageTwo_section {
+        width: 100%;
+        /* border: 1px solid black; */
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        display: none;
+    }
+
+    .ImageTwo_section>div {
+        padding: 10px;
+        border: 2px solid rgb(240, 240, 240);
+        height: auto;
+        width: 20%;
+        /* border: 2px solid black; */
+    }
+
+
+    .ImageTwo_section>div>img {
+        height: 100px;
+        width: 100%;
+    }
+
+
+
+
+
+
+    .secoundContainer_firstDiv {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 10px 12px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+    }
+
+
+    .secoundContainer_title {
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        font-family: "Mier demi";
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        /* border: 2px solid black; */
+
+    }
+
+
+    .secoundContainer_PriceMain_div {
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .secoundContainer_PriceTag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 25px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+
+
+    .secoundContainer_Rating_and_views_section {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+
+    .secoundContainer_Rating_and_views_section_h2_tag {
+        display: inline-flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        border-radius: 14px;
+        padding: 4px 10px;
+        background: rgb(35, 187, 117);
+        fill: rgb(255, 255, 255);
+        color: whitesmoke;
+        gap: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        /* border: 2px solid black; */
+
+    }
+
+
+    .secoundContainer_Rating_and_views_section_h2_tag>span {
+        /* border: 1px solid black; */
+        margin-top: -4px;
+    }
+
+    .secoundContainer_Rating_and_views_section_P_tag {
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    .secoundContainer_Rating_and_views_section_Free_delivery {
+        /* border: 1px solid black; */
+        width: 40%;
+        background-color: rgb(238, 237, 237);
+        font-style: normal;
+        color: rgb(134, 132, 132);
+        border-radius: 8px;
+        padding: 4px;
+        margin-bottom: 5px;
+    }
+
+    .secoundContainer_Secound_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 1px solid black; */
+        display: none;
+    }
+
+    .secoundContainer_Secound_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+        /* border: 1px solid black; */
+    }
+
+
+    .secoundContainer_Secound_Button_div {
+        /* border: 2px solid teal; */
+        width: 20%;
+
+    }
+
+
+
+    .secoundContainer_Third_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 10px 12px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+    }
+
+    .secoundContainer_Third_Div_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: left;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+
+
+
+    .secoundContainer_Product_details_third_div_section {
+        /* border: 1px solid black; */
+        color: rgb(102, 102, 102);
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+        /* padding-top: 2px; */
+    }
+
+    .secoundContainer_Product_details_third_div_section:last-child {
+        /* border: 1px solid black; */
+        width: 45%;
+    }
+
+    .secoundContainer_Four_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+        display: none;
+
+    }
+
+    .secoundContainer_Four_Div_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        font-family: "Mier bold";
+        text-align: left;
+        margin: 0px 0px 10px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+
+    .secoundContainer_Four_Rating {
+        color: rgb(3, 141, 99);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: left;
+        line-height: 52px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px 5px 0px 0px;
+        /* border: 2px solid black; */
+    }
+
+    .secoundContainer_Four_Review {
+        /* border: 1px solid black; */
+        text-align: left;
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 550;
+        font-size: 16px;
+        line-height: 25px;
+        font-family: "Mier demi";
+        margin: 0px;
+        padding: 0px;
+    }
+   
+
+    .RatingAnd_Progress_section {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        /* border: 2px solid black; */
+    }
+
+    .RatingAnd_Progress_section>div:nth-child(1) {
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+        width: 25%;
+    }
+
+
+    .RatingAnd_Progress_section>div:nth-child(2) {
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+        width: 80%;
+    }
+
+   
+
+    
+
+
+
+
+}
+
+
+
+/* 489px --- 768px  */
+@media all and (min-width: 489px) and (max-width: 768px){
+
+
+    .main_container {
+        /* border: 5px solid black; */
+        width: 100%;
+        height: auto;
+        margin: auto;
+        /* margin-top: 10px; */
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-evenly;
+    }
+    
+    .main_container>div:first-child {
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+    
+    
+    .main_container>div:last-child {
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+    
+    .main_container>div {
+        /* border: 1px solid teal; */
+        width: 100%;
+    }
+    
+    
+    .Product_details_img_section_main_div {
+        width: 80%;
+        margin: auto;
+        /* border: 2px solid red; */
+        height: 450px;
+        display: flex;
+        gap: 0px;
+    
+    
+    }
+    
+    .Product_details_img_section_main_div>div {
+        /* border: 5px solid blue; */
+        height: auto;
+        width: 100%;
+    }
+    
+    .Product_details_img_section_main_div>div:nth-child(1) {
+        /* border: 2px solid black; */
+        width: 16%;
+        height: 160px;
+    }
+    
+    .Product_details_img_section_main_div>div:nth-child(2) {
+        /* border: 2px solid black; */
+        width: 70%;
+
+        height: 400px;
+    }
+    
+    
+    
+    .product_details_img_1 {
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(240, 240, 240);
+        padding: 5px;
+        border-radius: 10px;
+        /* border: 1px solid black; */
+    }
+    
+    .product_details_img_2 {
+        width: 75%;
+        margin: auto;
+        height: 400px;
+        border: 1px solid rgb(240, 240, 240);
+        padding: 0px 20px 0px 20px;
+        border-radius: 10px;
+        /* border: 1px solid red; */
+    }
+    
+    .buttonSection {
+        /* border: 1px solid black; */
+        width: 80%;
+        margin: auto;
+        margin-left: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    
+    .buttonSection>button {
+        /* border: 1px solid red; */
+        padding: 23px;
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 19px;
+        line-height: 20px;
+        border-radius: 4px;
+    
+    
+    }
+    
+    .ImageTwo_section>div {
+        padding: 10px;
+        border: 2px solid rgb(240, 240, 240);
+        height: auto;
+        width: 17%;
+        /* border: 2px solid black; */
+    }
+    
+    
+    .ImageTwo_section>div>img {
+        height: 140px;
+        width: 100%;
+    }
+    
+    
+    
+    
+
+
+
+    .secoundContainer_firstDiv {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+    }
+    
+    
+    .secoundContainer_title {
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 25px;
+        font-family: "Mier demi";
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        /* border: 2px solid black; */
+    
+    }
+    
+    
+    .secoundContainer_PriceMain_div {
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .secoundContainer_PriceTag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+    
+    
+    .secoundContainer_Rating_and_views_section {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 12px;
+    }
+    
+    .secoundContainer_Rating_and_views_section_h2_tag {
+        display: inline-flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        border-radius: 14px;
+        padding: 10px 26px;
+        background: rgb(35, 187, 117);
+        fill: rgb(255, 255, 255);
+        color: whitesmoke;
+        gap: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        /* border: 2px solid black; */
+    
+    }
+    
+    
+    .secoundContainer_Rating_and_views_section_h2_tag>span {
+        /* border: 1px solid black; */
+        margin-top: -4px;
+    }
+    
+    .secoundContainer_Rating_and_views_section_P_tag {
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 16px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    .secoundContainer_Rating_and_views_section_Free_delivery {
+        /* border: 1px solid black; */
+        width: 27%;
+        background-color: rgb(238, 237, 237);
+        font-style: normal;
+        color: rgb(134, 132, 132);
+        border-radius: 8px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .secoundContainer_Secound_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 1px solid black; */
+    }
+    
+    .secoundContainer_Secound_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 29px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+        /* border: 1px solid black; */
+    }
+    
+    
+    .secoundContainer_Secound_Button_div {
+        /* border: 2px solid teal; */
+        width: 16%;
+    
+    }
+    
+    
+    
+    .secoundContainer_Third_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+    }
+    
+    .secoundContainer_Third_Div_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 29px;
+        text-align: left;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+    
+    
+    
+    .secoundContainer_Product_details_third_div_section {
+        /* border: 1px solid black; */
+        color: rgb(102, 102, 102);
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+        /* padding-top: 2px; */
+    }
+    
+    
+    .secoundContainer_Four_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+    
+    }
+    
+    .secoundContainer_Four_Div_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        font-family: "Mier bold";
+        text-align: left;
+        margin: 0px 0px 10px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+    
+    .secoundContainer_Four_Rating {
+        color: rgb(3, 141, 99);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: left;
+        line-height: 52px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px 5px 0px 0px;
+        /* border: 2px solid black; */
+    }
+    
+    .secoundContainer_Four_Review {
+        /* border: 1px solid black; */
+        text-align: left;
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: "Mier demi";
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .RatingAnd_Progress_section {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        /* border: 2px solid black; */
+    }
+    
+    .RatingAnd_Progress_section>div:nth-child(1) {
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+        width: 17%;
+    }
+    
+    
+    .RatingAnd_Progress_section>div:nth-child(2) {
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    
+    .ImageTwo_section {
+        width: 100%;
+        /* border: 1px solid black; */
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+   
+    
+    .secoundContainer_Product_details_third_div_section:last-child {
+        /* border: 1px solid black; */
+        width: 30%;
+    }
+    
+    
+    
+
+}
+
+
+
+
+/* 768px ---1024px */
+@media all and (min-width: 769px) and (max-width: 1024px){
+
+    .main_container {
+        /* border: 5px solid black; */
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        gap: 15px;
+        justify-content: space-evenly;
+    }
+    
+    .main_container>div:first-child {
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+    
+    
+    .main_container>div:last-child {
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+    
+    .main_container>div {
+        /* border: 1px solid teal; */
+        width: 100%;
+    }
+    
+    
+    .Product_details_img_section_main_div {
+        width: 100%;
+        /* border: 2px solid red; */
+        height: 500px;
+        display: flex;
+        gap: 20px;
+    
+    
+    }
+    
+    .Product_details_img_section_main_div>div {
+        /* border: 5px solid blue; */
+        height: auto;
+        width: 100%;
+    }
+    
+    .Product_details_img_section_main_div>div:nth-child(1) {
+        /* border: 2px solid black; */
+        width: 16%;
+        height: 110px;
+    }
+    
+    .Product_details_img_section_main_div>div:nth-child(2) {
+        /* border: 2px solid black; */
+        width: 80%;
+        height: auto;
+    }
+    
+    
+    
+    .product_details_img_1 {
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(240, 240, 240);
+        padding: 5px;
+        border-radius: 10px;
+        /* border: 1px solid black; */
+    }
+    
+    .product_details_img_2 {
+        width: 90%;
+        height: 470px;
+        border: 1px solid rgb(240, 240, 240);
+        padding: 0px 20px 0px 20px;
+        border-radius: 10px;
+        /* border: 1px solid red; */
+    }
+    
+    .buttonSection {
+        /* border: 1px solid black; */
+        width: 80%;
+        margin: auto;
+        margin-left: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    
+    .buttonSection>button {
+        /* border: 1px solid red; */
+        padding: 23px;
+        cursor: pointer;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 0.0015em;
+        font-size: 19px;
+        line-height: 20px;
+        border-radius: 4px;
+    
+    
+    }
+    
+    
+    
+    .ImageTwo_section {
+        width: 100%;
+        /* border: 1px solid black; */
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .ImageTwo_section>div {
+        padding: 10px;
+        border: 2px solid rgb(240, 240, 240);
+        height: auto;
+        width: 20%;
+        /* border: 2px solid black; */
+    }
+    
+    
+    .ImageTwo_section>div>img {
+        height: 100px;
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .secoundContainer_firstDiv {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+    }
+    
+    
+    .secoundContainer_title {
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 24px;
+        font-family: "Mier demi";
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        /* border: 2px solid black; */
+    
+    }
+    
+    
+    .secoundContainer_PriceMain_div {
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .secoundContainer_PriceTag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+    
+    
+    .secoundContainer_Rating_and_views_section {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+    }
+    
+    .secoundContainer_Rating_and_views_section_h2_tag {
+        display: inline-flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        border-radius: 14px;
+        padding: 7px 12px;
+        background: rgb(35, 187, 117);
+        fill: rgb(255, 255, 255);
+        color: whitesmoke;
+        gap: 5px;
+        font-weight: 500;
+        font-size: 16px;
+        /* border: 2px solid black; */
+    
+    }
+    
+    
+    .secoundContainer_Rating_and_views_section_h2_tag>span {
+        /* border: 1px solid black; */
+        margin-top: -4px;
+    }
+    
+    .secoundContainer_Rating_and_views_section_P_tag {
+        /* border: 1px solid black; */
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    .secoundContainer_Rating_and_views_section_Free_delivery {
+        /* border: 1px solid black; */
+        width: 30%;
+        background-color: rgb(238, 237, 237);
+        font-style: normal;
+        color: rgb(134, 132, 132);
+        border-radius: 8px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .secoundContainer_Secound_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 1px solid black; */
+    }
+    
+    .secoundContainer_Secound_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+        /* border: 1px solid black; */
+    }
+    
+    
+    .secoundContainer_Secound_Button_div {
+        /* border: 2px solid teal; */
+        width: 20%;
+    
+    }
+    
+    
+    
+    .secoundContainer_Third_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+    }
+    
+    .secoundContainer_Third_Div_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        text-align: left;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+    
+    
+    
+    .secoundContainer_Product_details_third_div_section {
+        /* border: 1px solid black; */
+        color: rgb(102, 102, 102);
+        text-align: left;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        font-family: "Mier book";
+        margin: 0px;
+        padding: 0px;
+        padding-top: 2px;
+    }
+    
+    .secoundContainer_Product_details_third_div_section:last-child {
+        /* border: 1px solid black; */
+        width: 40%;
+    }
+    
+    
+    
+    
+    .secoundContainer_Four_Div {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        padding: 20px 16px;
+        border: 1px solid rgb(240, 240, 240);
+        /* border: 2px solid black; */
+    
+    }
+    
+    .secoundContainer_Four_Div_h1_tag {
+        color: rgb(51, 51, 51);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 28px;
+        font-family: "Mier bold";
+        text-align: left;
+        margin: 0px 0px 10px;
+        padding: 0px;
+        /* border: 2px solid black; */
+    }
+    
+    .secoundContainer_Four_Rating {
+        color: rgb(3, 141, 99);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        text-align: left;
+        line-height: 52px;
+        font-family: "Mier bold";
+        margin: 0px;
+        padding: 0px 5px 0px 0px;
+        /* border: 2px solid black; */
+    }
+    
+    .secoundContainer_Four_Review {
+        /* border: 1px solid black; */
+        text-align: left;
+        color: rgb(153, 153, 153);
+        font-style: normal;
+        font-weight: 550;
+        font-size: 16px;
+        line-height: 25px;
+        font-family: "Mier demi";
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .RatingAnd_Progress_section {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        /* border: 2px solid black; */
+    }
+    
+    .RatingAnd_Progress_section>div:nth-child(1) {
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    
+    .RatingAnd_Progress_section>div:nth-child(2) {
+        /* border: 2px solid black; */
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    
+
+}
+

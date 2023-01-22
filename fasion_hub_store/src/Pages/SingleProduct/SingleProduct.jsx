@@ -93,10 +93,10 @@ const SingleProductPage = () => {
 
           <div className={style.ImageTwo_section}>
             <div>
-              <img src="https://images.meesho.com/images/products/158122953/ijbpo_512.webp" alt="" />
+              <img src={images.length?images[0]:"https://images.meesho.com/images/products/158122953/ijbpo_512.webp"} alt="" />
             </div>
             <div>
-              <img src="https://images.meesho.com/images/products/158122953/ijbpo_512.webp" alt="" />
+              <img src={images.length?images[1]:"https://images.meesho.com/images/products/158122953/ijbpo_512.webp"} alt="" />
             </div>
           </div>
 
@@ -140,7 +140,7 @@ const SingleProductPage = () => {
             <h1 className={style.secoundContainer_Secound_h1_tag}>Select Size</h1>
 
             <div className={style.secoundContainer_Secound_Button_div}>
-              <Button className={style.secoundContainer_Secound_Button_Free_Size} colorScheme='pink' width="30%" marginLeft="-24rem" borderRadius="15px" padding="5px" variant='outline'>
+              <Button className={style.secoundContainer_Secound_Button_Free_Size} colorScheme='pink'  borderRadius="15px" padding="15px" variant='outline'>
                 Free Size
               </Button>
             </div>
@@ -155,7 +155,7 @@ const SingleProductPage = () => {
             <p className={style.secoundContainer_Product_details_third_div_section}>Sizing : Adjustable</p>
             <p className={style.secoundContainer_Product_details_third_div_section}>Net Quantity (N) : 1</p>
             <p className={style.secoundContainer_Product_details_third_div_section}>Country of Origin : India</p>
-            <p className={style.secoundContainer_Product_details_third_div_section} style={{ borderBottom: "3px dotted gray", width: "25%", cursor: "pointer" }}>More Information</p>
+            <p className={style.secoundContainer_Product_details_third_div_section} style={{ borderBottom: "3px dotted gray",marginTop:"5px", cursor: "pointer" }}>More Information</p>
 
 
 
