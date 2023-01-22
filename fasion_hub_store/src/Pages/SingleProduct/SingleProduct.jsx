@@ -185,9 +185,9 @@ const SingleProductPage = () => {
 
             <div className={style.RatingAnd_Progress_section}>
               <div>
-                <p className={style.secoundContainer_Four_Rating}>4.0 <span><StarIcon marginTop="-10px" /></span></p>
-                <p className={style.secoundContainer_Four_Review}>893 Rating,</p>
-                <p className={style.secoundContainer_Four_Review}>144 Review </p>
+                <p className={style.secoundContainer_Four_Rating}>{rating} <span><StarIcon marginTop="-10px" /></span></p>
+                <p className={style.secoundContainer_Four_Review}>{(Math.floor(Math.random() * 1000) + 500).toFixed(0)} Rating,</p>
+                <p className={style.secoundContainer_Four_Review}>{(Math.floor(Math.random() * 200) + 100).toFixed(0)} Review </p>
 
 
               </div>
