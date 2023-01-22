@@ -2,28 +2,42 @@ import { Text } from '@chakra-ui/react'
 import React from 'react'
 import "./EachProduct.css"
 import { RxCross2 } from "react-icons/rx";
+import axios from 'axios';
 
-const EachProduct = () => {
+const EachProduct = ({item,handleRender}) => {
+
+  const {title,rating,details,images,original_price,sizes,discounted_price,category,id}=item
+     
+
+  const discount=(((Number(original_price)-Number(discounted_price))/Number(original_price))*100).toFixed(2)
+
+  const HandleRemove =(id)=>{
+     axios.delete(`http://localhost:8080/MyCartList/${id}`)
+     .then((res)=>console.log(res.data))
+     .catch((err)=>console.log(err))
+
+     handleRender()
+  }
   return (
     <>
     <div className='cart_box'>
         
           <div className='Productimg_div'>
-            <img src="https://images.meesho.com/images/products/59898352/ivkbk_512.jpg" alt="pic" />
+            <img src={images[0]} alt="pic" />
           </div>
 
           <div className='detail'>
             
-                <Text className='title'>Multicolor Printed Flats For Women - Pack of </Text>
+                <Text className='title'>{title}</Text>
                 
                 <div className='qtyBox'>
-                  <Text className='size'>Size: Free Size</Text>
+                  <Text className='size'>Size: {sizes}</Text>
                   <Text className='size'>Qty: 1</Text>
                 </div>
             
-              <Text className='discount'>₹450  <del>₹462</del>    3% Off  </Text>
+              <Text className='discount'>₹{discounted_price}  <del className='originalprice'>₹{original_price}</del>  <span className='discountpercentage'> {discount}% Off </span>   </Text>
 
-              <div className='romovebtn'>
+              <div className='romovebtn' onClick={()=>HandleRemove(id)}>
                 <RxCross2/>
                 <Text>REMOVE</Text>
 
