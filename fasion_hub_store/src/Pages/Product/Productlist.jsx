@@ -43,7 +43,9 @@ const Productlist = () => {
           dispatch(getProductData(urlquery))
           
          
+         
     }, []);
+
 
             
     return (

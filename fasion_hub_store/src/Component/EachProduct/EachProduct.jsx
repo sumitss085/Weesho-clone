@@ -34,7 +34,7 @@ const EachProduct = ({item,handleRender,getProductQty}) => {
   const discount=(((Number(original_price)-Number(discounted_price))/Number(original_price))*100).toFixed(2)
 
   const HandleRemove =(id)=>{
-     axios.delete(`http://localhost:8080/MyCartList/${id}`)
+     axios.delete(`https://weesho-data.vercel.app/MyCartList/${id}`)
      .then((res)=>console.log(res.data))
      .catch((err)=>console.log(err))
 

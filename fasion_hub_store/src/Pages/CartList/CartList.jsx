@@ -40,7 +40,7 @@ const CartList = () => {
   
    useEffect(()=>{
 
-    axios.get(`http://localhost:8080/MyCartList`)
+    axios.get(`https://weesho-data.vercel.app/MyCartList`)
     .then((res)=>SetCartlist(res.data))
     .catch((err)=>console.log(err))
 
