@@ -3,12 +3,34 @@ import React from 'react'
 import "./EachProduct.css"
 import { RxCross2 } from "react-icons/rx";
 import axios from 'axios';
+import QuantityButton from '../QuantityButton/QuantityButton';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
-const EachProduct = ({item,handleRender}) => {
+const EachProduct = ({item,handleRender,getProductQty}) => {
+   
+  const {title, rating ,details,images,original_price,sizes,discounted_price,category,id}=item
+   
+  const [EachItemQty,SetEachItemQty]=useState(1)
 
-  const {title,rating,details,images,original_price,sizes,discounted_price,category,id}=item
-     
+  // console.log(EachItemQty)
 
+  const handleqty =(val)=>{
+    SetEachItemQty(val)
+    
+  }
+  useEffect(()=>{
+    let productCartPrice=original_price*EachItemQty
+    let productCartDiscountPrice=discounted_price*EachItemQty
+
+    console.log(productCartPrice)
+
+    getProductQty(productCartPrice,productCartDiscountPrice)
+
+  },[EachItemQty])
+  
+
+   
   const discount=(((Number(original_price)-Number(discounted_price))/Number(original_price))*100).toFixed(2)
 
   const HandleRemove =(id)=>{
@@ -32,7 +54,11 @@ const EachProduct = ({item,handleRender}) => {
                 
                 <div className='qtyBox'>
                   <Text className='size'>Size: {sizes}</Text>
-                  <Text className='size'>Qty: 1</Text>
+                  <Text className='size'>Qty: </Text>
+                  <div className='qtyBtn'>
+                    <QuantityButton EachItemQty={EachItemQty} handleqty={handleqty}/>
+                  </div>
+                  
                 </div>
             
               <Text className='discount'>₹{discounted_price}  <del className='originalprice'>₹{original_price}</del>  <span className='discountpercentage'> {discount}% Off </span>   </Text>

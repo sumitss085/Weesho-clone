@@ -26,6 +26,9 @@ const CartList = () => {
   const {CartData} =useSelector((store)=>store.CartReducer)
 
   const [Cartlist,SetCartlist]=useState([])
+  const [TotalCartPrice,SetTotalCartPrice]=useState(0)
+  const [TotalDiscountCartPrice,SetTotalDiscountCartPrice]=useState(0)
+  
 
   const [Render,SetRender]=useState(false)
 
@@ -41,22 +44,29 @@ const CartList = () => {
     .then((res)=>SetCartlist(res.data))
     .catch((err)=>console.log(err))
 
-
-    
-
-     FindTotal(Cartlist)
+     
 
    },[Render])
 
+  //  FindTotal(Cartlist)
 
    const HandleContinue =()=>{
     
    }
-  
-   let [CartPrice,CartDiscountPrice]=FindTotal(Cartlist)
 
-   const discount=(((CartPrice-CartDiscountPrice)/CartPrice)*100).toFixed(0)
-   const disPrice=CartPrice-CartDiscountPrice
+   const getProductQty =(original,dicount)=>{
+
+    // console.log(TotalCartPrice +" "+original)
+
+    SetTotalCartPrice(((prev)=>prev+original))
+    SetTotalDiscountCartPrice(((prev)=>prev+dicount))
+   }
+
+  
+  //  let [CartPrice,CartDiscountPrice]=FindTotal(Cartlist)||[0,0]
+
+   const discount=(((TotalCartPrice-TotalDiscountCartPrice)/TotalCartPrice)*100).toFixed(0)
+   const disPrice=TotalCartPrice-TotalDiscountCartPrice
   return (
     <>
     <Navbar2/>
@@ -72,7 +82,7 @@ const CartList = () => {
         </div>
         {
           Cartlist.length>0 &&  Cartlist.map((item)=>(
-            <EachProduct key={item.id} item={item} handleRender={handleRender}/>
+            <EachProduct key={item.id} item={item} handleRender={handleRender} getProductQty={getProductQty}/>
           ))
         }
       
@@ -84,18 +94,18 @@ const CartList = () => {
           </div>
           <div  className='ProductPrice'>
             <div>Total Product Price</div>
-            <div>₹{CartPrice}</div>
+            <div>₹{TotalCartPrice}</div>
           </div>
 
          <div className='Totaldiscount' >
             <div><p>Total Discounts</p></div>
-            <div><p>- ₹{discount?discount:0}</p></div>
+            <div><p>- ₹{SetTotalDiscountCartPrice?SetTotalDiscountCartPrice:0}</p></div>
           </div>
           <div><Divider orientation='horizontal' size="3px"/></div>
 
           <div  className='total'>
             <div>Order Total</div>
-            <div>₹{CartDiscountPrice}</div>
+            <div>₹{TotalDiscountCartPrice}</div>
           </div>
 
           <div className='discountBox'>

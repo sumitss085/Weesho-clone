@@ -1,0 +1,47 @@
+#qty_selector {
+    width: 75px;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #qty_display {
+      border-width: 0px;
+      border-color: white;
+      background-color:transparent;
+      width: 30%;
+      margin:0px 0px;
+      height: 10px;
+    
+      font-size: 16px;
+    
+      text-align: center;
+  }
+      #qty_display:focus {
+          outline: none;
+      }
+      i:hover, a:hover {
+          background-color: transparent;
+      }
+  #qty_select {
+      border: solid #FF00BF;
+      border-width: 1px 1px;
+      border-radius:10px;
+      padding:0 5px;
+  }
+  #qty_selector button{
+    font-size: 20px;
+    color: #FF00BF;
+  }
+  .minus{
+    font-size: 35px;
+  }
+  .qty-input{
+    
+  }
+  
+      #qty_select:hover {
+          border-width:2px 2px;
+          box-shadow: 0 0 10px 2px rgba(13, 110, 253, 0.2);
+      }
