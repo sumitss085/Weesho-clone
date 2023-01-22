@@ -1,4 +1,3903 @@
 {
+
+  
+    "Allsarees": [
+      {
+        "id": 1,
+        "category": "Sarees",
+        "title": "WETLESS RAINBOW ZARI",
+        "original_price": 416,
+        "discounted_price": 316,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72024275/9cvk9_512.jpg",
+          "https://images.meesho.com/images/products/72349131/ndz0q_512.jpg",
+          "https://images.meesho.com/images/products/72349131/tzpv8_512.jpg",
+          "https://images.meesho.com/images/products/72349131/9dvpk_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.9,
+        "seller_id": 1
+      },
+      {
+        "id": 2,
+        "category": "Sarees",
+        "title": "SGI Fancy Heavy Daani",
+        "original_price": 314,
+        "discounted_price": 220,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72010202/dgemx_512.jpg",
+          "https://images.meesho.com/images/products/72010202/dgemx_512.jpg",
+          "https://images.meesho.com/images/products/72010202/dgemx_512.jpg",
+          "https://images.meesho.com/images/products/72010202/dgemx_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.4,
+        "seller_id": 2
+      },
+      {
+        "id": 3,
+        "category": "Sarees",
+        "title": "Kanchipuram Silk Orange",
+        "original_price": 676,
+        "discounted_price": 576,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72014181/r9xva_512.jpg",
+          "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.9,
+        "seller_id": 3
+      },
+      {
+        "id": 4,
+        "category": "Sarees",
+        "title": "RIDDHI IKKAT SILK",
+        "original_price": 553,
+        "discounted_price": 453,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72023366/vjm3z_512.jpg",
+          "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.6,
+        "seller_id": 4
+      },
+      {
+        "id": 1000,
+        "category": "Sarees",
+        "title": "WETLESS RAINBOW ZARI",
+        "original_price": 416,
+        "discounted_price": 316,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/70936079/u4dy8_512.jpg",
+          "https://images.meesho.com/images/products/71034092/jjcxa_64.jpg",
+          "https://images.meesho.com/images/products/71034092/1upja_64.jpg",
+          "https://images.meesho.com/images/products/71034092/aghvl_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.9,
+        "seller_id": 1
+      },
+      {
+        "id": 2000,
+        "category": "Sarees",
+        "title": "SGI Fancy Heavy Daani",
+        "original_price": 314,
+        "discounted_price": 220,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72023495/0z8o5_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.4,
+        "seller_id": 2
+      },
+      {
+        "id": 3000,
+        "category": "Sarees",
+        "title": "Kanchipuram Silk Orange",
+        "original_price": 676,
+        "discounted_price": 576,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72018123/wefkr_512.jpg",
+          "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.9,
+        "seller_id": 3
+      },
+      {
+        "id": 400,
+        "category": "Sarees",
+        "title": "RIDDHI IKKAT SILK",
+        "original_price": 553,
+        "discounted_price": 453,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72030501/zzijg_512.jpg",
+          "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.6,
+        "seller_id": 4
+      },
+      {
+        "id": 5,
+        "category": "Sarees",
+        "title": "Saree",
+        "original_price": 1273,
+        "discounted_price": 1173,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72175165/hbl6g_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.3,
+        "seller_id": 3
+      },
+      {
+        "id": 6,
+        "category": "Sarees",
+        "title": "Pink Designer Wedding",
+        "original_price": 1121,
+        "discounted_price": 1232,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72010452/nbsqo_512.jpg",
+          "https://images.meesho.com/images/products/71055066/uokx8_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.7,
+        "seller_id": 2
+      },
+      {
+        "id": 7,
+        "category": "Sarees",
+        "title": "Fashion Mall Presending",
+        "original_price": 667,
+        "discounted_price": 567,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72024251/e6k6p_512.jpg",
+          "https://images.meesho.com/images/products/71032690/vvdhy_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 4.2,
+        "seller_id": 4
+      },
+      {
+        "id": 8,
+        "category": "Sarees",
+        "title": "Beautiful heavy multy",
+        "original_price": 924,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72019874/kbohs_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 1.6,
+        "seller_id": 1
+      },
+      {
+        "id": 9,
+        "category": "Sarees",
+        "title": "raviraj Saree Brand",
+        "original_price": 1124,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72033418/9gv7j_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.4,
+        "seller_id": 2
+      },
+      {
+        "id": 10,
+        "category": "Sarees",
+        "title": "Khhan Saree",
+        "original_price": 700,
+        "discounted_price": 340,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/70936079/u4dy8_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.6,
+        "seller_id": 4
+      },
+      {
+        "id": 11,
+        "category": "Sarees",
+        "title": "J&T Attractive Georgein Printed Blouse",
+        "original_price": 448,
+        "discounted_price": 548,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72019321/cgljq_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.5,
+        "seller_id": 4
+      },
+      {
+        "id": 12,
+        "category": "Sarees",
+        "title": "RIDDHI IKKATe",
+        "original_price": 1653,
+        "discounted_price": 1553,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/51989371/oawjz_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 4.6,
+        "seller_id": 3
+      },
+      {
+        "id": 13,
+        "category": "Sarees",
+        "title": "WETLESS RAINBOW ZARI ",
+        "original_price": 816,
+        "discounted_price": 716,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72183566/kyjta_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.5,
+        "seller_id": 1
+      },
+      {
+        "id": 14,
+        "category": "Sarees",
+        "title": "New heavy Jaquard sarse",
+        "original_price": 567,
+        "discounted_price": 667,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72173354/rab2b_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.8,
+        "seller_id": 2
+      },
+      {
+        "id": 15,
+        "category": "Sarees",
+        "title": "SILVER MEENA616",
+        "original_price": 1653,
+        "discounted_price": 516,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/62841441/zedmv_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.9,
+        "seller_id": 3
+      },
+      {
+        "id": 16,
+        "category": "Sarees",
+        "title": "RIDDHI IKKATe",
+        "original_price": 553,
+        "discounted_price": 453,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/67193094/7b4ry_512.jpg",
+          "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.6,
+        "seller_id": 4
+      },
+      {
+        "id": 17,
+        "category": "Sarees",
+        "title": "WETLESS RAINBOW ZARI ",
+        "original_price": 416,
+        "discounted_price": 316,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/24979832/22b7d_512.jpg",
+          "https://images.meesho.com/images/products/71034092/jjcxa_64.jpg",
+          "https://images.meesho.com/images/products/71034092/1upja_64.jpg",
+          "https://images.meesho.com/images/products/71034092/aghvl_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 1.9,
+        "seller_id": 1
+      },
+      {
+        "id": 18,
+        "category": "Sarees",
+        "title": "SGI Fancy Heprice",
+        "original_price": 314,
+        "discounted_price": 220,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71056821/lzxnc_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 4.4,
+        "seller_id": 2
+      },
+      {
+        "id": 19,
+        "category": "Sarees",
+        "title": "Kanchipuram l_price",
+        "original_price": 676,
+        "discounted_price": 576,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/13118109/aabe0_512.jpg",
+          "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 4.3,
+        "seller_id": 3
+      },
+      {
+        "id": 20,
+        "category": "Sarees",
+        "title": "RIDDHI IKKATe",
+        "original_price": 553,
+        "discounted_price": 453,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72188763/jaw05_512.jpg",
+          "https://images.meesho.com/images/products/71044944/tvwam_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.6,
+        "seller_id": 4
+      },
+      {
+        "id": 21,
+        "category": "Sarees",
+        "title": "Pink Designer Weddingidery Work Bridal Saree Sari With Blouse Piece H005",
+        "original_price": 1121,
+        "discounted_price": 1232,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71055066/ij803_64.jpg",
+          "https://images.meesho.com/images/products/71055066/uokx8_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.7,
+        "seller_id": 2
+      },
+      {
+        "id": 22,
+        "category": "Sarees",
+        "title": "Fashion Mall Presendiwork Linen Saree.",
+        "original_price": 667,
+        "discounted_price": 567,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71032690/rb3ra_64.jpg",
+          "https://images.meesho.com/images/products/71032690/vvdhy_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 4.2,
+        "seller_id": 4
+      },
+      {
+        "id": 23,
+        "category": "Sarees",
+        "title": "Beautiful heavy multy",
+        "original_price": 924,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71055896/stej3_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 1.6,
+        "seller_id": 1
+      },
+      {
+        "id": 24,
+        "category": "Sarees",
+        "title": "raviraj Saree Brand lgn no -101",
+        "original_price": 1124,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 2.4,
+        "seller_id": 2
+      },
+      {
+        "id": 25,
+        "category": "Sarees",
+        "title": "Trendy Petite",
+        "original_price": 402,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/16400709/d0e53_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.4,
+        "seller_id": 2
+      },
+      {
+        "id": 26,
+        "category": "Sarees",
+        "title": "Charvi Pretty",
+        "original_price": 341,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/175128946/1k1bj_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 4.4,
+        "seller_id": 2
+      },
+      {
+        "id": 27,
+        "category": "Sarees",
+        "title": "Aagam Esem",
+        "original_price": 664,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/102496008/sr2jo_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.9,
+        "seller_id": 2
+      },
+      {
+        "id": 28,
+        "category": "Sarees",
+        "title": "Trendy Attraction",
+        "original_price": 785,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/67377158/c6kyi_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 4.1,
+        "seller_id": 2
+      },
+      {
+        "id": 29,
+        "category": "Sarees",
+        "title": "Jivika Gracefull",
+        "original_price": 1124,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/52013397/dccly_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating":3.8,
+        "seller_id": 2
+      },
+      {
+        "id": 30,
+        "category": "Sarees",
+        "title": "Adrika Attraction",
+        "original_price": 1124,
+        "discounted_price": 1024,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/135725613/yj3a8_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Chiffon",
+          "Pattern": "Self Design",
+          "Multipack": "Single",
+          "Description": "Best qaualtiy "
+        },
+        "rating": 3.4,
+        "seller_id": 2
+      }
+    ],
+
+    "JewellerySet": [
+      {
+        "id": 25,
+        "category": "Jewellery",
+        "title": "TRADTIONAL JWELLERY ",
+        "original_price": 224,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72031503/enap3_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.4,
+        "seller_id": 5
+      },
+      {
+        "id": 26,
+        "category": "Jewellery",
+        "title": "Bridal Pearl and Ston",
+        "original_price": 1024,
+        "discounted_price": 974,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72010876/n4q1c_512.jpg",
+          "https://images.meesho.com/images/products/71023711/rasws_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.4,
+        "seller_id": 6
+      },
+      {
+        "id": 27,
+        "category": "Jewellery",
+        "title": "TRADTIONAL JWELLERY",
+        "original_price": 924,
+        "discounted_price": 774,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71018901/t1fbp_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.2,
+        "seller_id": 7
+      },
+      {
+        "id": 28,
+        "category": "Jewellery",
+        "title": "LOCKET WITH Ent ",
+        "original_price": 1024,
+        "discounted_price": 974,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71023768/djf56_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.7,
+        "seller_id": 8
+      },
+      {
+        "id": 29,
+        "category": "Jewellery",
+        "title": "Elite Chunkyprice",
+        "original_price": 324,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71054834/xqybx_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.4,
+        "seller_id": 5
+      },
+      {
+        "id": 30,
+        "category": "Jewellery",
+        "title": "Feminine Gliiginal_price",
+        "original_price": 324,
+        "discounted_price": 274,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/69270612/7uwky_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 2.1,
+        "seller_id": 6
+      },
+      {
+        "id": 31,
+        "category": "Jewellery",
+        "title": "Green Oxidizce",
+        "original_price": 624,
+        "discounted_price": 574,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71057079/afppr_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.2,
+        "seller_id": 7
+      },
+      {
+        "id": 32,
+        "category": "Jewellery",
+        "title": "KISARA JEWELS OXIDISECK. Jewellery Set",
+        "original_price": 444,
+        "discounted_price": 384,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71046199/wg7r2_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.6,
+        "seller_id": 8
+      },
+      {
+        "id": 33,
+        "category": "Jewellery",
+        "title": "White Crystal",
+        "original_price": 325,
+        "discounted_price": 171,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71019152/9hk0d_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.1,
+        "seller_id": 6
+      },
+      {
+        "id": 34,
+        "category": "Jewellery",
+        "title": "Black Set Flower Girlg One Single Strand Simplle Necklace",
+        "original_price": 249,
+        "discounted_price": 177,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71040507/2ocm4_512.jpg",
+          "https://images.meesho.com/images/products/71040507/svmzd_64.jpg",
+          "https://images.meesho.com/images/products/71040507/lg02p_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.6,
+        "seller_id": 8
+      },
+      {
+        "id": 35,
+        "category": "Jewellery",
+        "title": "Feminine Colinal_price",
+        "original_price": 857,
+        "discounted_price": 782,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71050553/bmtd3_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.3,
+        "seller_id": 8
+      },
+      {
+        "id": 36,
+        "category": "Jewellery",
+        "title": "DESIGNED Jew",
+        "original_price": 294,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71025393/eqkjy_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 1.6,
+        "seller_id": 6
+      },
+      {
+        "id": 37,
+        "category": "Jewellery",
+        "title": "TRADTIONAL JWELLERY",
+        "original_price": 224,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71025367/nbc88_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.4,
+        "seller_id": 5
+      },
+      {
+        "id": 38,
+        "category": "Jewellery",
+        "title": "Bridal Pearl and Ston",
+        "original_price": 1024,
+        "discounted_price": 974,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71023711/fpoax_64.jpg",
+          "https://images.meesho.com/images/products/71023711/rasws_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.4,
+        "seller_id": 6
+      },
+      {
+        "id": 39,
+        "category": "Jewellery",
+        "title": "TRADTIONAL JWELLERY W",
+        "original_price": 924,
+        "discounted_price": 774,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71018901/t1fbp_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.2,
+        "seller_id": 7
+      },
+      {
+        "id": 40,
+        "category": "Jewellery",
+        "title": "LOCKET WITH E ",
+        "original_price": 1024,
+        "discounted_price": 974,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71023768/djf56_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.7,
+        "seller_id": 8
+      },
+      {
+        "id": 41,
+        "category": "Jewellery",
+        "title": "Elite Chunkyprice",
+        "original_price": 324,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71054834/xqybx_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.4,
+        "seller_id": 5
+      },
+      {
+        "id": 42,
+        "category": "Jewellery",
+        "title": "Feminine Gliiginal_price",
+        "original_price": 324,
+        "discounted_price": 274,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/69270612/7uwky_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 2.1,
+        "seller_id": 6
+      },
+      {
+        "id": 43,
+        "category": "Jewellery",
+        "title": "Green Oxidizce",
+        "original_price": 624,
+        "discounted_price": 574,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71057079/afppr_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.2,
+        "seller_id": 7
+      },
+      {
+        "id": 44,
+        "category": "Jewellery",
+        "title": "KISARA JEWELS OXIDISECK. Jewellery Set",
+        "original_price": 444,
+        "discounted_price": 384,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71046199/wg7r2_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.6,
+        "seller_id": 8
+      },
+      {
+        "id": 45,
+        "category": "Jewellery",
+        "title": "White Crystal f ",
+        "original_price": 325,
+        "discounted_price": 171,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71019152/9hk0d_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.1,
+        "seller_id": 6
+      },
+      {
+        "id": 46,
+        "category": "Jewellery",
+        "title": "Black Set Flower Girlg One Single Strand Simplle Necklace",
+        "original_price": 249,
+        "discounted_price": 177,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71040507/2ocm4_512.jpg",
+          "https://images.meesho.com/images/products/71040507/svmzd_64.jpg",
+          "https://images.meesho.com/images/products/71040507/lg02p_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.6,
+        "seller_id": 8
+      },
+      {
+        "id": 47,
+        "category": "Jewellery",
+        "title": "Feminine Colinal_price",
+        "original_price": 857,
+        "discounted_price": 782,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71050553/bmtd3_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.3,
+        "seller_id": 8
+      },
+      {
+        "id": 48,
+        "category": "Jewellery",
+        "title": "DESIGNED Jew",
+        "original_price": 294,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71025393/eqkjy_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 1.6,
+        "seller_id": 6
+      }
+      ,
+      {
+        "id": 49,
+        "category": "Jewellery",
+        "title": "Princess Fusion",
+        "original_price": 243,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/138458360/8q2w8_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.0,
+        "seller_id": 6
+      }
+      ,
+      {
+        "id": 50,
+        "category": "Jewellery",
+        "title": "Feminine Fusion",
+        "original_price": 161,
+        "discounted_price": 154,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/165510540/4uxmi_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.0,
+        "seller_id": 6
+      }
+      ,
+      {
+        "id": 51,
+        "category": "Jewellery",
+        "title": "Diva Chunky",
+        "original_price": 312,
+        "discounted_price": 110,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/93951837/iwvwe_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.6,
+        "seller_id": 6
+      }
+      ,
+      {
+        "id": 52,
+        "category": "Jewellery",
+        "title": "Allure Glitterings",
+        "original_price": 194,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/156120646/ji3f1_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.6,
+        "seller_id": 6
+      }
+      ,
+      {
+        "id": 53,
+        "category": "Jewellery",
+        "title": "Shimmering Glitter",
+        "original_price": 294,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/150982179/4kqvl_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.9,
+        "seller_id": 6
+      },
+      {
+        "id": 54,
+        "category": "Jewellery",
+        "title": "Shimmering Glitter",
+        "original_price": 177,
+        "discounted_price": 201,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/50282017/uza0m_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 4.3,
+        "seller_id": 6
+      },
+      {
+        "id": 55,
+        "category": "Jewellery",
+        "title": "Shimmering Glitter",
+        "original_price": 290,
+        "discounted_price": 174,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/144768347/t6tgq_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.9,
+        "seller_id": 6
+      },
+      {
+        "id": 56,
+        "category": "Jewellery",
+        "title": "Feminine Glitter",
+        "original_price": 306,
+        "discounted_price": 233,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/120098585/t7mq7_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Brass",
+          "Pattern": "Micro Plating",
+          "Multipack": "Artificial Stones & Beads",
+          "Description": "Adjustable"
+        },
+        "rating": 3.3,
+        "seller_id": 6
+      }
+    ],
+
+    "Dresses": [
+      {
+        "id": 49,
+        "category": "Dresses",
+        "title": "Women's Dress",
+        "original_price": 284,
+        "discounted_price": 174,
+        "sizes": ["XL"],
+        "images": [
+          "https://images.meesho.com/images/products/72027801/phtmj_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 1.6,
+        "seller_id": 9
+      },
+      {
+        "id": 50,
+        "category": "Dresses",
+        "title": "PILI PATTI & BLUE",
+        "original_price": 560,
+        "discounted_price": 460,
+        "sizes": ["S", "XL", "L", "M", "XXL"],
+        "images": [
+          "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 10
+      },
+      {
+        "id": 51,
+        "category": "Dresses",
+        "title": "WOMEN BEAUTInal_price",
+        "original_price": 394,
+        "discounted_price": 294,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 11
+      },
+      {
+        "id": 52,
+        "category": "Dresses",
+        "title": "Dress",
+        "original_price": 1200,
+        "discounted_price": 960,
+        "sizes": ["M"],
+        "images": [
+          "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 12
+      },
+      {
+        "id": 53,
+        "category": "Dresses",
+        "title": "Women's Dress",
+        "original_price": 284,
+        "discounted_price": 174,
+        "sizes": ["XL"],
+        "images": [
+          "https://images.meesho.com/images/products/72026090/ezumf_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 1.6,
+        "seller_id": 9
+      },
+      {
+        "id": 54,
+        "category": "Dresses",
+        "title": "PILI PATTI & BLUE",
+        "original_price": 560,
+        "discounted_price": 460,
+        "sizes": ["S", "XL", "L", "M", "XXL"],
+        "images": [
+          "https://images.meesho.com/images/products/72022593/wufw8_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 10
+      },
+      {
+        "id": 55,
+        "category": "Dresses",
+        "title": "WOMEN BEAUTInal_price",
+        "original_price": 394,
+        "discounted_price": 294,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72023538/qzcla_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 11
+      },
+      {
+        "id": 56,
+        "category": "Dresses",
+        "title": "Dress",
+        "original_price": 1273,
+        "discounted_price": 960,
+        "sizes": ["M"],
+        "images": [
+          "https://images.meesho.com/images/products/72031911/hrem2_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 12
+      },
+      {
+        "id": 57,
+        "category": "Dresses",
+        "title": "Women's Dress",
+        "original_price": 284,
+        "discounted_price": 174,
+        "sizes": ["XL"],
+        "images": [
+          "https://images.meesho.com/images/products/72020900/cfhug_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 1.6,
+        "seller_id": 9
+      },
+      {
+        "id": 58,
+        "category": "Dresses",
+        "title": "PILI PATTI & BLUE",
+        "original_price": 560,
+        "discounted_price": 460,
+        "sizes": ["S", "XL", "L", "M", "XXL"],
+        "images": [
+          "https://images.meesho.com/images/products/72026427/j9soh_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 10
+      },
+      {
+        "id": 59,
+        "category": "Dresses",
+        "title": "WOMEN BEAUTInal_price",
+        "original_price": 394,
+        "discounted_price": 294,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/72022557/tgcer_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 11
+      },
+      {
+        "id": 60,
+        "category": "Dresses",
+        "title": "Dress",
+        "original_price": 1160,
+        "discounted_price": 960,
+        "sizes": ["M"],
+        "images": [
+          "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 12
+      },
+      {
+        "id": 61,
+        "category": "Dresses",
+        "title": "Women's Dress",
+        "original_price": 1160,
+        "discounted_price": 174,
+        "sizes": ["XL"],
+        "images": [
+          "https://images.meesho.com/images/products/72020511/6gbz0_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 1.6,
+        "seller_id": 9
+      },
+      {
+        "id": 62,
+        "category": "Dresses",
+        "title": "PILI PATTI & BLUE",
+        "original_price": 560,
+        "discounted_price": 460,
+        "sizes": ["S", "XL", "L", "M", "XXL"],
+        "images": [
+          "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 10
+      },
+      {
+        "id": 63,
+        "category": "Dresses",
+        "title": "WOMEN BEAUTInal_price",
+        "original_price": 394,
+        "discounted_price": 294,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 11
+      },
+      {
+        "id": 64,
+        "category": "Dresses",
+        "title": "Dress",
+        "original_price": 2000,
+        "discounted_price": 960,
+        "sizes": ["M"],
+        "images": [
+          "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 12
+      },
+      {
+        "id": 65,
+        "category": "Dresses",
+        "title": "Women's Dress",
+        "original_price": 284,
+        "discounted_price": 174,
+        "sizes": ["XL"],
+        "images": [
+          "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 1.6,
+        "seller_id": 9
+      },
+      {
+        "id": 66,
+        "category": "Dresses",
+        "title": "PILI PATTI & BLUE",
+        "original_price": 560,
+        "discounted_price": 460,
+        "sizes": ["S", "XL", "L", "M", "XXL"],
+        "images": [
+          "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 10
+      },
+      {
+        "id": 67,
+        "category": "Dresses",
+        "title": "WOMEN BEAUTInal_price",
+        "original_price": 394,
+        "discounted_price": 294,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 11
+      },
+      {
+        "id": 68,
+        "category": "Dresses",
+        "title": "Dress",
+        "original_price": 1273,
+        "discounted_price": 960,
+        "sizes": ["M"],
+        "images": [
+          "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 12
+      },
+      {
+        "id": 69,
+        "category": "Dresses",
+        "title": "Women's Dress",
+        "original_price": 399,
+        "discounted_price": 174,
+        "sizes": ["XL"],
+        "images": [
+          "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 1.6,
+        "seller_id": 9
+      },
+      {
+        "id": 70,
+        "category": "Dresses",
+        "title": "PILI PATTI & BLUE",
+        "original_price": 560,
+        "discounted_price": 460,
+        "sizes": ["S", "XL", "L", "M", "XXL"],
+        "images": [
+          "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 10
+      },
+      {
+        "id": 71,
+        "category": "Dresses",
+        "title": "WOMEN BEAUTInal_price",
+        "original_price": 394,
+        "discounted_price": 294,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 11
+      },
+      {
+        "id": 72,
+        "category": "Dresses",
+        "title": "Dress",
+        "original_price": 1273,
+        "discounted_price": 960,
+        "sizes": ["M"],
+        "images": [
+          "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 12
+      }
+    ],
+
+    "AllTopWear": [
+      {
+        "id": 73,
+        "category": "Mens Top Were",
+        "title": "Trendy Fashil_price",
+        "original_price": 416,
+        "discounted_price": 316,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/63508767/wukoz_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4,
+        "seller_id": 12
+      },
+      {
+        "id": 74,
+        "category": "Mens Top Were",
+        "title": "Trendy Glamoprice",
+        "original_price": 416,
+        "discounted_price": 316,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/66279137/qtgpw_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 5,
+        "seller_id": 12
+      },
+      {
+        "id": 75,
+        "category": "Mens Top Were",
+        "title": "Classic Glam_price",
+        "original_price": 331,
+        "discounted_price": 216,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/15192112/85caa_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3,
+        "seller_id": 12
+      },
+      {
+        "id": 76,
+        "category": "Mens Top Were",
+        "title": "Classic Solid",
+        "original_price": 423,
+        "discounted_price": 326,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/12502475/19206_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3,
+        "seller_id": 12
+      },
+      {
+        "id": 77,
+        "category": "Mens Top Were",
+        "title": "Stylish Casul_price",
+        "original_price": 496,
+        "discounted_price": 396,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/65687648/souou_512.jpg",
+          "https://images.meesho.com/images/products/65687648/souou_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3,
+        "seller_id": 12
+      },
+      {
+        "id": 78,
+        "category": "Mens Top Were",
+        "title": "Trendy Men T472",
+        "original_price": 499,
+        "discounted_price": 376,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/22366620/c3138_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4,
+        "seller_id": 12
+      },
+      {
+        "id": 79,
+        "category": "Mens Top Were",
+        "title": "Mens Tshirt",
+        "original_price": 354,
+        "discounted_price": 254,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/33884328/qow7z_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4,
+        "seller_id": 12
+      },
+      {
+        "id": 80,
+        "category": "Mens Top Were",
+        "title": "Mens cotton original_price",
+        "original_price": 465,
+        "discounted_price": 337,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/67181538/cn8tq_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 5,
+        "seller_id": 12
+      },
+      {
+        "id": 81,
+        "category": "Mens Top Were",
+        "title": "Black Royal price",
+        "original_price": 286,
+        "discounted_price": 200,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/59377590/tnjnx_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 2,
+        "seller_id": 12
+      },
+      {
+        "id": 82,
+        "category": "Mens Top Were",
+        "title": "Stylish Strip Pattern",
+        "original_price": 416,
+        "discounted_price": 316,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/71022916/tcu4d_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Sleeve Length": "Long Sleeves",
+          "Multipack": 1,
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 5,
+        "seller_id": 12
+      },
+      {
+        "id": 83,
+        "category": "Mens Top Were",
+        "title": "Trendy Moderice",
+        "original_price": 500,
+        "discounted_price": 300,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/71379785/ctv0g_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3,
+        "seller_id": 12
+      },
+      {
+        "id": 84,
+        "category": "Mens Top Were",
+        "title": "Trendy Moderice",
+        "original_price": 500,
+        "discounted_price": 300,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/72154709/zmdzd_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3,
+        "seller_id": 12
+      },
+      {
+        "id": 85,
+        "category": "Mens Top Were",
+        "title": "Trendy Designer",
+        "original_price": 729,
+        "discounted_price": 300,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/52286318/obyaq_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.1,
+        "seller_id": 12
+      },
+      {
+        "id": 86,
+        "category": "Mens Top Were",
+        "title": "Trendy Ravishing",
+        "original_price": 433,
+        "discounted_price": 300,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/43917155/fyom4_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.2,
+        "seller_id": 12
+      },
+      {
+        "id": 87,
+        "category": "Mens Top Were",
+        "title": "Uraban Modern",
+        "original_price": 564,
+        "discounted_price": 564,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/153476803/to79r_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 12
+      },
+      {
+        "id": 88,
+        "category": "Mens Top Were",
+        "title": "Trendy Designer",
+        "original_price": 306,
+        "discounted_price": 306,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/46544357/lstjr_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      },
+      {
+        "id": 89,
+        "category": "Mens Top Were",
+        "title": "Comfy Latest",
+        "original_price": 221,
+        "discounted_price": 221,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/163404415/95koh_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.8,
+        "seller_id": 12
+      },
+      {
+        "id": 90,
+        "category": "Mens Top Were",
+        "title": "Fancy Moderice",
+        "original_price": 583,
+        "discounted_price": 583,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/175789915/np55m_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 91,
+        "category": "Mens Top Were",
+        "title": "Comfy Latest",
+        "original_price": 359,
+        "discounted_price": 359,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/162267491/6shbm_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      },
+      {
+        "id": 92,
+        "category": "Mens Top Were",
+        "title": "Fancy Moderice",
+        "original_price": 583,
+        "discounted_price": 583,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/175789915/np55m_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 93,
+        "category": "Mens Top Were",
+        "title": "Classic Moderice",
+        "original_price": 504,
+        "discounted_price": 504,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/142481582/gbwtg_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.8,
+        "seller_id": 12
+      },
+      {
+        "id": 94,
+        "category": "Mens Top Were",
+        "title": "Trendy Glamoprice",
+        "original_price": 322,
+        "discounted_price": 322,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/161848931/fqwag_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.7,
+        "seller_id": 12
+      },
+      {
+        "id": 95,
+        "category": "Mens Top Were",
+        "title": "Fancy Latest",
+        "original_price": 187,
+        "discounted_price": 187,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/149276696/ci7ev_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.0,
+        "seller_id": 12
+      },
+      {
+        "id": 96,
+        "category": "Mens Top Were",
+        "title": "Comfy partyware",
+        "original_price": 213,
+        "discounted_price": 213,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/54636254/7jjtw_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 97,
+        "category": "Mens Top Were",
+        "title": "Classic Solid",
+        "original_price": 224,
+        "discounted_price": 224,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/68666627/uiom0_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 12
+      },
+      {
+        "id": 98,
+        "category": "Mens Top Were",
+        "title": "Comfy Designeries",
+        "original_price": 189,
+        "discounted_price": 189,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/94313368/leuc2_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.8,
+        "seller_id": 12
+      },
+      {
+        "id": 99,
+        "category": "Mens Top Were",
+        "title": "Comfy Fashion",
+        "original_price": 422,
+        "discounted_price": 422,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/146468355/1bup3_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.8,
+        "seller_id": 12
+      },
+      {
+        "id": 100,
+        "category": "Mens Top Were",
+        "title": "Comfy Designeries",
+        "original_price": 269,
+        "discounted_price": 269,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/165059423/unr1g_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.3,
+        "seller_id": 12
+      },
+      {
+        "id": 101,
+        "category": "Mens Top Were",
+        "title": "Urbane Designeries",
+        "original_price": 493,
+        "discounted_price": 493,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/60268283/3husi_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.7,
+        "seller_id": 12
+      },
+      {
+        "id": 102,
+        "category": "Mens Top Were",
+        "title": "Classic Glam_price",
+        "original_price": 453,
+        "discounted_price": 453,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/72271365/qw0nh_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.1,
+        "seller_id": 12
+      },
+      {
+        "id": 103,
+        "category": "Mens Top Were",
+        "title": "Comfy Designeries",
+        "original_price": 195,
+        "discounted_price": 195,
+        "sizes": ["M", "L", "XL"],
+        "images": [
+          "https://images.meesho.com/images/products/170302024/gksax_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Solid",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      }
+    ],
+
+    "Beauty and health": [
+      {
+        "id": 84,
+        "category": "Beauty and health",
+        "title": "gans play,walk,fly anrant & Fragrances",
+        "original_price": 767,
+        "discounted_price": 667,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/70234561/cw8vv_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 4.1,
+        "seller_id": 12
+      },
+      {
+        "id": 85,
+        "category": "Beauty and health",
+        "title": "Beardo SPY Perfume Bot & Fragrances",
+        "original_price": 490,
+        "discounted_price": 390,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/70702124/nwgmd_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 5,
+        "seller_id": 12
+      },
+      {
+        "id": 86,
+        "category": "Beauty and health",
+        "title": "Fogg amaze and charm",
+        "original_price": 305,
+        "discounted_price": 214,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/70640576/4dwes_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.6,
+        "seller_id": 12
+      },
+      {
+        "id": 87,
+        "category": "Beauty and health",
+        "title": "Sensational Natu",
+        "original_price": 194,
+        "discounted_price": 136,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/61990959/gi0zg_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.3,
+        "seller_id": 12
+      },
+      {
+        "id": 88,
+        "category": "Beauty and health",
+        "title": "DENVER Hamilton Gift",
+        "original_price": 399,
+        "discounted_price": 299,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/66514307/gr5gv_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 4,
+        "seller_id": 12
+      },
+      {
+        "id": 89,
+        "category": "Beauty and health",
+        "title": "Wow Vitamin ",
+        "original_price": 493,
+        "discounted_price": 393,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/71051073/c8nwu_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 90,
+        "category": "Beauty and health",
+        "title": "Original Swiss",
+        "original_price": 183,
+        "discounted_price": 129,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/71030282/vbba3_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.3,
+        "seller_id": 12
+      },
+      {
+        "id": 91,
+        "category": "Beauty and health",
+        "title": "AKilli Teeth Whiteninder",
+        "original_price": 310,
+        "discounted_price": 217,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/2668142/1_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 92,
+        "category": "Beauty and health",
+        "title": "Oral Tongue Cleanr",
+        "original_price": 182,
+        "discounted_price": 119,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/61022657/ewsm4_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 5,
+        "seller_id": 12
+      },
+      {
+        "id": 93,
+        "category": "Beauty and health",
+        "title": "nail paint",
+        "original_price": "120",
+        "discounted_price": 60,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/70867248/kuynn_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 2.5,
+        "seller_id": 12
+      },
+      {
+        "id": 94,
+        "category": "Beauty and health",
+        "title": "Premium combinal_price",
+        "original_price": 194,
+        "discounted_price": 136,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/70586121/mxn5l_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 95,
+        "category": "Beauty and health",
+        "title": "Flower musicrice",
+        "original_price": 115,
+        "discounted_price": 73,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/59419044/fnkqp_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 96,
+        "category": "Beauty and health",
+        "title": "Sensational Bridal set",
+        "original_price": 149,
+        "discounted_price": 149,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/166870961/jbwk7_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      },
+      {
+        "id": 97,
+        "category": "New Face Mask",
+        "title": "Flower musicrice",
+        "original_price": 160,
+        "discounted_price": 160,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/143118919/irmuq_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.7,
+        "seller_id": 12
+      },
+      {
+        "id": 98,
+        "category": "Sensational Re",
+        "title": "Modicare Schloka",
+        "original_price": 115,
+        "discounted_price": 73,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/130758174/oolmt_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Modicare Schloka Moroccan Argan Oil Cleanser (200ml)"
+        },
+        "rating": 4.4,
+        "seller_id": 12
+      },
+      {
+        "id": 99,
+        "category": "Beauty and health",
+        "title": "Flower musicrice",
+        "original_price": 115,
+        "discounted_price": 73,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/168129916/md4vr_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 100,
+        "category": "Beauty and health",
+        "title": "Classy eye",
+        "original_price": 216,
+        "discounted_price": 216,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/129880439/ae8xb_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.6,
+        "seller_id": 12
+      },
+      {
+        "id": 101,
+        "category": "Beauty and health",
+        "title": "Everyday eye",
+        "original_price": 145,
+        "discounted_price": 145,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/110025667/7ylzw_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      },
+      {
+        "id": 102,
+        "category": "Beauty and health",
+        "title": "Unique eye",
+        "original_price": 224,
+        "discounted_price": 224,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/102420755/gtfso_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.7,
+        "seller_id": 12
+      },
+      {
+        "id": 103,
+        "category": "Beauty and health",
+        "title": "Fancy eye Mask",
+        "original_price": 201,
+        "discounted_price": 73,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/134129056/sp9f3_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      },
+      {
+        "id": 104,
+        "category": "Beauty and health",
+        "title": "Classy eye",
+        "original_price": 115,
+        "discounted_price": 73,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/151693447/rrr6c_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.2,
+        "seller_id": 12
+      },
+      {
+        "id": 105,
+        "category": "Beauty and health",
+        "title": "Superior Refresh",
+        "original_price": 358,
+        "discounted_price": 358,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/19726317/e7tjr_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.7,
+        "seller_id": 12
+      },
+      {
+        "id": 106,
+        "category": "Beauty and health",
+        "title": "Superior Fragrence",
+        "original_price": 230,
+        "discounted_price": 230,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/141537104/r15zs_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 4,
+        "seller_id": 12
+      },
+      {
+        "id": 107,
+        "category": "Beauty and health",
+        "title": "Sensational Refresh",
+        "original_price": 324,
+        "discounted_price": 453,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/19723597/5fsck_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.6,
+        "seller_id": 12
+      },
+      {
+        "id": 108,
+        "category": "Beauty and health",
+        "title": "Essestial Deodorants",
+        "original_price": 346,
+        "discounted_price": 456,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/88147444/55ame_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 4.2,
+        "seller_id": 12
+      },
+      {
+        "id": 109,
+        "category": "Beauty and health",
+        "title": "Premium Natural",
+        "original_price": 326,
+        "discounted_price": 444,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/135236676/khl4x_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 110,
+        "category": "Beauty and health",
+        "title": "Professional Refresh",
+        "original_price": 151,
+        "discounted_price": 223,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/135877647/v5unk_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.0,
+        "seller_id": 12
+      },
+      {
+        "id": 111,
+        "category": "Beauty and health",
+        "title": "Sweet Honey",
+        "original_price": 245,
+        "discounted_price": 753,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/51384430/gwqjd_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 4.2,
+        "seller_id": 12
+      },
+      {
+        "id": 112,
+        "category": "Beauty and health",
+        "title": "Wild Stone",
+        "original_price": 213,
+        "discounted_price": 655,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/113659703/epapz_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 3.3,
+        "seller_id": 12
+      },
+      {
+        "id": 113,
+        "category": "Beauty and health",
+        "title": "Sensational Refresh",
+        "original_price": 148,
+        "discounted_price": 179,
+        "sizes": "Free Size",
+        "images": [
+          "https://images.meesho.com/images/products/149785374/w1mpx_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Deodrent",
+          "Pattern": "Liquid Spray",
+          "Multipack": "200ml",
+          "description": "Park Avenue Pvt Ltd"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      }
+    ],
+
+    "AllMenBags": [
+      {
+        "id": 96,
+        "category": "Bags and Footwear",
+        "title": "sew magic pure leathe",
+        "original_price": 1168,
+        "discounted_price": 1068,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71026958/6ajve_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 2.5,
+        "seller_id": 12
+      },
+      {
+        "id": 97,
+        "category": "Bags and Footwear",
+        "title": "Ladies Juti",
+        "original_price": 240,
+        "discounted_price": 168,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71006705/2ic9e_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 4,
+        "seller_id": 12
+      },
+      {
+        "id": 98,
+        "category": "Bags and Footwear",
+        "title": "Aadab Fabulonal_price",
+        "original_price": 750,
+        "discounted_price": 650,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71046310/kycun_512.jpg",
+          "https://images.meesho.com/images/products/71046310/hl2cy_512.jpg",
+          "https://images.meesho.com/images/products/71046310/vg8x1_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 99,
+        "seller_id": 12
+      },
+      {
+        "id": 100,
+        "category": "Bags and Footwear",
+        "title": "SOCKS Runninrice",
+        "original_price": 511,
+        "discounted_price": 411,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71022212/t0pnm_512.jpg",
+          "https://images.meesho.com/images/products/71022212/uyysv_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 4.5,
+        "seller_id": 12
+      },
+      {
+        "id": 101,
+        "category": "Bags and Footwear",
+        "title": "Liberty Force 10 MensN-1E",
+        "original_price": 995,
+        "discounted_price": 895,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71020315/funov_512.jpg",
+          "https://images.meesho.com/images/products/71020315/7rj1z_512.jpg",
+          "https://images.meesho.com/images/products/71020315/a96e7_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 3.7,
+        "seller_id": 12
+      },
+      {
+        "id": 102,
+        "category": "Bags and Footwear",
+        "title": "BELLO MEN'S",
+        "original_price": 501,
+        "discounted_price": 401,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71053557/7tu5k_512.jpg",
+          "https://images.meesho.com/images/products/71053557/xh80a_512.jpg",
+          "https://images.meesho.com/images/products/71053557/d7y7y_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 4.2,
+        "seller_id": 12
+      },
+      {
+        "id": 103,
+        "category": "Bags and Footwear",
+        "title": "Elegant Fashiginal_price",
+        "original_price": 800,
+        "discounted_price": 700,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71029571/ulrdl_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 104,
+        "category": "Bags and Footwear",
+        "title": "ELETTIVO LUXe",
+        "original_price": 524,
+        "discounted_price": 424,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71053229/5fk3t_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 3.6,
+        "seller_id": 12
+      },
+      {
+        "id": 105,
+        "category": "Bags and Footwear",
+        "title": "PREMIUM HAND",
+        "original_price": 544,
+        "discounted_price": 364,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71051194/1fclf_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 5,
+        "seller_id": 12
+      },
+      {
+        "id": 106,
+        "category": "Bags and Footwear",
+        "title": "Bag Pack",
+        "original_price": 450,
+        "discounted_price": 350,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/70975736/rdjil_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 107,
+        "category": "Bags and Footwear",
+        "title": "Large 35 L Backpack",
+        "original_price": 424,
+        "discounted_price": 300,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/70992655/00aan_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 4.2,
+        "seller_id": 12
+      },
+      {
+        "id": 108,
+        "category": "Bags and Footwear",
+        "title": "BIRJIS STYLISH LIGHTWBAG 25 LTRS",
+        "original_price": 399,
+        "discounted_price": 299,
+        "sizes": ["IND-8", "IND-9", "IND-10", "IND-12"],
+        "images": [
+          "https://images.meesho.com/images/products/71008719/fbhox_512.jpg",
+          "https://images.meesho.com/images/products/71008719/vbuqu_512.jpg",
+          "https://images.meesho.com/images/products/71008719/hnr4t_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Sweat Leather",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice",
+          "description": "ZARA pure Leather"
+        },
+        "rating": 5.0,
+        "seller_id": 12
+      }
+    ],
+
+    "AllHomeDecor": [
+      {
+        "id": 109,
+        "category": "Home and Kitchen",
+        "title": "Cotton Kids original_price",
+        "original_price": 1250,
+        "discounted_price": 1000,
+        "sizes": ["Quen", "Single bed", "Dobble bed"],
+        "images": [
+          "https://images.meesho.com/images/products/23863364/2aaa1_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 110,
+        "category": "Home and Kitchen",
+        "title": "Indian Glace Cotton",
+        "original_price": 1350,
+        "discounted_price": 1200,
+        "sizes": ["Quen", "Single bed", "Dobble bed"],
+        "images": [
+          "https://images.meesho.com/images/products/16361047/2b30c_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.5,
+        "seller_id": 12
+      },
+      {
+        "id": 111,
+        "category": "Home and Kitchen",
+        "title": "Trendy Attraprice",
+        "original_price": 725,
+        "discounted_price": 700,
+        "sizes": ["Quen", "Single bed", "Dobble bed"],
+        "images": [
+          "https://images.meesho.com/images/products/61232836/9gfeg_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.0,
+        "seller_id": 12
+      },
+      {
+        "id": 112,
+        "category": "Home and Kitchen",
+        "title": "Handloom Eyelet Polye 2)(white)",
+        "original_price": 500,
+        "discounted_price": 412,
+        "sizes": ["Quen", "Single bed", "Dobble bed"],
+        "images": [
+          "https://images.meesho.com/images/products/71036999/1cj49_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 113,
+        "category": "Home and Kitchen",
+        "title": "Handloom Polyester Doack of 2",
+        "original_price": 899,
+        "discounted_price": 699,
+        "sizes": ["Quen", "Single bed", "Dobble bed"],
+        "images": [
+          "https://images.meesho.com/images/products/71054096/skou8_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.0,
+        "seller_id": 12
+      },
+      {
+        "id": 114,
+        "category": "Home and Kitchen",
+        "title": "Handloom Polyester Doolor Pack of 2",
+        "original_price": 2999,
+        "discounted_price": 2599,
+        "sizes": ["Quen", "Single bed", "Dobble bed"],
+        "images": [
+          "https://images.meesho.com/images/products/71053569/vyjdf_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 5.0,
+        "seller_id": 12
+      },
+      {
+        "id": 115,
+        "category": "Home and Kitchen",
+        "title": "Colorful Relinal_price",
+        "original_price": 399,
+        "discounted_price": 250,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/25323660/6ebe2_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.0,
+        "seller_id": 12
+      },
+      {
+        "id": 116,
+        "category": "Home and Kitchen",
+        "title": "Home decorat",
+        "original_price": 799,
+        "discounted_price": 666,
+        "sizes": ["Free size"],
+        "images": [
+          "https://images.meesho.com/images/products/35623500/cuems_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.5,
+        "seller_id": 12
+      },
+      {
+        "id": 117,
+        "category": "Home and Kitchen",
+        "title": "Useful Furni : 699",
+        "original_price": 699,
+        "discounted_price": 599,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/3976995/1_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.0,
+        "seller_id": 12
+      },
+      {
+        "id": 118,
+        "category": "Home and Kitchen",
+        "title": "Elite Power 100",
+        "original_price": 1199,
+        "discounted_price": 999,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/43456458/4l28f_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 119,
+        "category": "Home and Kitchen",
+        "title": "Cello Mark Stai",
+        "original_price": 1220,
+        "discounted_price": 1000,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71022084/iesy9_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 5.0,
+        "seller_id": 12
+      },
+      {
+        "id": 120,
+        "category": "Home and Kitchen",
+        "title": "Jar & Contai",
+        "original_price": 1199,
+        "discounted_price": 899,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71043971/js0s9_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.0,
+        "seller_id": 12
+      },
+      {
+        "id": 121,
+        "category": "Home and Kitchen",
+        "title": "TV setup",
+        "original_price": 575,
+        "discounted_price": 575,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/8132640/85456_400.jpg"
+        ],
+        "details": {
+          "Fabric": "TV",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 122,
+        "category": "Home and Kitchen",
+        "title": "home decor",
+        "original_price": 1199,
+        "discounted_price": 899,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/30851106/83a28_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 123,
+        "category": "Home and Kitchen",
+        "title": "Classy Unisex",
+        "original_price": 333,
+        "discounted_price": 456,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/24639995/08ec2_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.7,
+        "seller_id": 12
+      },
+      {
+        "id": 124,
+        "category": "Home and Kitchen",
+        "title": "Fabulous Dreams",
+        "original_price": 435,
+        "discounted_price": 543,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/22981840/2aa91_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.8,
+        "seller_id": 12
+      },
+      {
+        "id": 125,
+        "category": "Home and Kitchen",
+        "title": "Designer Home",
+        "original_price": 214,
+        "discounted_price": 234,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/24344852/167d3_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      },
+      {
+        "id": 126,
+        "category": "Home and Kitchen",
+        "title": "Unique and claiber",
+        "original_price": 214,
+        "discounted_price": 234,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/6383517/de278_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.2,
+        "seller_id": 12
+      },
+      {
+        "id": 127,
+        "category": "Home and Kitchen",
+        "title": "Home lights",
+        "original_price": 378,
+        "discounted_price": 443,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/26223926/0875f_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.2,
+        "seller_id": 12
+      },
+      {
+        "id": 128,
+        "category": "Home and Kitchen",
+        "title": "Designer Home",
+        "original_price": 309,
+        "discounted_price": 309,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/31113222/4a54d_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.6,
+        "seller_id": 12
+      },
+      {
+        "id": 129,
+        "category": "Home and Kitchen",
+        "title": "Designer Home",
+        "original_price": 400,
+        "discounted_price": 400,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/35450824/abbai_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 130,
+        "category": "Home and Kitchen",
+        "title": "Home decor",
+        "original_price": 588,
+        "discounted_price": 612,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/35651552/gonbk_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      },
+      {
+        "id": 131,
+        "category": "Home and Kitchen",
+        "title": "Classic decor",
+        "original_price": 446,
+        "discounted_price": 612,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/29321034/aedbb_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.0,
+        "seller_id": 12
+      },
+      {
+        "id": 132,
+        "category": "Home and Kitchen",
+        "title": "Fancy home decor",
+        "original_price": 322,
+        "discounted_price": 435,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/35628969/nerd2_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.9,
+        "seller_id": 12
+      },
+      {
+        "id": 133,
+        "category": "Home and Kitchen",
+        "title": "Home decor",
+        "original_price": 588,
+        "discounted_price": 612,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/35665245/1uxyz_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.1,
+        "seller_id": 12
+      },
+      {
+        "id": 134,
+        "category": "Home and Kitchen",
+        "title": "Decor mats",
+        "original_price": 979,
+        "discounted_price": 979,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/22275758/88b89_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.5,
+        "seller_id": 12
+      },
+      {
+        "id": 135,
+        "category": "Home and Kitchen",
+        "title": "Elite Party ",
+        "original_price": 200,
+        "discounted_price": 166,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/34731397/nvfch_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.1,
+        "seller_id": 12
+      },
+      {
+        "id": 136,
+        "category": "Home and Kitchen",
+        "title": "Classic Dreams ",
+        "original_price": 362,
+        "discounted_price": 166,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/24639724/2eade_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.3,
+        "seller_id": 12
+      },
+      {
+        "id": 137,
+        "category": "Home and Kitchen",
+        "title": "Classic Dreams",
+        "original_price": 344,
+        "discounted_price": 166,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/24640319/83ccb_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 3.5,
+        "seller_id": 12
+      },
+      {
+        "id": 138,
+        "category": "Home and Kitchen",
+        "title": "Latest decor",
+        "original_price": 999,
+        "discounted_price": 456,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/29330562/2a949_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.1,
+        "seller_id": 12
+      },
+      {
+        "id": 139,
+        "category": "Home and Kitchen",
+        "title": "Stylo Religious",
+        "original_price": 1647,
+        "discounted_price": 166,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/25323660/6ebe2_400.jpg"
+        ],
+        "details": {
+          "Fabric": "Silk",
+          "Pattern": "Star With Strips",
+          "Multipack": "Single Pice with two pillow covers",
+          "description": "Bombay Dine"
+        },
+        "rating": 4.3,
+        "seller_id": 12
+      }
+    ],
+
+    "Tops": [
+      {
+        "id": 53,
+        "category": "Dresses",
+        "title": "Dress",
+        "original_price": 294,
+        "discounted_price": 174,
+        "sizes": ["XL"],
+        "images": [
+          "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 1.6,
+        "seller_id": 9
+      },
+      {
+        "id": 54,
+        "category": "Dresses",
+        "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+        "original_price": 560,
+        "discounted_price": 460,
+        "sizes": ["S", "XL", "L", "M", "XXL"],
+        "images": [
+          "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 10
+      },
+      {
+        "id": 55,
+        "category": "Dresses",
+        "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+        "original_price": 394,
+        "discounted_price": 294,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 3.6,
+        "seller_id": 11
+      },
+      {
+        "id": 56,
+        "category": "Dresses",
+        "title": "Dress",
+        "original_price": 1060,
+        "discounted_price": 960,
+        "sizes": ["M"],
+        "images": [
+          "https://images.meesho.com/images/products/71022744/9i2ci_512.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 12
+      },
+      {
+        "id": 57,
+        "category": "Dresses",
+        "title": "Dresses",
+        "original_price": 294,
+        "discounted_price": 174,
+        "sizes": ["XL"],
+        "images": [
+          "https://images.meesho.com/images/products/71036137/b4aq1_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 1.6,
+        "seller_id": 9
+      },
+      {
+        "id": 58,
+        "category": "Dresses",
+        "title": "PILI PATTI & BLUE IN RED WHITE PATTI Dresses",
+        "original_price": 560,
+        "discounted_price": 460,
+        "sizes": ["S", "XL", "L", "M", "XXL"],
+        "images": [
+          "https://images.meesho.com/images/products/71033877/6cl5l_512.jpg",
+          "https://images.meesho.com/images/products/71036137/yl78r_64.jpg"
+        ],
+        "details": {
+          "Fabric": "Cotton",
+          "Pattern": "Single",
+          "Multipack": "XL (Bust Size : 38 in, Size Length: 38 in)",
+          "description": "Best quality Cotton from assam"
+        },
+        "rating": 4.8,
+        "seller_id": 10
+      },
+      {
+        "id": 59,
+        "category": "Dresses",
+        "title": "WOMEN BEAUTIFUL WINE LONG DRESS",
+        "original_price": 394,
+        "discounted_price": 294,
+        "sizes": ["Free Size"],
+        "images": [
+          "https://images.meesho.com/images/products/71020721/nxtrf_512.jpg"
+        ]
+      }
+    ]
+
+}
+=======
   "Allsarees": [
     {
       "id": 1,
@@ -2939,3 +6838,4 @@
     }
   ]
 }
+

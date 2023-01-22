@@ -72,3 +72,6 @@ export const SubNavbarItem=["Women Ethnic","Women Western" ,"Men","Kid","Home & 
 ]
 
 
+export const Suppliers = ["Piramal Enterprise Ltd","Serum Institute of India","Lupin Pharmaceutical company","Fortis healthcare institute","Apollo Hospitals","Lotus Herbals","Siemens healthcare Pvt Ltd","Mama Earth","Robert Bosch","Tech Mahindra","Thomson Reuters","Goldman Sachs","Revlon India","Maybelline","Van Heusen India","Masala Monk"," Amrut Single Malt","Franco Leone","East India Company","Scaler Academy","FindMyHealth","Kapture CRM","Healthy Master","Grexter Living","Capital Float","LegalDesk"]
+
+
