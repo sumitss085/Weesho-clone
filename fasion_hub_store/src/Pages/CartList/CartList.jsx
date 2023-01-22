@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 import "./CartList.css"
-import { Button, Divider, Text } from '@chakra-ui/react'
+import { Button, Divider, Text, useToast } from '@chakra-ui/react'
 import { TbDiscount2 } from "react-icons/tb";
 import Navbar2 from '../../Component/Navbar2/Navbar2';
 import EachProduct from '../../Component/EachProduct/EachProduct';
@@ -28,7 +28,7 @@ const CartList = () => {
   const [Cartlist,SetCartlist]=useState([])
   const [TotalCartPrice,SetTotalCartPrice]=useState(0)
   const [TotalDiscountCartPrice,SetTotalDiscountCartPrice]=useState(0)
-  
+  const toast = useToast()
 
   const [Render,SetRender]=useState(false)
 
@@ -51,7 +51,14 @@ const CartList = () => {
   //  FindTotal(Cartlist)
 
    const HandleContinue =()=>{
-    
+    toast({
+      position: 'top',
+      title: `Order Placed `,
+      description: `Your cart Price ${TotalDiscountCartPrice}`,
+      duration: 3000,
+      status: "success",
+      isClosable: true,
+    })
    }
 
    const getProductQty =(original,dicount)=>{
@@ -62,6 +69,8 @@ const CartList = () => {
     SetTotalDiscountCartPrice(((prev)=>prev+dicount))
    }
 
+
+
   
   //  let [CartPrice,CartDiscountPrice]=FindTotal(Cartlist)||[0,0]
 
@@ -69,6 +78,7 @@ const CartList = () => {
    const disPrice=TotalCartPrice-TotalDiscountCartPrice
   return (
     <>
+  
     <Navbar2/>
     {
       Cartlist.length===0 ? <EmptyCart/> : <div className='cartlist_div'>
@@ -99,7 +109,7 @@ const CartList = () => {
 
          <div className='Totaldiscount' >
             <div><p>Total Discounts</p></div>
-            <div><p>- ₹{SetTotalDiscountCartPrice?SetTotalDiscountCartPrice:0}</p></div>
+            <div><p>- {discount}%</p></div>
           </div>
           <div><Divider orientation='horizontal' size="3px"/></div>
 
@@ -115,9 +125,9 @@ const CartList = () => {
           </div>
             <div>
             <p className='text'>Clicking on ‘Continue’ will not deduct any money</p>
-            <Link to="/contactdetail">
-              <button className='continuebtn' onClick={HandleContinue}>Continue</button>
-            </Link>
+          
+              <button  className='continuebtn' onClick={HandleContinue}>Continue</button>
+           
             </div>
 
             <div className='cartimgbox'>

@@ -14,8 +14,8 @@
       margin:0px 0px;
       height: 10px;
     
-      font-size: 16px;
-    
+      font-size: 14px;
+        /* border: 2px solid black; */
       text-align: center;
   }
       #qty_display:focus {

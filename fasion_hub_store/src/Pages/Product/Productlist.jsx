@@ -28,7 +28,7 @@ const Productlist = () => {
 
         let arr=query.split("/")
             
-           let query2=arr[4] //string
+           let query2=arr[4] || "Home" //string
              let urlquery=""
            for(let i=0;i<query2.length;i++){
             if(query2[i]==="%" || query2[i]==="0" || query2[i]==="1"|| query2[i]==="2"|| query2[i]==="3"|| query2[i]==="4"|| query2[i]==="5"|| query2[i]==="6"|| query2[i]==="7"|| query2[i]==="8"|| query2[i]==="9"){
@@ -39,7 +39,7 @@ const Productlist = () => {
            
       
 
-   
+//    console.log(urlquery);
           dispatch(getProductData(urlquery))
           
          
@@ -51,7 +51,7 @@ const Productlist = () => {
             <div className={style.main_jewelry_div}>
 
                 <div className={style.JewelrySets_heading_tag}>
-                    <h1 >Jewelry Sets</h1>
+                    <h1 >{"Product List"}</h1>
                     <p className={style.JewelrySets_P_tag}>Showing 1-20 out of 10000 products</p>
                 </div>
 

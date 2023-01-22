@@ -55,7 +55,7 @@ const SingleProductPage = () => {
 
      useEffect(()=>{
        
-            axios.get(`http://localhost:8080/${Urlquery}/${id}`)
+            axios.get(`https://weesho-data.vercel.app/${Urlquery}/${id}`)
             .then((res)=>SetSingleproduct(res.data))
             .catch((err)=>console.log(err))
      },[])
@@ -98,7 +98,7 @@ const SingleProductPage = () => {
               Add to Cart
             </Button>
 
-            <Button leftIcon={<ArrowRightIcon />} colorScheme='pink' variant='solid' onClick={()=>navigate("/Cart")}>
+            <Button onClick={()=>navigate("/Cart")} leftIcon={<ArrowRightIcon />} colorScheme='pink' variant='solid' onClick={()=>navigate("/Cart")}>
               Buy Now
             </Button>
 
@@ -185,9 +185,9 @@ const SingleProductPage = () => {
 
             <div className={style.RatingAnd_Progress_section}>
               <div>
-                <p className={style.secoundContainer_Four_Rating}>4.0 <span><StarIcon marginTop="-10px" /></span></p>
-                <p className={style.secoundContainer_Four_Review}>893 Rating,</p>
-                <p className={style.secoundContainer_Four_Review}>144 Review </p>
+                <p className={style.secoundContainer_Four_Rating}>{rating} <span><StarIcon marginTop="-10px" /></span></p>
+                <p className={style.secoundContainer_Four_Review}>{(Math.floor(Math.random() * 1000) + 500).toFixed(0)} Rating,</p>
+                <p className={style.secoundContainer_Four_Review}>{(Math.floor(Math.random() * 200) + 100).toFixed(0)} Review </p>
 
 
               </div>

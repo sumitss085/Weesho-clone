@@ -1,0 +1,506 @@
+.Top_Category_Image_Container {
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-image: url(https://images.meesho.com/images/marketing/1649759774600.jpg);
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px 24px 22px;
+    height: auto;
+    gap: 20px;
+    border-radius: 4px;
+    background-size: 100% 100%;
+}
+
+.Essintial_Box_Main_Div {
+    /* border: 10px solid black; */
+    width: 90%;
+    height: 546px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-image: url(https://images.meesho.com/images/marketing/1664343269674.jpg);
+    background-size: 100% 100%;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 10px 24px 0px 28px;
+    border-radius: 4px;
+}
+
+.Image_Conatiner {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+.Essinetail_Secound_Image {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    padding: 7px 25px;
+}
+
+
+.Dwonolad_Div {
+    width: 90%;
+    /* border: 1px solid black; */
+    height: 500px;
+    margin: auto;
+    background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop.webp);
+    text-align: right;
+}
+
+.Contant_Div {
+    /* border: 1px solid red; */
+    width: 50%;
+    margin-left: 500px;
+    margin-top: 50px;
+    text-align: right;
+}
+
+.Contant_Div p {
+    color: rgb(85, 133, 248);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: "Mier bold";
+    margin: 0px 0px 16px;
+    padding: 0px;
+}
+
+
+.Contant_Div h1 {
+    color: rgb(244, 51, 151);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    font-family: "Mier bold";
+    margin: 0px;
+    padding: 0px;
+}
+
+.App_Store {
+    width: 400px;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.App_Store img {
+    width: 50%;
+    /* border-radius: 5px; */
+    /* border: 1px solid red; */
+}
+
+
+.Supplier_Main_Div{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    background-image: url("https://images.meesho.com/images/pow/supplyBannerDesktop.webp");
+    height: 250px;
+}
+
+
+.Content_Div2{
+    /* border: 2px solid white; */
+    width: 80%;
+    text-align: left;
+    padding: 25px;
+}
+
+.Heading_Supp h1{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.Supp_Desp{
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Supp_Grow{
+    display: flex;
+    /* border: 1px solid white; */
+    width: 80%;
+    height: 50px;
+    gap: 5px;
+    margin-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.Supp_Grow>div{
+    display: flex;
+    gap: 5px;
+    border-left: 1px solid gray;
+    padding: 10px;
+}
+
+.Supp_Grow>div:first-child{
+    border: none;
+}
+
+
+.Signup_Now{
+    border: 1px solid white;
+    width: 18%;
+    padding:10px;
+    background-color: whitesmoke;
+    color: rgb(244, 51, 151);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+/* 320px --- 488px */
+
+@media all and (min-width: 320px) and (max-width: 488px) {
+
+    .Top_Category_Image_Container {
+        /* border: 1px solid black; */
+        width: 90%;
+        margin: auto;
+        display: flex;
+
+        background-image: url(https://images.meesho.com/images/marketing/1649759774600.jpg);
+        flex-direction: column;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding: 20px 24px 22px;
+        height: auto;
+        gap: 20px;
+        border-radius: 4px;
+        background-size: 100% 100%;
+    }
+
+
+    .Essintial_Box_Main_Div {
+        /* border: 1px solid black; */
+        width: 90%;
+        height: 200px;
+    }
+
+    .Image_Conatiner {
+        border: 1px solid black;
+        display: none;
+    }
+
+    .Essinetail_Secound_Image {
+        /* border: 1px solid black; */
+        margin-top: 0px;
+        padding: 5px 15px;
+    }
+
+
+    
+    
+.Dwonolad_Div {
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: auto;
+    background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 130px;
+    text-align: right;
+}
+
+.Contant_Div {
+    /* border: 1px solid red; */
+    width: 55%;
+    margin-left: 110px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.Contant_Div p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+    font-family: "Mier bold";
+    margin: 0px 0px 0px;
+}
+
+
+.Contant_Div h1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.App_Store {
+    width: 150px;
+    height: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.App_Store img {
+    width: 40%;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+
+
+
+
+
+.Supplier_Main_Div{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    background-image: url("https://images.meesho.com/images/pow/supplyBannerDesktop.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    /* border: 2px solid red; */
+}
+
+
+.Content_Div2{
+    border: 2px solid white;
+    width: 100%;
+    text-align: left;
+}
+
+.Heading_Supp h1{
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.Supp_Desp{
+    font-size: 8px;
+    line-height: 20px;
+    margin-top: 0px;
+}
+
+.Supp_Grow{
+    display: none;
+}
+
+
+.Signup_Now{
+   display: none;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*  489px --- 768px*/
+@media all and (min-width: 489px) and (max-width: 768px) {
+    .Top_Category_Image_Container {
+        /* border: 1px solid black; */
+        width: 90%;
+        margin: auto;
+        flex-direction: row;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        align-items: flex-end;
+        gap: 20px;
+        border-radius: 4px;
+        background-size: 100% 100%;
+    }
+
+    .Kids_Img2 {
+        /* border: 1px solid black; */
+        width: 170px;
+    }
+
+    .Womens_Img1 {
+        /* border: 1px solid black; */
+        width: 220px;
+    }
+
+
+
+    .Essintial_Box_Main_Div {
+        /* border: 10px solid black; */
+        width: 90%;
+        height: auto;
+    }
+
+    .Image_Conatiner {
+        /* border: 1px solid black; */
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+        align-items: center;
+        margin-left: 210px;
+        margin-bottom: 1px;
+    }
+
+    .Essinetail_Secound_Image {
+        /* border: 1px solid black; */
+        margin-top: 0px;
+        padding: 5px 15px;
+    }
+
+
+    
+.Dwonolad_Div {
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop.webp);
+    height: 350px;
+    text-align: right;
+}
+
+.Contant_Div {
+    /* border: 1px solid red; */
+    width: 45%;
+    margin-left: 340px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.Contant_Div p {
+    font-size: 21px;
+    line-height: 20px;
+    font-family: "Mier bold";
+    margin: 0px 0px 10px;
+    padding: 0px;
+}
+
+
+.Contant_Div h1 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.App_Store {
+    width: 250px;
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.App_Store img {
+    width: 50%;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+}
+
+
+
+.Supplier_Main_Div{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+    background-image: url("https://images.meesho.com/images/pow/supplyBannerDesktop.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 180px;
+    /* border: 2px solid red; */
+}
+
+
+.Content_Div2{
+    /* border: 2px solid white; */
+    width: 80%;
+    text-align: left;
+    padding: 22px;
+}
+
+.Heading_Supp h1{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.Supp_Desp{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Supp_Grow{
+    display: flex;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 70px;
+    gap: 5px;
+    margin-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.Supp_Grow>div{
+    display: flex;
+    gap: 5px;
+    border-left: 1px solid gray;
+    padding: 10px;
+}
+
+.Supp_Grow>div:first-child{
+    border: none;
+}
+
+
+.Signup_Now{
+   display: none;
+}
+
+
+
+
+
+}
