@@ -5,6 +5,7 @@
     display: flex;
     justify-content: left;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    
 }
 
 .Productimg_div{
@@ -39,16 +40,17 @@
     padding-top: 15px;
 }
 .romovebtn{
-    width: 80px;
+    width: 90px;
+    font-size: 16px;
+    font-weight: 200;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-top: 12px;
     color: #FF00BF;
+    
 }
-/* .romovebtn Text{
-    color
-} */
+
 .qtyBox{
     width:200px;
     display: flex;
@@ -59,10 +61,17 @@
     
 }
 .title ,.size,.discount{
-    font-size: 16px;
-    font-weight: 400px;
+    font-size: 14px;
+    font-weight: 200;
     font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
     padding: 5px 0;
+}
+.originalprice{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.discountpercentage{
+    color: #FF00BF;
 }
 
 .SupplierBox{
@@ -78,6 +87,8 @@
     line-height: 20px;
      letter-spacing: 1.5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-bottom: 20px; 
+
    
 }
 
@@ -169,7 +180,7 @@
     .romovebtn{
         width: 80px;
         font-size: 15px;
-        font-weight: 400;
+        font-weight: 300;
         display: flex;
         align-items: center;
         justify-content: space-around;

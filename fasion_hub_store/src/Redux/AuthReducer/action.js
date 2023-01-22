@@ -1,6 +1,6 @@
 //Write the ActionCreator functions here
-import axios from "axios"
-import { LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS } from "./actionTypes"
+// import axios from "axios"
+import { LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS, LOGOUT_REQUEST, LOGOUT_SUCCESS } from "./actionTypes"
 
 
 
@@ -12,8 +12,11 @@ export const loginSuccess =(payload)=>{
     return {type:LOGIN_SUCCESS,payload:payload}
 }
 
-export const loginFailure =()=>{
-    return {type:LOGIN_FAILURE}
+export const logoutRequest =()=>{
+    return {type:LOGOUT_REQUEST}
+}
+export const logoutSuccess =()=>{
+    return {type:LOGOUT_SUCCESS}
 }
 
 // export const loginuser =(user)=>(dispatch)=>{
