@@ -17,7 +17,7 @@ export const AddtocartFailure =()=>{
 export const AddProducttoCart =(product)=>(dispatch)=>{
     dispatch({type:ADD_PRODUCT_REQUEST})
 
-    return axios.post('http://localhost:8080/MyCartList',product)
+    return axios.post('https://weesho-data.vercel.app/MyCartList',product)
     .then((res)=>dispatch({type:ADD_PRODUCT_SUCCESS,payload:res.data}))
     .catch(err=>dispatch({type:ADD_PRODUCT_FAILURE}))
 

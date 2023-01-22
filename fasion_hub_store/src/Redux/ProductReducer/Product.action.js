@@ -6,7 +6,7 @@ export const getProductData = (query="Home")=> (dispatch)=>
 {
     dispatch({type: types.GET_PRODUCT_REQUEST})
     return axios
-        .get(`http://localhost:8080/${query}`)
+        .get(`https://weesho-data.vercel.app/${query}`)
         .then(res=>{
             dispatch({type: types.GET_PRODUCT_SUCCESS, payload: res.data})
             
