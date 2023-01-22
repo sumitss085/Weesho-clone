@@ -35,6 +35,8 @@ const SideBar = () => {
   return (
     <>
 
+      <div className={style.sidebar_main_div}>
+
       <div className={style.SideBar_Sort_first_div}>
 
         <Accordion allowMultiple >
@@ -185,16 +187,6 @@ const SideBar = () => {
                 <div className={style.Color_filter_button}>
                   <div>Being</div>
                   <div>Black</div>
-                  <div>Blue</div>
-                  <div>Brown</div>
-                  <div>Grey</div>
-                  <div>Khaki</div>
-                  <div>Maroon</div>
-                  <div>MultiColor</div>
-                  <div>Nude</div>
-                  <div>Olive</div>
-                  <div>Orange</div>
-                  <div>Pink</div>
                   <div>Show More</div>
                 </div>
               </AccordionPanel>
@@ -252,15 +244,13 @@ const SideBar = () => {
               <h2>
                 <AccordionButton>
                   <Box as="span" flex='1' textAlign='left'>
-                    <h1 className={style.Filter_main_div_inside_category_heading}>Price</h1>
+                    <h1 className={style.Filter_main_div_inside_category_heading}>Discount</h1>
                   </Box>
                   <AccordionIcon />
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4} className={style.Filter_main_div_inside_category_Jewelry_filter}>
                 <div className={style.Color_filter_button}>
-                  <div>10% & above</div>
-                  <div>Deals</div>
                   <div>All Discounted </div>
                   <div></div>
                 </div>
@@ -560,6 +550,7 @@ const SideBar = () => {
 
 
 
+      </div>
       </div>
 
 

@@ -73,7 +73,7 @@ const Productlist = () => {
                                     image={el.images}
                                     title={el.title}
                                     price={el.original_price}
-                                    miniPriceTitle={el.discounted_price}
+                                    miniPriceTitle={"Onword"}
                                     delivery_Type={"Free Delivery"}
                                     rating={el.rating}
                                     reviews={"Free Review"}
