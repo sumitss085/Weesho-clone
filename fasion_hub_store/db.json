@@ -2895,7 +2895,7 @@
   ],
   "MyCartList": [
     {
-      "id": 3,
+      "id": 3000,
       "category": "Sarees",
       "title": "Kanchipuram Silk Orange",
       "original_price": 676,
@@ -2904,7 +2904,7 @@
         "Free Size"
       ],
       "images": [
-        "https://images.meesho.com/images/products/72014181/r9xva_512.jpg",
+        "https://images.meesho.com/images/products/72018123/wefkr_512.jpg",
         "https://images.meesho.com/images/products/71051237/bzflu_64.jpg"
       ],
       "details": {
@@ -2915,6 +2915,27 @@
       },
       "rating": 2.9,
       "seller_id": 3
+    },
+    {
+      "id": 2000,
+      "category": "Sarees",
+      "title": "SGI Fancy Heavy Daani",
+      "original_price": 314,
+      "discounted_price": 220,
+      "sizes": [
+        "Free Size"
+      ],
+      "images": [
+        "https://images.meesho.com/images/products/72023495/0z8o5_512.jpg"
+      ],
+      "details": {
+        "Fabric": "Chiffon",
+        "Pattern": "Self Design",
+        "Multipack": "Single",
+        "Description": "Best qaualtiy "
+      },
+      "rating": 2.4,
+      "seller_id": 2
     }
   ]
 }
