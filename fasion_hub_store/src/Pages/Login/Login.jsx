@@ -1,8 +1,43 @@
-import { Button, Input, InputGroup, InputLeftAddon, Text } from '@chakra-ui/react'
-import React from 'react'
+import {  InputGroup, InputLeftAddon, Text, useToast } from '@chakra-ui/react'
+import React, { useState } from 'react'
+import { useSelector } from 'react-redux'
+import { useNavigate } from 'react-router-dom'
 import "./Login.css"
 
 const Login = () => {
+
+   const [number,SetNumber]=useState("")
+
+   const navigate = useNavigate();
+   const toast = useToast()
+
+   const {isAuth}=useSelector((store)=>store.AuthReducer)
+
+   const handleNumber =(e)=>{
+               let PhoneNumber = e.target.value
+               SetNumber(PhoneNumber)
+   }
+
+   const handlePhoneNumber =()=>{
+           if(number.length===10){
+            navigate("/contactdetail")     
+           }
+           else{
+            toast({
+              position: 'top',
+              title: `Invalid Mobile Number`,
+              status: "warning",
+              isClosable: true,
+            })
+           }
+           SetNumber("")
+
+   }
+
+   if(isAuth){
+    return navigate("/")
+   }
+
   return (
     <div className='login_page'>
 
@@ -22,8 +57,8 @@ const Login = () => {
                     <InputGroup size="sm">
                         <InputLeftAddon children='IN +91' fontSize="15px" bg="none" borderBottom="1px solid #aaa" h='40px'/>
                        
-                        <label class="custom-field two">
-                           <input type="number" placeholder="&nbsp;" required/>
+                        <label className="custom-field two">
+                           <input type="number" placeholder="&nbsp;" required onClick={(e)=>handleNumber(e)}/>
                              <span className="placeholder">Phone number</span>
                         </label>
                     </InputGroup>
@@ -31,7 +66,7 @@ const Login = () => {
 
                <div>
             
-               <button  className='continueButton'>Continue</button>
+               <button  className='continueButton' onClick={handlePhoneNumber}>Continue</button>
                </div>
 
                <div id='form_bottom_div'>

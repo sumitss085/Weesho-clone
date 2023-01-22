@@ -4,7 +4,7 @@ import style from "../Product/Productlist.module.css"
 import { useEffect } from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { getJewelry } from '../../Redux/Jewelry/actions';
+
 import {useLocation, useSearchParams} from "react-router-dom"
 import { getProductData } from '../../Redux/ProductReducer/Product.action';
 import SideBar from '../../Component/SideBar/SideBar';

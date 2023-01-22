@@ -1,14 +1,18 @@
 
 
 import './App.css';
+import MainNavbar from './Component/MainNavbar/Main';
 
-import Navbar from './Component/Navbar/Navbar';
+
 import AllRoutes from './Component/Routes/AllRoutes';
+import Subnavbar from './Component/Subnavbar/Subnavbar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+     
+      <MainNavbar/>
+      <Subnavbar/>
      <AllRoutes/>
     </div>
 

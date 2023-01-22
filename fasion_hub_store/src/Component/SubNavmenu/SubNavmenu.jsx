@@ -21,7 +21,7 @@ const SubNavmenu = ({item,ind}) => {
 
   return (
     <>
-   <Box display="flex" gap="50px"justifyContent="space-between"  p="15px">
+   <Box className='menucolum' >
     {
       objectLength.map((el,ind)=>(
         <Box key={ind}>

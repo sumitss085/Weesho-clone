@@ -4,9 +4,11 @@ import { Button, Text } from '@chakra-ui/react';
 import { CgShoppingCart } from "react-icons/cg";
 import { ArrowRightIcon, InfoOutlineIcon, StarIcon } from '@chakra-ui/icons'
 import { Progress, Stack } from '@chakra-ui/react'
-import { useParams } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useNavigate, useParams } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
+import { AddProducttoCart, AddtocartRequest, AddtocartSuccess } from '../../Redux/CartReducer/Cart.action';
+import Loadingindicator from '../../Component/Loding_Indicator/Loadingindicator';
 
 
 const init={
@@ -29,6 +31,10 @@ const SingleProductPage = () => {
 
   let query=window.location.href;
   const {id}=useParams()
+  const dispatch=useDispatch()
+  const navigate =useNavigate()
+
+  const {isLoading}=useSelector((store)=>store.CartReducer)
   
    let arr=query.split("/");
  
@@ -49,11 +55,23 @@ const SingleProductPage = () => {
 
      useEffect(()=>{
        
-        axios.get(`http://localhost:8080/${Urlquery}/${id}`).then((res)=>SetSingleproduct(res.data)).catch((err)=>console.log(err))
+            axios.get(`http://localhost:8080/${Urlquery}/${id}`)
+            .then((res)=>SetSingleproduct(res.data))
+            .catch((err)=>console.log(err))
      },[])
 
-    console.log(SingleProduct)
 
+     const HandleAddtocart =(item)=>{
+      
+      
+
+       dispatch(AddProducttoCart(SingleProduct))
+     }
+
+            
+   if(isLoading){
+    return <Loadingindicator/>
+   }
 
   return (
     <>
@@ -76,11 +94,11 @@ const SingleProductPage = () => {
 
           <div className={style.buttonSection}>
 
-            <Button leftIcon={<CgShoppingCart size="19px" fontWeight="700" />} colorScheme='black' variant='outline'>
+            <Button leftIcon={<CgShoppingCart size="19px" fontWeight="700" />} colorScheme='black' variant='outline' onClick={()=>HandleAddtocart(SingleProduct)}>
               Add to Cart
             </Button>
 
-            <Button leftIcon={<ArrowRightIcon />} colorScheme='pink' variant='solid'>
+            <Button leftIcon={<ArrowRightIcon />} colorScheme='pink' variant='solid' onClick={()=>navigate("/Cart")}>
               Buy Now
             </Button>
 
