@@ -28,6 +28,7 @@ import {
   PopoverHeader,
   PopoverBody,
   useToast,
+  Image,
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 import { BsCart3, BsFillBagCheckFill, BsSearch } from 'react-icons/bs';
@@ -120,7 +121,7 @@ export default function MainNavbar() {
                 onClick={isOpen ? onClose : onOpen}
               />
                <HStack spacing={8}   className="searchlogo">
-                  <Box>Logo</Box>
+                 <Link to="/"><Box className='Imag_Logo_Box'><Image className='MainLogo' src={"./weesho.png"}/></Box></Link> 
                   <Box >
                           <InputGroup className='SearchINputbox'>
                               <InputLeftElement
@@ -156,10 +157,10 @@ export default function MainNavbar() {
                     <Box>
                   <Popover arrowSize={10} autoFocus={false}>
                           
-                          <PopoverTrigger>
+                          <PopoverTrigger zIndex="10">
                           <Box   className='cart_profile'>
                               <FaUserAlt className='usericon'/>
-                              <Text pl={3} fontSize={{ base: '14px', md: '16px', lg: '18px' }}>Profile</Text>
+                              <Text  pl={3} fontSize={{ base: '14px', md: '16px', lg: '18px' }}>Profile</Text>
                             </Box>
                           </PopoverTrigger>
                         

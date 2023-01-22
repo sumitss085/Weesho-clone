@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const ProductCard = ({ id, image, title, price, miniPriceTitle, delivery_Type, rating, reviews }) => {
 
      
-  
+//   console.log(image)
     
     // const ButtonWrapper = styled.h1`
     
@@ -31,7 +31,7 @@ const ProductCard = ({ id, image, title, price, miniPriceTitle, delivery_Type, r
 
         let query=(window.location.href)
         let arr=query.split("/")
-        let query2=arr[4] //string
+        let query2=arr[4] || "Home" //string
         let Urlquery=""
            for(let i=0;i<query2.length;i++){
             if(query2[i]==="%" || query2[i]==="0" || query2[i]==="1"|| query2[i]==="2"|| query2[i]==="3"|| query2[i]==="4"|| query2[i]==="5"|| query2[i]==="6"|| query2[i]==="7"|| query2[i]==="8"|| query2[i]==="9"){

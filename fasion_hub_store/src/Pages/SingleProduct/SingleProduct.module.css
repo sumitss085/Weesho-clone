@@ -3,8 +3,8 @@
     width: 80%;
     height: auto;
     margin: auto;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 0px;
+    padding: 150px 10px 10px 10px;
     display: flex;
     gap: 15px;
     justify-content: space-evenly;

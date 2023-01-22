@@ -2,7 +2,7 @@
 import axios from "axios"
 import * as types from "./Product.actionType";
 
-export const getProductData = (query)=> (dispatch)=>
+export const getProductData = (query="Home")=> (dispatch)=>
 {
     dispatch({type: types.GET_PRODUCT_REQUEST})
     return axios
