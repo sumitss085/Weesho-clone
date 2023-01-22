@@ -4,7 +4,7 @@ import style from "../Product/Productlist.module.css"
 import { useEffect } from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { getJewelry } from '../../Redux/Jewelry/actions';
+
 import {useLocation, useSearchParams} from "react-router-dom"
 import { getProductData } from '../../Redux/ProductReducer/Product.action';
 import SideBar from '../../Component/SideBar/SideBar';
@@ -73,7 +73,7 @@ const Productlist = () => {
                                     image={el.images}
                                     title={el.title}
                                     price={el.original_price}
-                                    miniPriceTitle={el.discounted_price}
+                                    miniPriceTitle={"Onword"}
                                     delivery_Type={"Free Delivery"}
                                     rating={el.rating}
                                     reviews={"Free Review"}

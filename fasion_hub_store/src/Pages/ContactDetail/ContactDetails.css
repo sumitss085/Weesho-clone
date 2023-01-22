@@ -78,8 +78,9 @@
   border-radius: 3px;
   width: 100%;
   outline: none;
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 30px;
+ 
 }
 
 .phone-field .placeholder {

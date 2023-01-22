@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import style from "./ProductCard.module.css"
 import { StarIcon } from '@chakra-ui/icons'
 import { Link } from 'react-router-dom';
-import styled from "styled-components"
+import styled from 'styled-components';
 
 const ProductCard = ({ id, image, title, price, miniPriceTitle, delivery_Type, rating, reviews }) => {
 
      
- 
+  
     
     // const ButtonWrapper = styled.h1`
     
@@ -70,7 +70,7 @@ const ProductCard = ({ id, image, title, price, miniPriceTitle, delivery_Type, r
                         <p>{delivery_Type}</p>
                     </div>
 
-                    <div className={style.Product_Card_Main_Div_Rating_and_review_div}>
+                    <div  className={style.Product_Card_Main_Div_Rating_and_review_div}>
                         <h1>{rating} <span><StarIcon /></span> </h1>
                         <p>{reviews} Reviews</p>
                         <img src="https://images.meesho.com/images/marketing/1614851415969.png" alt="" />

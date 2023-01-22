@@ -1,12 +1,12 @@
-import { LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS } from "./actionTypes";
+import { LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS, LOGOUT_REQUEST, LOGOUT_SUCCESS } from "./actionTypes";
 
 
 
 const initialState = {
-  isAuth: false,
-  token: "",
+  user:{},
   isLoading: false,
   isError: false,
+  isAuth:false
 };
 
 const AuthReducer = (state = initialState,{type,payload}) => {
@@ -21,11 +21,12 @@ const AuthReducer = (state = initialState,{type,payload}) => {
     }
 
     case LOGIN_SUCCESS:{
+      
       return {
         ...state,
         isLoading:false,
         isAuth:true,
-        token:payload
+        user:payload
       }
     }
 
@@ -33,7 +34,24 @@ const AuthReducer = (state = initialState,{type,payload}) => {
     case LOGIN_FAILURE:{
       return {
         ...state,
-        isError:true
+        isAuth:false,
+        isLoading:true,
+        user:{},
+
+      }
+    }
+    case LOGOUT_REQUEST:{
+      return {
+        ...state,
+        isLoading:true
+      }
+    }
+    case LOGOUT_SUCCESS:{
+      return {
+        ...state,
+        isAuth:false,
+        isLoading:false,
+        user:{}
       }
     }
 

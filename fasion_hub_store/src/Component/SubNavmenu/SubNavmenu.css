@@ -17,3 +17,48 @@
     text-align: left;
     
 }
+.menucolum{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    gap: 50px;
+  }
+@media (max-width: 1204px) {
+
+    .subNavMenuitem{
+        font-size: 15px;
+        
+         width: 100%;
+         
+         
+     
+     }
+     .menucolum{
+        padding: 10px
+      }
+    
+  }
+  
+  @media (max-width: 1100px) {
+    .menucolum{
+        padding: 8px
+      }
+  }
+  @media (max-width: 947px){
+  
+    .menucolum{
+        padding: 5px
+      }
+  
+  }
+  
+  @media (max-width: 690px) {
+     
+  
+  }
+  
+  @media (max-width: 500px) {
+   
+    
+     
+  }
