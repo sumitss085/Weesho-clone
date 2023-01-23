@@ -55,7 +55,7 @@ const SingleProductPage = () => {
 
      useEffect(()=>{
        
-            axios.get(`http://localhost:8080/${Urlquery}/${id}`)
+            axios.get(`https://weesho-data.vercel.app/${Urlquery}/${id}`)
             .then((res)=>SetSingleproduct(res.data))
             .catch((err)=>console.log(err))
      },[])
@@ -98,7 +98,7 @@ const SingleProductPage = () => {
               Add to Cart
             </Button>
 
-            <Button leftIcon={<ArrowRightIcon />} colorScheme='pink' variant='solid' onClick={()=>navigate("/Cart")}>
+            <Button onClick={()=>navigate("/Cart")} leftIcon={<ArrowRightIcon />} colorScheme='pink' variant='solid' onClick={()=>navigate("/Cart")}>
               Buy Now
             </Button>
 
