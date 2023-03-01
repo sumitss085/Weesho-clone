@@ -1,14 +1,12 @@
 # Welcome to WEESHO
-<h3>Meesho is a social commerce platform that undertakes retail distribution, enabling small retail merchants to connect and sell their products effectively via social media channels. Bengaluru-based Meesho aims to create an environment where anyone can start their business with zero investment.</h3>
+
 
 # Deployed URL 👉 [Click here](https://fasion-hub-store.vercel.app/)
 
 ## Our Team Members
 - Sumit Shastrakar (My Linkedin profile :- https://www.linkedin.com/in/sumit-shastrakar-ba6977246/)
 
-- Nikhil M (My Linkedin profile :- https://www.linkedin.com/in/nikhil-murthy-71708313a/)
 
-- Shivam Gote (My Linkedin profile :- https://www.linkedin.com/in/shivam-gote/)
 <br/>
 
 
@@ -41,39 +39,7 @@
 ## Let's Dive into What we have made
 
 ## Home Page :
-![Home_Page](https://user-images.githubusercontent.com/104616395/221781119-a383b708-9ac3-4846-af58-605b9d0d29a4.png)
 
-<br/>
-
-
-## Product Page :
-![Prodcut Page](https://user-images.githubusercontent.com/104616395/221781199-2c74c076-62eb-48f2-b484-d023819c81f7.png)
-
-
-<br/>
-
-## Single Product Page :
-![Single Product page](https://user-images.githubusercontent.com/104616395/221781272-6f275d56-b837-464c-af25-1ee7a17756e3.png)
-
-<br/>
-
-## Cart Page :
-![cart](https://user-images.githubusercontent.com/104616395/221781332-e53b2409-f9f4-4fc7-9a29-f247401d7b73.png)
-
-<br/>
-
-
-
-## Contact Details Page :
-![contact-details](https://user-images.githubusercontent.com/104616395/221781448-fc780a1d-8e5e-4e0d-be03-89356434cb7e.png)
-<br/>
-
-
-
-## Login Page :
-![login](https://user-images.githubusercontent.com/104616395/221781603-6c881863-13cf-4404-b40d-b74f187672bf.png)
-
-<br/>
 
 
 
@@ -92,7 +58,7 @@ On this journey we faced many issues, but we keep motivated each other with pati
 
 - We also got a glimpse of using GitHub for the version control.
 
-Source Code(GitHub link):- https://fasion-hub-store.vercel.app/
+
 
 ## Show your support
 
