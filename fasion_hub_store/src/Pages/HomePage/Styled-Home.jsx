@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 let Main = styled.main`
-  padding: 150px 3.2vw;
+  padding: 40px 3.2vw;
   #homepage {
     display: grid;
     margin: 5px 3.8vw;
