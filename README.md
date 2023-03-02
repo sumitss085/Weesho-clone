@@ -1,16 +1,11 @@
 # Welcome to WEESHO
-<h3>Weesho is India's largest and most trusted marketplace for Resellers, who sell products online through WhatsApp and Facebook. Trusted by over 50,000 Resellers, Meesho helps them grow their online business by providing, Hit products at Lowest prices. Best Quality with Easy Return policy</h3>
+
 
 # Deployed URL 👉 [Click here](https://fasion-hub-store.vercel.app/)
 
 ## Our Team Members
 - Sumit Shastrakar (My Linkedin profile :- https://www.linkedin.com/in/sumit-shastrakar-ba6977246/)
 
-- Shivam Gote (My Linkedin profile :- https://www.linkedin.com/in/shivam-gote/)
-
-- Nikhil M (My Linkedin profile :- https://www.linkedin.com/in/nikhil-murthy-71708313a/ )
-
-- Krishna Kumar (My Linkedin profile :- )
 
 <br/>
 
@@ -44,30 +39,6 @@
 ## Let's Dive into What we have made
 
 ## Home Page :
-![Home_Page](https://user-images.githubusercontent.com/104616395/221769149-1039f98f-c66d-499c-b824-ef10503d297f.png)
-
-
-
-## Product Page :
-![Prodcut Page](https://user-images.githubusercontent.com/104616395/221769360-cd974e01-c4b5-4b78-bf76-d1247a79516f.png)
-
-
-## Single Product Page :
-
-![Single Product page](https://user-images.githubusercontent.com/104616395/221769441-d67654e7-706a-4d65-ab96-e150289bd5b5.png)
-
-## Cart Page :
-![cart](https://user-images.githubusercontent.com/104616395/221769529-6c0e7e66-6059-42e3-804d-f38140ed6c06.png)
-
-
-## Contact Details Page :
-![contact-details](https://user-images.githubusercontent.com/104616395/221769693-b156ae63-9106-4ef0-8593-2ae141101a92.png)
-
-
-## Login Page :
-![login](https://user-images.githubusercontent.com/104616395/221769636-dee8a654-622b-4424-8b2c-4e159ee78162.png)
-
-
 
 
 
@@ -87,7 +58,7 @@ On this journey we faced many issues, but we keep motivated each other with pati
 
 - We also got a glimpse of using GitHub for the version control.
 
-Source Code(GitHub link):-https://github.com/sumitss085/FashionHub_store
+
 
 ## Show your support
 
