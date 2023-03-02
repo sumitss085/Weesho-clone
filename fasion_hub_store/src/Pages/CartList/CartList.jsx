@@ -5,7 +5,7 @@ import { Button, Divider, Text, useToast } from '@chakra-ui/react'
 import { TbDiscount2 } from "react-icons/tb";
 import Navbar2 from '../../Component/Navbar2/Navbar2';
 import EachProduct from '../../Component/EachProduct/EachProduct';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
 import EmptyCart from '../../Component/EmptyCart/Empty';
@@ -24,7 +24,7 @@ function FindTotal (Cartlist){
 
 const CartList = () => {
   const {CartData} =useSelector((store)=>store.CartReducer)
-
+  const navigate = useNavigate()
   const [Cartlist,SetCartlist]=useState([])
   const [TotalCartPrice,SetTotalCartPrice]=useState(0)
   const [TotalDiscountCartPrice,SetTotalDiscountCartPrice]=useState(0)
@@ -40,25 +40,19 @@ const CartList = () => {
   
    useEffect(()=>{
 
-    axios.get(`http://localhost:8080/MyCartList`)
-    .then((res)=>SetCartlist(res.data))
-    .catch((err)=>console.log(err))
+    // axios.get(`https://weesho-data.vercel.app/MyCartList`)
+    // .then((res)=>console.log(res.data))
+    // .catch((err)=>console.log(err))
 
-     
+    const items = JSON.parse(localStorage.getItem("Weesho_Cart_Item")) || [];
+    SetCartlist(items);
 
    },[Render])
 
   //  FindTotal(Cartlist)
 
    const HandleContinue =()=>{
-    toast({
-      position: 'top',
-      title: `Order Placed `,
-      description: `Your cart Price ${TotalDiscountCartPrice}`,
-      duration: 3000,
-      status: "success",
-      isClosable: true,
-    })
+    navigate("/checkout")
    }
 
    const getProductQty =(original,dicount)=>{

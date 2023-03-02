@@ -11,7 +11,7 @@ export default function HomePage() {
     <>
       <Main>
 
-        <section id="homepage">
+        <section id="homepage" >
           <div>
             <h1>Lowest Prices</h1>
             <h1>Best Quality Shopping</h1>
@@ -31,6 +31,7 @@ export default function HomePage() {
             />
           </div>
         </section>
+
         <div id="h1-line">
           <hr />
           <h1>Top Categories to choose from</h1>
