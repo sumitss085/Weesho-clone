@@ -41,6 +41,7 @@ const EachProduct = ({ item, handleRender, getProductQty }) => {
     //  .then((res)=>console.log(res.data))
     //  .catch((err)=>console.log(err))
 
+    
     console.log(itemId)
 
     const WeeshoRemoveCart = JSON.parse(localStorage.getItem("Weesho_Cart_Item")) || []
