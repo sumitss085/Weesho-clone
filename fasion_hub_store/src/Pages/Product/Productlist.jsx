@@ -9,6 +9,7 @@ import {useLocation, useSearchParams} from "react-router-dom"
 import { getProductData } from '../../Redux/ProductReducer/Product.action';
 import SideBar from '../../Component/SideBar/SideBar';
 import ProductCard from '../../Component/card/ProductCard';
+import LargeWithAppLinksAndSocial from '../../Component/Footer/Footer';
 
 
 
@@ -24,22 +25,30 @@ const Productlist = () => {
     useEffect(() => {
 
         
-        let query=(window.location.href)
+        let query=(window.location.href)  //get url from window location and store it in  query variable
 
-        let arr=query.split("/")
+        let arr=query.split("/")  //split url in array format which is seperated by "/" 
             
-           let query2=arr[4] || "Home" //string
-             let urlquery=""
+        let query2=arr[4] || "Home" // at index 4 of array we have query variable  and we created database according to that query variable (query2) ,but this string also include number and symbols  in query  variable (query2)  , to exract that perticular query variable we run for loop here and after extracting  we send that query to dispatch
+        
+        let urlquery=""
+
            for(let i=0;i<query2.length;i++){
-            if(query2[i]==="%" || query2[i]==="0" || query2[i]==="1"|| query2[i]==="2"|| query2[i]==="3"|| query2[i]==="4"|| query2[i]==="5"|| query2[i]==="6"|| query2[i]==="7"|| query2[i]==="8"|| query2[i]==="9"){
+            if( query2[i]==="0" || query2[i]==="1"|| query2[i]==="2"|| query2[i]==="3"|| query2[i]==="4"|| query2[i]==="5"|| query2[i]==="6"|| query2[i]==="7"|| query2[i]==="8"|| query2[i]==="9"){
                 continue
             }
+
+            if(query2[i]==="%" || query2[i]==="&"){
+                continue
+            }
+           
             urlquery+=query2[i]
            }
            
+           
       
 
-//    console.log(urlquery);
+   
           dispatch(getProductData(urlquery))
           
          
@@ -90,6 +99,10 @@ const Productlist = () => {
 
 
             </div>
+
+            <div>
+          <LargeWithAppLinksAndSocial   />
+        </div>
         </>
     )
 }

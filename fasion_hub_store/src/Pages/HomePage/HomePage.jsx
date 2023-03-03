@@ -118,9 +118,9 @@ export default function HomePage() {
         <div>
           <Productlist />
         </div>
-        <div>
+        {/* <div>
           <LargeWithAppLinksAndSocial/>
-        </div>
+        </div> */}
       </Main>
     </>
   );
