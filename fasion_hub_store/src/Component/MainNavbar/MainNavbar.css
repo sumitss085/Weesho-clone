@@ -1,9 +1,7 @@
 .navFlex{
     width: 100%;
     height: 70px;
-    padding: 10px 20px;
-    position: fixed;
-    z-index: 8;
+    padding: 10px 20px;  
     align-items: center;
     justify-content: space-around;
     background-color: white;

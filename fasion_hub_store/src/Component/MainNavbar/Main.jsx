@@ -4,7 +4,7 @@ import {
   Flex,
 
   HStack,
-  
+
   IconButton,
   Button,
   Menu,
@@ -12,7 +12,7 @@ import {
   MenuList,
   MenuItem,
 
- 
+
   useColorModeValue,
   Stack,
   useDisclosure,
@@ -61,13 +61,13 @@ const NavLink = ({ children }) => (
 export default function MainNavbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const {user,isAuth,isLoading}=useSelector((store)=>store.AuthReducer)
-  const dispatch=useDispatch()
-  const navigate =useNavigate()
+  const { user, isAuth, isLoading } = useSelector((store) => store.AuthReducer)
+  const dispatch = useDispatch()
+  const navigate = useNavigate()
   const toast = useToast()
 
-  const HandleSignup =()=>{
-    if(isAuth){
+  const HandleSignup = () => {
+    if (isAuth) {
       toast({
         position: 'top',
         title: `Already Login `,
@@ -75,33 +75,33 @@ export default function MainNavbar() {
         isClosable: true,
       })
     }
-    else{
-      navigate("/login")  
+    else {
+      navigate("/login")
     }
-   
+
 
   }
-  const HandleLOgout =()=>{
-    if(isAuth){
+  const HandleLOgout = () => {
+    if (isAuth) {
       dispatch(logoutRequest())
 
-      setTimeout(()=>{
+      setTimeout(() => {
         dispatch(logoutSuccess())
         toast({
-              position: 'top',
-                title: `Logout Successfull `,
-                status: "success",
-                isClosable: true,
-               })
+          position: 'top',
+          title: `Logout Successfull `,
+          status: "success",
+          isClosable: true,
+        })
 
 
-      },2000)
+      }, 2000)
 
-       
-      
+
+
     }
-    
-   
+
+
 
   }
 
@@ -111,101 +111,101 @@ export default function MainNavbar() {
 
   return (
     <>
-      <Box  className='navbar'>
-        <Flex   className="navFlex">
-              <IconButton
-                size={'md'}
-                icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-                aria-label={'Open Menu'}
-                display={{ md: 'none' }}
-                onClick={isOpen ? onClose : onOpen}
-              />
-               <HStack spacing={8}   className="searchlogo">
-                 <Link to="/"><Box className='Imag_Logo_Box'><Image className='MainLogo' src={"./weesho.png"}/></Box></Link> 
-                  <Box >
-                          <InputGroup className='SearchINputbox'>
-                              <InputLeftElement
-                                  pointerEvents='none'
-                                children={<BsSearch color='gray.300' />}
-                              />
-                                <Input className='SearchINputbox' type='text' placeholder='Try Saree , Kurti or Search by Product Code'  />
-                            </InputGroup>
+      <Box className='navbar' >
+        <Flex className="navFlex">
+          <IconButton
+            size={'md'}
+            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            aria-label={'Open Menu'}
+            display={{ md: 'none' }}
+            onClick={isOpen ? onClose : onOpen}
+          />
+          <HStack spacing={8} className="searchlogo" >
+            <Link to="/"><Box className='Imag_Logo_Box'><Image className='MainLogo' src={"./weesho.png"} /></Box></Link>
+            <Box >
+              <InputGroup className='SearchINputbox'>
+                <InputLeftElement
+                  pointerEvents='none'
+                  children={<BsSearch color='gray.300' />}
+                />
+                <Input className='SearchINputbox' type='text' placeholder='Try Saree , Kurti or Search by Product Code' />
+              </InputGroup>
+            </Box>
+          </HStack>
+
+          {/* //downloadapp and supplier */}
+          <Flex className="navcontainer" >
+            <Box className='Downloadapp_box' >
+              <Menu >
+                <ImMobile color='black' />
+                <MenuButton as={Text}  >
+                  <Text fontSize="17px" color="#333333">Download App</Text>
+                </MenuButton >
+                <MenuList >
+                  <MenuItem><p>Download From</p></MenuItem>
+                  <MenuItem><img className="downloadApp" src="https://images.meesho.com/images/pow/playstore-icon-big.webp" alt="google play logo" /></MenuItem>
+                  <MenuItem><img className="downloadApp" src="https://images.meesho.com/images/pow/appstore-icon-big.webp" alt="app store logo" /></MenuItem>
+                </MenuList>
+
+              </Menu>
+
+            </Box>
+            <Box className='Downloadapp_box'>
+              <Text color="#333333">Become a Supplier</Text>
+            </Box>
+
+            <Box>
+              <Popover arrowSize={10} autoFocus={false}>
+
+                <PopoverTrigger zIndex="10">
+                  <Box className='cart_profile'>
+                    <FaUserAlt className='usericon' />
+                    <Text pl={3} fontSize={{ base: '14px', md: '16px', lg: '18px' }}>Profile</Text>
                   </Box>
-                </HStack>
+                </PopoverTrigger>
 
-               {/* //downloadapp and supplier */}
-          <Flex  className="navcontainer" >
-                    <Box className='Downloadapp_box' >
-                        <Menu >
-                             <ImMobile color='black'/>
-                        <MenuButton as={Text}  >
-                            <Text fontSize="17px" color="#333333">Download App</Text>
-                        </MenuButton >
-                        <MenuList >
-                          <MenuItem><p>Download From</p></MenuItem>
-                          <MenuItem><img className="downloadApp" src="https://images.meesho.com/images/pow/playstore-icon-big.webp" alt="google play logo" /></MenuItem>
-                          <MenuItem><img className="downloadApp" src="https://images.meesho.com/images/pow/appstore-icon-big.webp" alt="app store logo" /></MenuItem>
-                        </MenuList>
+                <PopoverContent>
+                  <PopoverArrow />
+                  <PopoverCloseButton />
+                  <PopoverHeader textAlign={"left"}>
+                    <Text fontSize={{ base: '15px', md: '16px', lg: '20px' }}>{user.name ? user.name : "Hello User"}</Text>
+                    <Text fontSize="12px">To access your Weesho account</Text>
+                  </PopoverHeader>
+                  <PopoverBody>
+                    <Box  >
 
-                       </Menu>
-                    
-                  </Box>
-                  <Box className='Downloadapp_box'>
-                    <Text  color="#333333">Become a Supplier</Text>
+                      <Button w={{ base: '100px', md: '150px', lg: '200px' }} bg="#FF19B3" disabled={isAuth === true} onClick={HandleSignup}>Sign Up</Button>
+
                     </Box>
-
-                    <Box>
-                  <Popover arrowSize={10} autoFocus={false}>
-                          
-                          <PopoverTrigger zIndex="10">
-                          <Box   className='cart_profile'>
-                              <FaUserAlt className='usericon'/>
-                              <Text  pl={3} fontSize={{ base: '14px', md: '16px', lg: '18px' }}>Profile</Text>
-                            </Box>
-                          </PopoverTrigger>
-                        
-                          <PopoverContent>
-                            <PopoverArrow />
-                            <PopoverCloseButton  />
-                                <PopoverHeader  textAlign={"left"}>
-                                  <Text fontSize={{ base: '15px', md: '16px', lg: '20px' }}>{user.name?user.name:"Hello User"}</Text>
-                                  <Text fontSize="12px">To access your Weesho account</Text>
-                                </PopoverHeader>
-                            <PopoverBody>
-                                <Box  >
-                                  
-                                  <Button w={{ base: '100px', md: '150px', lg: '200px' }} bg="#FF19B3" disabled={isAuth===true} onClick={HandleSignup}>Sign Up</Button>
-                                  
-                              </Box>
-                            </PopoverBody>
-                            <PopoverBody m="auto">
-                              <Box >
-                              <Button w={{ base: '100px', md: '150px', lg: '200px' }} bg="#FF19B3" disabled={isAuth===false} onClick={HandleLOgout}>Logut</Button>
-                              </Box>
-                            </PopoverBody>
-                            <PopoverBody m="auto">
-                              <Box >
-                                <HStack  fontSize="15px"> <BsFillBagCheckFill fontSize="18px"/><Text fontSize="18px">My Order</Text></HStack>
-                              </Box>
-                            </PopoverBody>
-                           
-                          </PopoverContent>
-                      </Popover>
-              </Box>
-            
-              <Box>
-                  <Link to="/Cart">
-                    <Box  className='cart_profile' >
-                    <BsCart3/>
-                    <Text  fontSize={{ base: '14px', md: '16px', lg: '18px' }}>Cart</Text>
+                  </PopoverBody>
+                  <PopoverBody m="auto">
+                    <Box >
+                      <Button w={{ base: '100px', md: '150px', lg: '200px' }} bg="#FF19B3" disabled={isAuth === false} onClick={HandleLOgout}>Logut</Button>
                     </Box>
-                  </Link>
-              </Box>
-                  
-            </Flex>
-         
-       </Flex>
-       
+                  </PopoverBody>
+                  <PopoverBody m="auto">
+                    <Box >
+                      <HStack fontSize="15px"> <BsFillBagCheckFill fontSize="18px" /><Text fontSize="18px">My Order</Text></HStack>
+                    </Box>
+                  </PopoverBody>
+
+                </PopoverContent>
+              </Popover>
+            </Box>
+
+            <Box>
+              <Link to="/Cart">
+                <Box className='cart_profile' >
+                  <BsCart3 />
+                  <Text fontSize={{ base: '14px', md: '16px', lg: '18px' }}>Cart</Text>
+                </Box>
+              </Link>
+            </Box>
+
+          </Flex>
+
+        </Flex>
+
         {isOpen ? (
           <Box pb={4} display={{ md: 'none' }}>
             <Stack as={'nav'} spacing={4}>
@@ -215,10 +215,10 @@ export default function MainNavbar() {
             </Stack>
           </Box>
         ) : null}
-       
+
       </Box>
 
-      
+
     </>
   );
 }
