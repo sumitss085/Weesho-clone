@@ -25,7 +25,7 @@ const CheckoutTotal = () => {
       .catch((err) => {
         console.log(err);
       });
-    
+    console.log(res);
   };
   const deleteItems = (id) => {
     const newData = data.filter((el) => {

@@ -59,7 +59,7 @@ const SingleProductPage = () => {
       .catch((err) => console.log(err))
   }, [])
 
-  console.log(SingleProduct)
+  
 
 
   const HandleAddtocart = (item) => {
@@ -72,6 +72,7 @@ const SingleProductPage = () => {
     category: item.category,
     delivery_Type: item.delivery_Type,
     discounted_price: item.discounted_price,
+    original_price: item.original_price,
     id: item.id,
     images: item.images[0],
     miniPriceTitle: item.miniPriceTitle,
@@ -79,8 +80,22 @@ const SingleProductPage = () => {
     reviews: item.reviews,
     sizes: item.sizes[0],
     title: item.title,
+    quantity:1
   
     };
+    const isIdExists = cartItems.some(obj => obj.id === item.id);
+
+    if(isIdExists){
+      toast({
+        title: 'Already Added To Cart.',
+        position: 'top-center',
+        status: 'info',
+        duration: 2000,
+        isClosable: true,
+      })
+      return
+    }
+
     cartItems.push(selectedProduct);
     localStorage.setItem('Weesho_Cart_Item', JSON.stringify(cartItems))
     toast({
@@ -90,8 +105,6 @@ const SingleProductPage = () => {
       duration: 2000,
       isClosable: true,
     })
-
-
 
     dispatch(AddProducttoCart(item))
   }
