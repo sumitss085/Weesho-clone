@@ -29,7 +29,7 @@ const Productlist = () => {
 
         let arr=query.split("/")  //split url in array format which is seperated by "/" 
             
-        let query2=arr[4] || "Home" // at index 4 of array we have query variable  and we created database according to that query variable (query2) ,but this string also include number and symbols  in query  variable (query2)  , to exract that perticular query variable we run for loop here and after extracting  we send that query to dispatch
+        let query2=arr[4] || "Home" // at index 4 of array we have query variable  and we created database according to that query variable (query2) ,but this string also include number and symbols  in query  variable (query2)  , to exract that perticular query variable we run for loop here and after extracting  we send that query to dispatch 
         
         let urlquery=""
 
