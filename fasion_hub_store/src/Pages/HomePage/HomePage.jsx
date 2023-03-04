@@ -3,6 +3,8 @@ import "./HomePage.css";
 import { Main } from "./Styled-Home";
 import { Button } from '@chakra-ui/react'
 import Productlist from "../Product/Productlist";
+import Footer from "../../Component/Footer/Footer";
+import LargeWithAppLinksAndSocial from "../../Component/Footer/Footer";
 
 
 export default function HomePage() {
@@ -116,6 +118,9 @@ export default function HomePage() {
         <div>
           <Productlist />
         </div>
+        {/* <div>
+          <LargeWithAppLinksAndSocial/>
+        </div> */}
       </Main>
     </>
   );

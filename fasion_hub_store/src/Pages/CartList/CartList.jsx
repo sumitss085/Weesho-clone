@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 
 import "./CartList.css"
-import { Button, Divider, Text, useToast } from '@chakra-ui/react'
+import {  Divider, Text, useToast } from '@chakra-ui/react'
 import { TbDiscount2 } from "react-icons/tb";
 import Navbar2 from '../../Component/Navbar2/Navbar2';
 import EachProduct from '../../Component/EachProduct/EachProduct';
-import { Link, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
 import EmptyCart from '../../Component/EmptyCart/Empty';
@@ -23,15 +23,17 @@ function FindTotal (Cartlist){
 }
 
 const CartList = () => {
+
   const {CartData} =useSelector((store)=>store.CartReducer)
   const navigate = useNavigate()
   const [Cartlist,SetCartlist]=useState([])
-  const [TotalCartPrice,SetTotalCartPrice]=useState(0)
-  const [TotalDiscountCartPrice,SetTotalDiscountCartPrice]=useState(0)
+  const [TotalPrice,setTotalPrice]=useState(0)
+  const [TotalDiscountPrice,setTotalDiscountPrice]=useState(0)
+  const [Totaldiscount,setTotaldiscount]=useState(0)
   const toast = useToast()
 
   const [Render,SetRender]=useState(false)
-
+ 
   const handleRender =()=>{
     SetRender((prev)=>!prev)
   }
@@ -44,32 +46,42 @@ const CartList = () => {
     // .then((res)=>console.log(res.data))
     // .catch((err)=>console.log(err))
 
-    const items = JSON.parse(localStorage.getItem("Weesho_Cart_Item")) || [];
-    SetCartlist(items);
+    const Products = JSON.parse(localStorage.getItem("Weesho_Cart_Item")) || [];
+    
+    SetCartlist(Products);
+
+    const originalPrice = Products.reduce((total, item) => total + item.original_price
+      * item.quantity,
+      0
+    ); 
+    
+    setTotalPrice(originalPrice)
+
+
+    const discountPrice = Products.reduce( (total, item) => total + item.discounted_price * item.quantity,
+      0
+    );
+    setTotalDiscountPrice(discountPrice)
+
+    const discountPercentage =(((originalPrice - discountPrice) / originalPrice) * 100 ).toFixed(2)
+
+      setTotaldiscount(discountPercentage)
 
    },[Render])
 
-  //  FindTotal(Cartlist)
+ 
 
    const HandleContinue =()=>{
     navigate("/checkout")
    }
 
-   const getProductQty =(original,dicount)=>{
-
-    // console.log(TotalCartPrice +" "+original)
-
-    SetTotalCartPrice(((prev)=>prev+original))
-    SetTotalDiscountCartPrice(((prev)=>prev+dicount))
-   }
+    
 
 
-
+ 
   
-  //  let [CartPrice,CartDiscountPrice]=FindTotal(Cartlist)||[0,0]
 
-   const discount=(((TotalCartPrice-TotalDiscountCartPrice)/TotalCartPrice)*100).toFixed(0)
-   const disPrice=TotalCartPrice-TotalDiscountCartPrice
+
   return (
     <>
   
@@ -86,7 +98,7 @@ const CartList = () => {
         </div>
         {
           Cartlist.length>0 &&  Cartlist.map((item)=>(
-            <EachProduct key={item.id} item={item} handleRender={handleRender} getProductQty={getProductQty}/>
+            <EachProduct key={item.id} item={item} handleRender={handleRender} />
           ))
         }
       
@@ -98,23 +110,23 @@ const CartList = () => {
           </div>
           <div  className='ProductPrice'>
             <div>Total Product Price</div>
-            <div>₹{TotalCartPrice}</div>
+            <div>₹{TotalPrice}</div>
           </div>
 
          <div className='Totaldiscount' >
             <div><p>Total Discounts</p></div>
-            <div><p>- {discount}%</p></div>
+            <div><p>- {Totaldiscount}%</p></div>
           </div>
           <div><Divider orientation='horizontal' size="3px"/></div>
 
           <div  className='total'>
             <div>Order Total</div>
-            <div>₹{TotalDiscountCartPrice}</div>
+            <div>₹{TotalDiscountPrice}</div>
           </div>
 
           <div className='discountBox'>
             <TbDiscount2 />
-              <Text > Yay! Your total discount is ₹{disPrice}</Text>
+              <Text > Yay! Your total discount is ₹{0}</Text>
               
           </div>
             <div>

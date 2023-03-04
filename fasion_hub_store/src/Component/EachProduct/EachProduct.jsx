@@ -1,38 +1,36 @@
 import { Text } from '@chakra-ui/react'
-import React from 'react'
+import React ,{useState,useEffect}from 'react'
 import "./EachProduct.css"
 import { RxCross2 } from "react-icons/rx";
 import axios from 'axios';
 import QuantityButton from '../QuantityButton/QuantityButton';
-import { useState } from 'react';
-import { useEffect } from 'react';
-import { json } from 'react-router-dom';
-
-const EachProduct = ({ item, handleRender, getProductQty }) => {
 
 
+
+const EachProduct = ({ item, handleRender }) => {
+    
+  
 
   const { title, rating, details, images, original_price, sizes, discounted_price, category, id } = item
 
   const [EachItemQty, SetEachItemQty] = useState(1)
 
-  // console.log(EachItemQty)
+
+ 
 
   const handleqty = (val) => {
     SetEachItemQty(val)
 
+    const WeeshoUpdateCart = JSON.parse(localStorage.getItem("Weesho_Cart_Item")) || []
+
+    const UpdateQuantity_Products = WeeshoUpdateCart.map((ele)=>{
+      return ele.id===item.id ? {...ele,quantity:val}:ele
+    })
+
+    localStorage.setItem("Weesho_Cart_Item", JSON.stringify(UpdateQuantity_Products));
+    handleRender()
   }
-  useEffect(() => {
-    let productCartPrice = original_price * EachItemQty
-    let productCartDiscountPrice = discounted_price * EachItemQty
-
-    console.log(productCartPrice)
-
-    getProductQty(productCartPrice, productCartDiscountPrice)
-
-  }, [EachItemQty])
-
-
+ 
 
   const discount = (((Number(original_price) - Number(discounted_price)) / Number(original_price)) * 100).toFixed(2)
 
@@ -41,23 +39,16 @@ const EachProduct = ({ item, handleRender, getProductQty }) => {
     //  .then((res)=>console.log(res.data))
     //  .catch((err)=>console.log(err))
 
-    
-    console.log(itemId)
-
     const WeeshoRemoveCart = JSON.parse(localStorage.getItem("Weesho_Cart_Item")) || []
 
     const FilterProducts = WeeshoRemoveCart.filter(product=> product.id !== itemId)
 
-    
-
     localStorage.setItem("Weesho_Cart_Item", JSON.stringify(FilterProducts));
 
-
-
-
-
-    handleRender()
+     handleRender()
   }
+
+
   return (
     <>
       <div className='cart_box'>
