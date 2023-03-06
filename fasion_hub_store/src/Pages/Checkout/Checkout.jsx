@@ -7,7 +7,7 @@ import { Input } from '@chakra-ui/input';
 import { Button } from '@chakra-ui/button';
 import { PinInput, PinInputField } from '@chakra-ui/pin-input';
 import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Radio, useToast } from '@chakra-ui/react'
-import CheckoutTotal from './CheckoutTotal';
+
 import { useNavigate } from 'react-router-dom';
 const Checkout = () => {
     const [opts, setopts] = useState(false);
