@@ -84,7 +84,7 @@ const Checkout = () => {
                         <span onClick={handlePayClick}><TbCircle3 fontSize="25px" /> Payment</span>
                     </Box>
                     <Box style={{ width: "95%", margin: "auto", marginTop: "50px" }}>
-                        <Text fontWeight="bold" fontFamily="sans-serif">MOBILE</Text>
+                        <Text fontWeight="bold" fontFamily="sans-serif">MOBILE NUMBER</Text>
                         <Input placeholder='Enter Mobile Number' size='sm' type="number" htmlSize={6} width='auto' onChange={handleChange} value={value} />
                         <Button marginLeft="5px" onClick={handleoptinp}>Send OTP</Button>
                         {opts ? <Box>
