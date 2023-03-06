@@ -74,14 +74,14 @@ export default function HomePage() {
 
         <div className="Dwonolad_Div">
 
-          <div className="Contant_Div">
+          {/* <div className="Contant_Div">
             <p>Become a Reseller and</p>
             <h1>Start your Online Business with Zero Investment</h1>
             <div className="App_Store">
               <img src="https://images.meesho.com/images/pow/playstore-icon-big.webp" alt="playstore" />
               <img src="https://images.meesho.com/images/pow/appstore-icon-big.webp" alt="appstore" />
             </div>
-          </div>
+          </div> */}
 
         </div>
 
@@ -115,12 +115,12 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div>
+        <div  className="productlistBox">
           <Productlist />
         </div>
-        {/* <div>
+        <div className="homepagefooter">
           <LargeWithAppLinksAndSocial/>
-        </div> */}
+        </div>
       </Main>
     </>
   );

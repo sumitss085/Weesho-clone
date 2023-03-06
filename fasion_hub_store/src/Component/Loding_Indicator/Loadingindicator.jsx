@@ -3,7 +3,7 @@ import "./Loadingindicator.css"
 
 const Loadingindicator = () => {
   return (
-    <div class="spinner"></div>
+    <div className="spinner"></div>
   )
 }
 

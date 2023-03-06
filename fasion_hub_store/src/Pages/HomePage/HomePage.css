@@ -1,3 +1,9 @@
+
+/* #homepage >div{
+    width: 50%;
+    border: 1px solid red;
+} */
+
 .Top_Category_Image_Container {
     /* border: 1px solid black; */
     width: 90%;
@@ -13,6 +19,16 @@
     gap: 20px;
     border-radius: 4px;
     background-size: 100% 100%;
+    /* border: 2px solid red; */
+}
+.Kids_Img2 {
+    /* border: 1px solid black; */
+    width: 25%;
+}
+
+.Womens_Img1 {
+    /* border: 1px solid black; */
+    width: 35%;
 }
 
 .Essintial_Box_Main_Div {
@@ -62,7 +78,7 @@
 }
 
 .Contant_Div {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 50%;
     margin-left: 500px;
     margin-top: 50px;
@@ -93,7 +109,7 @@
 }
 
 .App_Store {
-    width: 400px;
+    width: 60%;
     /* border: 1px solid red; */
     display: flex;
     gap: 20px;
@@ -179,7 +195,9 @@
     margin-top: 10px;
     border-radius: 10px;
 }
-
+.homepagefooter{
+    display: none;
+  }
 
 /* 320px --- 488px */
 
@@ -261,7 +279,7 @@
 .App_Store {
     width: 150px;
     height: 20px;
-    /* border: 1px solid red; */
+    /* border: 3px solid red; */
     display: flex;
     gap: 5px;
     justify-content: space-around;
@@ -320,7 +338,12 @@
    display: none;
 }
 
-
+.productlistBox{
+    display: none;
+}
+.homepagefooter{
+  display: block;
+}
 
 
 }
@@ -349,12 +372,12 @@
 
     .Kids_Img2 {
         /* border: 1px solid black; */
-        width: 170px;
+        width: 100px;
     }
 
     .Womens_Img1 {
         /* border: 1px solid black; */
-        width: 220px;
+        width: 150px;
     }
 
 
@@ -387,7 +410,7 @@
     
 .Dwonolad_Div {
     width: 90%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop.webp);
     height: 350px;
@@ -413,7 +436,7 @@
 
 .Contant_Div h1 {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -503,4 +526,13 @@
 
 
 
+}
+
+@media(max-width:1100px){
+    .Contant_Div h1 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
 }

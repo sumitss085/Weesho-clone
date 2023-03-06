@@ -4,20 +4,20 @@ import style from "../Product/Productlist.module.css"
 import { useEffect } from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
-
+// import { useHistory } from 'react-router-dom';
 import {useLocation, useSearchParams} from "react-router-dom"
 import { getProductData } from '../../Redux/ProductReducer/Product.action';
 import SideBar from '../../Component/SideBar/SideBar';
 import ProductCard from '../../Component/card/ProductCard';
 import LargeWithAppLinksAndSocial from '../../Component/Footer/Footer';
-
+import Loadingindicator from '../../Component/Loding_Indicator/Loadingindicator'
 
 
 const Productlist = () => {
-
+    
     const ProductList = useSelector(store => store.ProductReducer);
     const dispatch = useDispatch();
-    const {productData, isLoading, isError } = ProductList;
+    const {productData, isLoading } = ProductList;
     
    
  
@@ -29,7 +29,7 @@ const Productlist = () => {
 
         let arr=query.split("/")  //split url in array format which is seperated by "/" 
             
-        let query2=arr[4] || "Home" // at index 4 of array we have query variable  and we created database according to that query variable (query2) ,but this string also include number and symbols  in query  variable (query2)  , to exract that perticular query variable we run for loop here and after extracting  we send that query to dispatch
+        let query2=arr[4] || "Home" // at index 4 of array we have query variable  and we created database according to that query variable (query2) ,but this string also include number and symbols  in query  variable (query2)  , to exract that perticular query variable we run for loop here and after extracting  we send that query to dispatch 
         
         let urlquery=""
 
@@ -54,6 +54,14 @@ const Productlist = () => {
          
     }, []);
 
+    
+
+
+
+    if(isLoading){
+        return <Loadingindicator/>
+    }
+  
             
     return (
         <>
@@ -67,7 +75,7 @@ const Productlist = () => {
                 <div className={style.sideBar_and_card_main_div}>
                     {/* Side bar */}
                     <div>
-                        <SideBar/>
+                        <SideBar currrentProduct ={productData||[]} />
                     </div>
 
 
