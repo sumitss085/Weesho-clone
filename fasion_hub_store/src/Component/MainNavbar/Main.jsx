@@ -30,7 +30,7 @@ import {
   useToast,
   Image,
 } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
+import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { BsCart3, BsFillBagCheckFill, BsSearch } from 'react-icons/bs';
 import { ImMobile } from 'react-icons/im';
 import { FaUserAlt } from 'react-icons/fa';
@@ -41,8 +41,11 @@ import "./MainNavbar.css"
 import { useDispatch, useSelector } from 'react-redux';
 import { logout, logoutRequest, logoutSuccess } from '../../Redux/AuthReducer/action';
 import Loadingindicator from '../Loding_Indicator/Loadingindicator';
+import { useEffect, useRef, useState } from 'react';
+import axios from 'axios';
+import SearchResultItem from '../SearchResultItem/SearchResultItem';
 
-const Links = ['Dashboard', 'Projects', 'Team'];
+const Links = [ 'Profile', 'Cart'];
 
 const NavLink = ({ children }) => (
   <Link
@@ -59,12 +62,31 @@ const NavLink = ({ children }) => (
 );
 
 export default function MainNavbar() {
+   
+  const [searchQuery, setSearchQuery]=useState("")
+ 
+  const [showResults, setShowResults] = useState(false);
+  const [searchResults, setSearchResults] = useState([]);
+  const [searchFilterResults, setSearchFilterResults] = useState([]);
+
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const { user, isAuth, isLoading } = useSelector((store) => store.AuthReducer)
   const dispatch = useDispatch()
   const navigate = useNavigate()
   const toast = useToast()
+  const searchBarRef = useRef(null);
+  const searchBarWidth = searchBarRef.current ? searchBarRef.current.clientWidth : null;
+
+  const searchResultsDivStyle = {
+    width: searchBarWidth,
+    maxHeight: '300px',
+    overflowY: 'scroll',
+    border: '1px solid gray',
+    position: 'absolute',
+    zIndex: '1',
+    backgroundColor: '#F9F9F8',
+  };
 
   const HandleSignup = () => {
     if (isAuth) {
@@ -105,9 +127,62 @@ export default function MainNavbar() {
 
   }
 
-  // if(isLoading){
-  // return <Loadingindicator/>
-  // }
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchBarRef.current && !searchBarRef.current.contains(event.target)) {
+        setShowResults(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [searchBarRef]);
+
+  
+
+  useEffect( ()=>{
+
+        if(searchQuery){
+          axios.get('https://weesho-search-data.vercel.app/AllData')
+          .then((res)=>{
+            setSearchResults(res.data)
+            
+          })
+          .catch((err)=>console.log(err))
+        }
+        else{
+          setShowResults(false);
+        }
+     
+   
+   
+     const delayDebouncingfunction = setTimeout(() => {
+
+      const filtered =searchResults.filter((product)=>product.title.toLowerCase().includes(searchQuery.toLowerCase()) )
+      setShowResults(true);
+      setSearchFilterResults(filtered)
+      
+      
+         
+      
+    }, 3000);
+
+    return ()=>clearTimeout(delayDebouncingfunction)
+
+  },[searchQuery])
+
+  const handleSearch =(e)=>{
+    setSearchQuery(e.target.value)
+   
+  }
+
+  if(isLoading){
+    return <Loadingindicator/>
+    }
+  
 
   return (
     <>
@@ -121,15 +196,24 @@ export default function MainNavbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} className="searchlogo" >
-            <Link to="/"><Box className='Imag_Logo_Box'><Image className='MainLogo' src={"./weesho.png"} /></Box></Link>
-            <Box >
-              <InputGroup className='SearchINputbox'>
-                <InputLeftElement
-                  pointerEvents='none'
-                  children={<BsSearch color='gray.300' />}
-                />
-                <Input className='SearchINputbox' type='text' placeholder='Try Saree , Kurti or Search by Product Code' />
-              </InputGroup>
+            <Link to="/">
+              <Box className='Imag_Logo_Box'>
+                <Image className='MainLogo' src={"./weesho.png"} />
+              </Box>
+            </Link>
+            
+            <Box ref={searchBarRef} className="inputBox" >
+             
+                <Input className='SearchINputbox'   type='text' placeholder='Try Saree , Kurti or Search by Product Code'  onChange={(e)=>handleSearch(e)} value={searchQuery}/>
+                
+                {showResults && (
+                           <div style={searchResultsDivStyle}>
+                              {  searchFilterResults.map((result) => (
+                                   <SearchResultItem key={result.id} result={result} />
+                                  ))
+                              }
+                          </div>
+                 )}
             </Box>
           </HStack>
 
@@ -193,7 +277,7 @@ export default function MainNavbar() {
               </Popover>
             </Box>
 
-            <Box>
+            <Box className='Mycart'>
               <Link to="/Cart">
                 <Box className='cart_profile' >
                   <BsCart3 />

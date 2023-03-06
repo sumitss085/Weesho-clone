@@ -5,6 +5,7 @@ let Main = styled.main`
   #homepage {
     display: grid;
     margin: 5px 3.8vw;
+    
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
     background-color: #f9f9f9;
@@ -54,6 +55,7 @@ let Main = styled.main`
       &:nth-of-type(2) {
         img {
           width: 100%;
+          height:350px;
         }
       }
     }

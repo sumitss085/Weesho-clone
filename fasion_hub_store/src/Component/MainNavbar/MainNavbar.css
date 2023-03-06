@@ -5,23 +5,22 @@
     align-items: center;
     justify-content: space-around;
     background-color: white;
-
+    /* border: 1px solid red; */
+    
+}
+.inputBox{
+  width:80%;
+  /* border: 2px solid red; */
 }
 .searchlogo{
     align-items: center;
     width: 40%;
-    
-}
-.SearchINputbox{
-    width: 600px;
-   
-
-  
+    /* border: 3px solid red; */
 }
 
 .Imag_Logo_Box{
-  /* border: 1px solid black; */
-  width: 180px;
+
+  width: 80%;
   height: 70px;
   /* text-align: center; */
 }
@@ -30,7 +29,7 @@
   width: 80%;
   margin: auto;
   height: 100%;
-  /* border: 1px solid red; */
+  
 
 }
 
@@ -48,8 +47,10 @@
   }
   .navcontainer{
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
+    gap: 30px;
     width: 600px;
+    /* border: 1px solid red; */
   }
   .downloadApp {
     width: 150px;
@@ -74,26 +75,47 @@
     
   }
   
-  @media (max-width: 1150px) {
+  @media(max-width:1150px){
+   .Downloadapp_box{
+    display: none;
+   }
+   .navcontainer{
+    
    
+    width: 300px;
+    
   }
+    
+}
   @media (max-width: 947px){
   
     .Downloadapp_box{
         display: none;
       }
      
-      .navcontainer{
-      
-        width: 220px;
-        
+      .SearchINputbox{
+        /* border : 1px solid red */
       }
     
       .SearchINputbox{
         width: 350px;
       }
+      .navcontainer{
+       width: 150px;
+        /* border : 1px solid orange */
+      }
+        
   }
-  
+  @media(max-width:770px){
+  .Mycart ,.cart_profile,.navcontainer{
+    display: none;
+  }
+  .searchlogo{
+    align-items: center;
+    width: 70%;
+    
+}
+  }
   @media (max-width: 690px) {
      
     .Downloadapp_box{
@@ -113,23 +135,31 @@
       display: none;
     }
     .navcontainer{
-       
-        width: 250px;
+        display: none;
+        /* width: 250px;
+         border: 1px solid black; */
       }
-    
-      .SearchINputbox{
-        width: 200px;
+    .searchlogo{
+      width: 100%;
+      
+    }
+      .inputBox{
+        /* display: none; */
+        width: 600px;
+         
       }
       .subNavbar{
-        display: none;
+        /* display: none; */
+      }
+      .SearchINputbox{
+        border: 2px solid #ccc;
       }
     
       .Imag_Logo_Box{
-        /* border: 1px solid black; */
-        width: 180px;
+        
+        width: 120px;
         height: 70px;
-        /* text-align: center; */
-        display: none;
+        
       }
       
      

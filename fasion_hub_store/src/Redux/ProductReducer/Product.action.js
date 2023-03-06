@@ -12,3 +12,14 @@ export const getProductData = (query="Home")=> (dispatch)=>
         })
         .catch((err)=>dispatch({type: types.GET_PRODUCT_ERROR}))
 };
+
+
+
+export const getSortFilterProductData = (products)=> (dispatch)=>{
+     dispatch({type: types.GET_PRODUCT_REQUEST})
+
+    return  dispatch({type: types.GET_PRODUCT_SUCCESS, payload: products})
+            
+     
+     
+};

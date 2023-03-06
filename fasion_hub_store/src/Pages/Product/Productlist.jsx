@@ -4,20 +4,20 @@ import style from "../Product/Productlist.module.css"
 import { useEffect } from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
-
+// import { useHistory } from 'react-router-dom';
 import {useLocation, useSearchParams} from "react-router-dom"
 import { getProductData } from '../../Redux/ProductReducer/Product.action';
 import SideBar from '../../Component/SideBar/SideBar';
 import ProductCard from '../../Component/card/ProductCard';
 import LargeWithAppLinksAndSocial from '../../Component/Footer/Footer';
-
+import Loadingindicator from '../../Component/Loding_Indicator/Loadingindicator'
 
 
 const Productlist = () => {
-
+    
     const ProductList = useSelector(store => store.ProductReducer);
     const dispatch = useDispatch();
-    const {productData, isLoading, isError } = ProductList;
+    const {productData, isLoading } = ProductList;
     
    
  
@@ -54,6 +54,14 @@ const Productlist = () => {
          
     }, []);
 
+    
+
+
+
+    if(isLoading){
+        return <Loadingindicator/>
+    }
+  
             
     return (
         <>
@@ -67,7 +75,7 @@ const Productlist = () => {
                 <div className={style.sideBar_and_card_main_div}>
                     {/* Side bar */}
                     <div>
-                        <SideBar/>
+                        <SideBar currrentProduct ={productData||[]} />
                     </div>
 
 

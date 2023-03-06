@@ -7,25 +7,8 @@ import styled from 'styled-components';
 const ProductCard = ({ id, image, title, price, miniPriceTitle, delivery_Type, rating, reviews }) => {
 
      
-//   console.log(image)
-    
-    // const ButtonWrapper = styled.h1`
-    
-    // display: inline-flex;
-    // gap: 7px;
-    // -webkit-box-pack: center;
-    // justify-content: center;
-    // -webkit-box-align: center;
-    // align-items: center;
-    // border-radius: 16px;
-    // padding: 5px 10px;
-    // font-size: 18px;
-    // font-weight: 600;
-    // background:rgb(35, 88, 0); 
-    // color: white;
 
-    
-    // `
+   
 
 
 

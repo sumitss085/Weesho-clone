@@ -12,7 +12,7 @@ function App() {
     <div className="App">
      
       <MainNavbar/>
-      <Subnavbar/>
+      {/* <Subnavbar/> */}
      <AllRoutes/>
     </div>
 

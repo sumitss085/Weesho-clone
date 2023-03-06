@@ -1,21 +1,89 @@
-import { AddIcon, MinusIcon } from '@chakra-ui/icons'
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Text } from '@chakra-ui/react'
-import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box } from '@chakra-ui/react'
+import { useDispatch, useSelector } from 'react-redux';
+import { useLocation, useSearchParams } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+
+
 import style from "../SideBar/SideBar.module.css"
+import { getSortFilterProductData } from '../../Redux/ProductReducer/Product.action';
 
 const SideBar = () => {
 
-  
+
+  const {productData, isLoading, isError } = useSelector(store => store.ProductReducer);  //get the product data from store
+   const [Product,SetProduct]=useState([])
+   const location = useLocation();
+   const  [searchParams, setSearchParams] = useSearchParams({});
+   const dispatch = useDispatch();
 
 
-
-  useEffect(() => {
+   useEffect(() => {
+    SetProduct(productData)
+    setSearchParams(new URLSearchParams(location.search));
+  }, [location.search, setSearchParams]);
+   
 
    
-  }, [])
+
+   // sort products by price
+   function sortProductsByPrice(products, order) {
+    
+    const sortProducts = products.sort((a, b) => {
+      if (order === 'Asce') {
+        return a.original_price - b.original_price;
+      } else if (order === 'Des') {
+        return b.original_price - a.original_price;
+      }
+    });
+    
+     dispatch(getSortFilterProductData(sortProducts))
+
+  }
+
+  // filter products by rating
+  function filterProductsByRating(products, rating) {
+
+    const filterProducts=Product.filter(product => {
+      return Number(product.rating) >= Number(rating)
+    });
+
+
+     dispatch(getSortFilterProductData(filterProducts))
+  }
+
+
+  // function to update URL with query parameters
+  function updateUrlforsort(value) {
+    if(value==="Asce") searchParams.set("sort", "Asce");
+    if(value==="Des") searchParams.set("sort", "Des");
+ 
+   setSearchParams(searchParams);
+  
+  }
+
+  function updateUrlforFilter(value) {
+   
+    searchParams.set("filter", value);
+   setSearchParams(searchParams);
+  
+  }
+
+  // function to handle changes in filters and sort order
+  function handleFilterChange(filter, value) {
+    
+    if (filter === 'sort') {
+     
+      sortProductsByPrice(productData, value)
+      updateUrlforsort(value);
+
+    } else if (filter === 'filter') {
+  
+      filterProductsByRating(productData, value)
+      updateUrlforFilter(value);
+    }
+  }
+
 
 
   return (
@@ -36,13 +104,17 @@ const SideBar = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel  className={style.AccordionPanel_section_main_div} p={5}>
-                <input type="radio" name='sort_by' value={"desc"} />
-                <h1>Price ( High to Low )</h1>
+                <input type="radio" name='sort_by' value="Asce"  onChange={event => {
+            handleFilterChange('sort', event.target.value);
+          }}/>
+                <h1>Price ( Low to High )</h1>
               </AccordionPanel>
 
               <AccordionPanel p={5} className={style.AccordionPanel_section_main_div}>
-                <input type="radio" name='sort_by' value={"asc"} />
-                <h1> Price ( Low to High )</h1>
+                <input type="radio" name='sort_by' value="Des"  onChange={event => {
+            handleFilterChange('sort', event.target.value);
+          }}/>
+                <h1> Price ( High to Low )</h1>
 
               </AccordionPanel>
 
@@ -254,32 +326,48 @@ const SideBar = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4} className={style.Filter_main_div_inside_category_Jewelry_filter}>
-                  <input type="checkbox" />
+                  <input  
+                  type="radio"  
+                  value={2}
+                  name="filterBy"
+                  onChange={event => {handleFilterChange('filter', event.target.value);}}
+                  />
                   <h1>2.0 and above</h1>
                 </AccordionPanel>
 
                 <AccordionPanel pb={4} className={style.Filter_main_div_inside_category_Jewelry_filter}>
-                  <input type="checkbox" />
+                  <input 
+                  type="radio"  
+                  value={3}
+                  name="filterBy"
+                  onChange={event => {handleFilterChange('filter', event.target.value);}}
+                  />
                   <h1>3.0 and above</h1>
                 </AccordionPanel>
 
 
-                <AccordionPanel pb={4} className={style.Filter_main_div_inside_category_Jewelry_filter}>
-                  <input type="checkbox" />
+                {/* <AccordionPanel pb={4} className={style.Filter_main_div_inside_category_Jewelry_filter}>
+                  <input 
+                   type="radio"  
+                   value={3.5}
+                   name="filterBy"
+                   onChange={event => {handleFilterChange('filter', event.target.value);}}
+                   /> 
                   <h1>3.5 and above</h1>
-                </AccordionPanel>
+                </AccordionPanel> */}
 
 
                 <AccordionPanel pb={4} className={style.Filter_main_div_inside_category_Jewelry_filter}>
-                  <input type="checkbox" />
+                  <input  type="radio"  
+                  value={4}
+                  name="filterBy"
+                  onChange={event => {handleFilterChange('filter', event.target.value);}}
+                  />
                   <h1>4.0 and above</h1>
                 </AccordionPanel>
 
 
-                <AccordionPanel pb={4} className={style.Filter_main_div_inside_category_Jewelry_filter}>
-                  <input type="checkbox" />
-                  <h1>M-Trusted</h1>
-                </AccordionPanel>
+                
 
               </AccordionItem>
 

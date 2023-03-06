@@ -7,7 +7,7 @@ const initialState={
 }
 
 export const ProductReducer = (state=initialState,{type,payload})=>{
-    // const{type,payload}=action;
+   
     switch(type){
         case types.GET_PRODUCT_REQUEST:
             return {...state,isLoading:true}
