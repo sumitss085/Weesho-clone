@@ -29,7 +29,7 @@
    <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" align="center" alt="git"/>
   <img src = "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" align="center" alt="npm">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"  align="center" alt="github"/>
-   <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white"  align="center" alt="vscode"/>
+   <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white"  align="center" alt="~code"/>
 
 
 </div>
@@ -52,7 +52,7 @@
 <br/>
 
 ## Single Product Page :
-![Single Product page](https://user-images.githubusercontent.com/104616395/221781272-6f275d56-b837-464c-af25-1ee7a17756e3.png)
+![Single Product Page](https://user-images.githubusercontent.com/104616395/221781272-6f275d56-b837-464c-af25-1ee7a17756e3.png)
 
 <br/>
 
